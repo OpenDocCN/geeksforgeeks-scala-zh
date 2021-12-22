@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of int indexOf()
 // method
 
@@ -33,7 +33,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 
 ```
@@ -41,7 +41,7 @@ object GfG
 所以，这里第一次出现“I”是在索引一，所以，1 作为输出返回。
 **例 2:**
 
-```
+```scala
 // Scala program of int indexOf()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```

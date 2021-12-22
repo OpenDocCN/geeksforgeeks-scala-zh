@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -35,14 +35,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 6
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -67,7 +67,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 120
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of addString()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 7681
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of addString()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 7.76.18.61.1
 
 ```

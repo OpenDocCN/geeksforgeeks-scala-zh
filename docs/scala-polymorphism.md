@@ -11,7 +11,7 @@
 以下是一些例子:
 **例子#1:**
 
-```
+```scala
 // Scala program to shows the usage of 
 // many functions with the same name 
 class example 
@@ -55,7 +55,7 @@ object Main      
 
 **输出:**
 
-```
+```scala
 First Execution:120
 Second Execution:120
 Third Execution:300
@@ -66,7 +66,7 @@ Third Execution:300
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate polymorphism
 // concept
 class example2
@@ -111,7 +111,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 The Vehicle is:swift
 The Vehicle category is:hatchback
 The Vehicle is:honda-city

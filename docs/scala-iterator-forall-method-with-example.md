@@ -10,7 +10,7 @@ forall() 方法属于类*抽象迭代器*的具体值成员。它在类*中定�
 
 **示例#1:**
 
-```
+```scala
 // Scala program of forall()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of forall()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

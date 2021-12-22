@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 (TreeSet(2, 4), TreeSet(12, 31))
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -70,7 +70,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 (TreeSet(1, 2), TreeSet(3, 4))
 
 ```

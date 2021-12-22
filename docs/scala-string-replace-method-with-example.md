@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of replace()
 // method
 
@@ -33,14 +33,14 @@ println(result)
 
 **Output:**
 
-```
+```scala
 nidhi
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of replace()
 // method
 
@@ -64,7 +64,7 @@ println(result)
 
 **Output:**
 
-```
+```scala
 Nid#i
 
 ```

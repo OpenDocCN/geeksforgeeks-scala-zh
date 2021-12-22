@@ -6,7 +6,7 @@
 现在，让我们来看一些例子。
 **例:1#**
 
-```
+```scala
 // Scala program to print Java List 
 // of strings in Scala
 
@@ -39,7 +39,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 [gfg, cs]
 
 ```
@@ -47,7 +47,7 @@ def main(args:Array[String])
 因此，从一个 Java 方法返回一个字符串列表。在这里，您不需要导入 Scala 的任何对象。在上面的程序中，一个 Java 方法是用 Scala 程序编写的。其中，此方法将列表的字符串元素一个接一个地添加到指定的列表中，然后打印结果。
 **例:2#**
 
-```
+```scala
 // Scala program to print Java List 
 // of strings in Scala
 
@@ -81,7 +81,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 [Nidhi, is an, author]
 
 ```

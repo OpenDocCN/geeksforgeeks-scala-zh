@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain working 
 // of Long !=(x: Long) function
 
@@ -34,13 +34,13 @@ object GfG
 
 **输出:**
 
-```
+```scala
 false
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to explain working
 // of Long !=(x: Long) function
 
@@ -64,6 +64,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 true
 ```

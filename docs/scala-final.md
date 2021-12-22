@@ -17,7 +17,7 @@ Scala 最终变量通过以下方式初始化:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of using final variable
 class Shapes
 { 
@@ -49,7 +49,7 @@ Following error occurs while running above code
 
 **输出:**
 
-```
+```scala
 
 prog.scala:5: error: overriding value area in class Shapes of type Int;
  value area cannot override final member
@@ -64,7 +64,7 @@ one error found
 
     ## 斯卡拉
 
-    ```
+    ```scala
     // Scala program of using final method
     class Shapes
     { 
@@ -100,7 +100,7 @@ one error found
 
     **输出:**
 
-    ```
+    ```scala
     prog.scala:8: error: overriding method CalArea in class Shapes of type ()Unit;
      method CalArea cannot override final member
         override def CalArea(){
@@ -112,7 +112,7 @@ one error found
 
     ## 斯卡拉
 
-    ```
+    ```scala
     // Scala program of using final class
     final class Shapes
     { 
@@ -150,7 +150,7 @@ one error found
 
     **输出:**
 
-    ```
+    ```scala
 
     prog.scala:4: error: illegal inheritance from final class Shapes
     class Rectangle extends Shapes{

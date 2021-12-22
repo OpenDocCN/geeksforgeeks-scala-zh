@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of &~() 
 // method 
 
@@ -47,7 +47,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5, 6)
 TreeSet(2, 4, 6)
 TreeSet containing difference of two TreeSets: TreeSet(1, 3, 5)
@@ -56,7 +56,7 @@ TreeSet containing difference of two TreeSets: TreeSet(1, 3, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of &~() 
 // method 
 
@@ -93,7 +93,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(e, f, g, k, o, r, s)
 TreeSet(e, g, k, s)
 TreeSet containing difference of two TreeSets: TreeSet(f, o, r)

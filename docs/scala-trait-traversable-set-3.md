@@ -12,7 +12,7 @@
     The operations here are *slice, drop, dropWhile, filter, filterNot, tail, take, takeWhile, and init*. These operations are utilized to return some sub collection.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Sub-Collection
     // retrieval operation
 
@@ -40,7 +40,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     List(17, 19, 21, 29)
 
     ```
@@ -48,7 +48,7 @@
     这里， *init* 检索可遍历集合中除最后一个元素之外的所有元素。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Sub-Collection
     // retrieval operation
 
@@ -76,7 +76,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     List(19, 21, 29, 31)
 
     ```

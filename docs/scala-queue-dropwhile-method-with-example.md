@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(2, 4, 6, 1, 8, 3, 5)
 Queue after using dropWhile() method: Queue(1, 8, 3, 5)
 
@@ -50,7 +50,7 @@ Queue after using dropWhile() method: Queue(1, 8, 3, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 Queue after using dropWhile() method: Queue(2, 7, 6, 5)
 

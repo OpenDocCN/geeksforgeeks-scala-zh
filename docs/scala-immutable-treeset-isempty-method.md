@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of isEmpty() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 TreeSet is empty: false
 
@@ -51,7 +51,7 @@ TreeSet is empty: false
 
 **例 2:**
 
-```
+```scala
 // Scala program of isEmpty() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet()
 TreeSet is empty: true
 

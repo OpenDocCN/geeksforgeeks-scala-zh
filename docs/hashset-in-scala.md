@@ -5,7 +5,7 @@
 **HashSet** 为封存类。它扩展了不可变集和抽象集的特征。哈希代码用于存储元素。它既不排序元素，也不保持插入顺序。由 HashSet 类实现的 Set 接口，由哈希表支持。在 Scala 中，集合语义的一个具体实现被称为 HashSet。
 **语法:**
 
-```
+```scala
 var HashsetName = HashSet(element1, element2, element3, ....)  
 ```
 
@@ -14,7 +14,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Initialize a HashSet :** Below is the example to create or initialize HashSet.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Initializing HashSet
     import scala.collection.immutable.HashSet
 
@@ -36,7 +36,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize a HashSet
     Elements are = Set(Geeks, Author, GeeksForGeeks)
     ```
@@ -44,7 +44,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Check specific elements in HashSet :**
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Check specific elements in HashSet
     import scala.collection.immutable.HashSet
 
@@ -70,7 +70,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize a HashSet
     Elements are = Set(Geeks, Author, GeeksForGeeks)
     Element Geeks = true
@@ -81,7 +81,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Adding an elements in HashSet :** We can add an element in HashSet by using + sign. below is the example of adding an element in HashSet.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of adding an element in HashSet
     import scala.collection.immutable.HashSet
 
@@ -107,7 +107,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize a HashSet
     Elements are = Set(Geeks, Author, GeeksForGeeks)
     Adding elements to HashSet = Set(GeeksClasses, Geeks, Author, GeeksForGeeks)
@@ -117,7 +117,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Adding more than one element in HashSet :** We can add more than one element in HashSet by using ++ sign. below is the example of adding more than one elements in HashSet.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of adding more elements in HashSet
     import scala.collection.immutable.HashSet
 
@@ -143,7 +143,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize a HashSet
     Elements are = Set(Geeks, Author, GeeksForGeeks)
     Add more than one HashSets = Set(Scala, Geeks, Author, Java, GeeksForGeeks)
@@ -153,7 +153,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Remove element in HashSet :** We can remove an element in HashSet by using – sign. below is the example of removing an element in HashSet.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of removing element in HashSet
     import scala.collection.immutable.HashSet
 
@@ -179,7 +179,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize a HashSet
     Elements are = Set(Geeks, Author, GeeksForGeeks)
     remove element from hashset = Set(Author, GeeksForGeeks)
@@ -188,7 +188,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Find the intersection between two HashSets :** We can find intersection between two HashSets by using & sign. below is the example of finding intersection between two HashSets.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of finding the intersection between two HashSets
     import scala.collection.immutable.HashSet
 
@@ -217,7 +217,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Initialize two HashSets
     Elements of hashset1  are = Set(Geeks, Author, GeeksForGeeks)
     Elements of hashset2 are = Set(Scala, Geeks, Java)
@@ -228,7 +228,7 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 *   **Initializing an empty HashSet :**
     **Example :**
 
-    ```
+    ```scala
     // Scala program of  Initializing an empty HashSet
     import scala.collection.immutable.HashSet
 
@@ -247,6 +247,6 @@ var HashsetName = HashSet(element1, element2, element3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Empty HashSet = Set()
     ```

@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -44,7 +44,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 (TreeSet(1, 2), TreeSet(3, 4, 5))
 
@@ -52,7 +52,7 @@ TreeSet(1, 2, 3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -85,7 +85,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 (TreeSet(1, 2, 3), TreeSet(4, 5))
 

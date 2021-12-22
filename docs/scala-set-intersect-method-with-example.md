@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -36,7 +36,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 4
 
@@ -44,7 +44,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -70,7 +70,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 2
 3

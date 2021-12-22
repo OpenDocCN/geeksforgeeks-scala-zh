@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filter()
 // method
 
@@ -40,14 +40,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 8
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of filter()
 // method
 
@@ -77,7 +77,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 5
 
 ```

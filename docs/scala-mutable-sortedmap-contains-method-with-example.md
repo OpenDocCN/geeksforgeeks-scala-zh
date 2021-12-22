@@ -11,7 +11,7 @@ Scala 的 **contains()** 方法相当于 Scala 的 *isDefinedAt* 方法，但唯
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains()
 // method
 import scala.collection.SortedMap
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

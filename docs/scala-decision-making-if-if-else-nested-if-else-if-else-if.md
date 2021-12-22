@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```scala
 if(condition)
 {
     // Code to be executed 
@@ -24,7 +24,7 @@ if(condition)
 如果我们没有在 **if(条件)**之后提供花括号“{”和“}”，那么默认情况下 If 语句将认为紧接的 one 语句在其块内。
 **例:**
 
-```
+```scala
 if(condition)
    statement1;
    statement2;
@@ -41,7 +41,7 @@ if(condition)
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate the if statement
 object Test {
 
@@ -63,7 +63,7 @@ def main(args: Array[String]) {
 
 **输出:**
 
-```
+```scala
 GeeksforGeeks
 ```
 
@@ -73,7 +73,7 @@ if 语句单独告诉我们，如果条件为真，它将执行一组语句，�
 
 **语法:**
 
-```
+```scala
 if (condition)
 {
     // Executes this block if
@@ -94,7 +94,7 @@ else
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate the if-else statement
 object Test {
 
@@ -124,7 +124,7 @@ def main(args: Array[String]) {
 
 **输出:**
 
-```
+```scala
 Sudo Placement
 ```
 
@@ -134,7 +134,7 @@ Sudo Placement
 
 **语法:**
 
-```
+```scala
 // Executes when condition_1 is true
 if (condition_1) 
 {
@@ -179,7 +179,7 @@ else
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate 
 // the nested if-else statement
 object Test {
@@ -228,7 +228,7 @@ def main(args: Array[String]) {
 
 **输出:**
 
-```
+```scala
 c is largest
 ```
 
@@ -238,7 +238,7 @@ c is largest
 
 **语法:**
 
-```
+```scala
 if(condition_1)
 {
 
@@ -271,7 +271,7 @@ else
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate 
 // the if-else-if ladder 
 object Test {
@@ -320,6 +320,6 @@ def main(args: Array[String]) {
 
 **输出:**
 
-```
+```scala
 No Match Found
 ```

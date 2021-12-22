@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of exists() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of exists() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -71,7 +71,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 false
 
 ```

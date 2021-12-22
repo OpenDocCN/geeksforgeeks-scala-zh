@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```scala
 // x and y are defined
 val str = s"Sum of $x and $y is ${x+y}"
 ```
@@ -21,7 +21,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **示例 1:** 变量和表达式:
 
-    ```
+    ```scala
     // Scala program
     // for s interpolator
 
@@ -49,14 +49,14 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **输出:**
 
-    ```
+    ```scala
     str1: Sum of $x and $y is ${x+y}
     str2: Sum of 20 and 10 is 30
     ```
 
     **示例 2:** 函数调用
 
-    ```
+    ```scala
     // Scala program
     // for s interpolator
 
@@ -91,7 +91,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **输出:**
 
-    ```
+    ```scala
     str1: Sum of $x and $y is ${add(x, y)}
     str2: Sum of 20 and 10 is 30
     ```
@@ -102,7 +102,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **示例 1:** 最多打印两位小数:
 
-    ```
+    ```scala
     // Scala program
     // for f interpolator
 
@@ -130,14 +130,14 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **输出:**
 
-    ```
+    ```scala
     str1: Value of x is $x%.2f
     str2: Value of x is 20.60
     ```
 
     **示例 2:** 设置整数宽度:
 
-    ```
+    ```scala
     // Scala program
     // for f interpolator
 
@@ -164,7 +164,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **输出:**
 
-    ```
+    ```scala
     Value of x is $x%04d
     Value of x is 0011
     ```
@@ -174,7 +174,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 3.  **raw Interpolator:** String Literal should start with ‘raw’. This interpolator treats escape sequences same as any other character in a String.
     **Example :**printing escape sequence:
 
-    ```
+    ```scala
     // Scala program
     // for raw interpolator
 
@@ -199,7 +199,7 @@ val str = s"Sum of $x and $y is ${x+y}"
 
     **输出:**
 
-    ```
+    ```scala
     str1: Hello
     World
     str2: Hello\nWorld

@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of drop()
 // method
 
@@ -42,7 +42,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 13
 
 ```
@@ -50,7 +50,7 @@ object GfG
 这里，前四个元素被删除，之后的所有元素都被返回。
 **例 2:**
 
-```
+```scala
 // Scala program of drop()
 // method
 
@@ -80,7 +80,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```

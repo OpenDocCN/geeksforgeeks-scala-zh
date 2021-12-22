@@ -6,7 +6,7 @@ Scala 中的**缓冲()**方法属于 Scala 类迭代器的具体值成员。它�
 
 *   **方法定义:**
 
-    ```
+    ```scala
      def buffered: BufferedIterator[A]
 
     ```
@@ -16,7 +16,7 @@ Scala 中的**缓冲()**方法属于 Scala 类迭代器的具体值成员。它�
 
 **示例:**
 
-```
+```scala
 // Scala program of buffered()
 // method
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```
@@ -51,7 +51,7 @@ non-empty iterator
 这里，在应用*缓冲*方法之后，返回所述迭代器的缓冲迭代器。
 T3】例:
 
-```
+```scala
 // Scala program of buffered()
 // method
 
@@ -78,7 +78,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 empty iterator
 
 ```

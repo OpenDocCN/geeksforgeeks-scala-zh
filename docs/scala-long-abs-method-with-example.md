@@ -10,7 +10,7 @@ abs()方法用于返回给定整数值的绝对值。任何数的绝对值都是
 
 **例 1:**
 
-```
+```scala
 // Scala program of Long abs()
 // method
 
@@ -34,13 +34,13 @@ object Test
 
 **输出:**
 
-```
+```scala
 7002
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Long abs()
 // method
 
@@ -63,6 +63,6 @@ object Test
 
 **输出:**
 
-```
+```scala
 23.42
 ```

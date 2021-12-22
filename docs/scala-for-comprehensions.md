@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```scala
 for {
     b 
  **<font size="3.8">发电机- </font>** 发电机有以下几种形式:
@@ -21,7 +21,7 @@ for {
 pattern 例如 **b 在这个表达式中，值 b 迭代包含在书中的所有元素。
 下面是关于发电机的另外两件事- >** 
 
-```
+```scala
 
 ```
 
@@ -32,7 +32,7 @@ pattern 例如 **b 在这个表达式中，值 b 迭代包含在书中的所有�
 
 为了便于理解，定义有以下语法:
 
-```
+```scala
 pattern = expression
 ```
 
@@ -42,7 +42,7 @@ pattern = expression
 
 对于理解过滤器有以下形式:
 
-```
+```scala
 if (expression)
 ```
 
@@ -52,7 +52,7 @@ if (expression)
 
 **实施例#1:** 与*一起产生*
 
-```
+```scala
 // Scala program of for comprehensions
 
 // Creating object 
@@ -88,7 +88,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Scala
 Java
 ```
@@ -99,7 +99,7 @@ Java
 
 **我们可以在理解中省略产量。在这种情况下，理解将返回单元。这可能是有帮助的，以防我们想要执行副作用。这里有一个类似上面的程序，不使用 yield。**
 
- **```
+```scala
 // Scala program to print Hello, Geeks! 
 // by using object-oriented approach 
 
@@ -122,7 +122,7 @@ check(4)
 
 **输出:**
 
-```
+```scala
 (2, 2)
 (2, 3)
 (3, 2)

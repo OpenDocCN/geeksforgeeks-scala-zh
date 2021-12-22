@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Short &(x: Char) 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 64
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Short &(x: Int) 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 3
 
 ```

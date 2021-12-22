@@ -9,7 +9,7 @@
 
     ## 斯卡拉
 
-    ```
+    ```scala
     // Scala program of the 
     // StringContext 
 
@@ -39,7 +39,7 @@
 
     **Output :**
 
-    ```
+    ```scala
     I have written 32 articles on GeeksforGeeks.
 
     ```
@@ -47,7 +47,7 @@
     在这里，StringContext.s 方法用于提取常量部分，翻译包含的转义序列，并将它们与所述表达式参数的值相加。
     这里的输出返回如下:
 
-    ```
+    ```scala
     "I have written " + (articles) + " articles on " + (name) + "."
     ```
 
@@ -58,7 +58,7 @@
 
     ## 斯卡拉
 
-    ```
+    ```scala
     // Scala program of StringContext 
     // for creating our own string
     // interpolator
@@ -99,7 +99,7 @@
 
     **Output :**
 
-    ```
+    ```scala
     skeeGrofskeeG
 
     ```

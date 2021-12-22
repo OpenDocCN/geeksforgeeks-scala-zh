@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
     def toList: List[A]
 
     ```
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of toList()
 // method
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(8, 9, 10, 11)
 
 ```
@@ -51,7 +51,7 @@ List(8, 9, 10, 11)
 因此，一个*列表*是由一个迭代器生成的。
 T3】例:
 
-```
+```scala
 // Scala program of toList()
 // method
 
@@ -78,7 +78,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List()
 
 ```

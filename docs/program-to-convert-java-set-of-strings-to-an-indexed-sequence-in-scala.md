@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set
 // to an Indexed Sequence in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(geeks, for)
 
 ```
@@ -49,7 +49,7 @@ Vector(geeks, for)
 因此，返回一个索引序列，但不显示任何字符串的副本。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set
 // to an Indexed Sequence in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(author, I, am an)
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toMap() 
 // method 
 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Map(1 -> 2, 3 -> 4, 5 -> 6)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of toMap() 
 // method 
 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Map(12 -> 2, 13 -> 4, 15 -> 6)
 
 ```

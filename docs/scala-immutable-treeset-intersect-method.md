@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -47,7 +47,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 t1: TreeSet(1, 2, 3, 5, 6, 7)
 t2: TreeSet(3, 5, 7, 11, 12, 16)
 TreeSet with common elements: TreeSet(3, 5, 7)
@@ -56,7 +56,7 @@ TreeSet with common elements: TreeSet(3, 5, 7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -93,7 +93,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 t1: TreeSet(1, 2, 3, 5, 6, 7)
 t2: TreeSet(1, 2, 5, 13, 16, 17)
 TreeSet with common elements: TreeSet(1, 2, 5)

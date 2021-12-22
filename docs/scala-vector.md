@@ -10,7 +10,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 import scala.collection.immutable._
 object GFG {
 
@@ -29,7 +29,7 @@ object GFG {
 
 **Output:**
 
-```
+```scala
 Vector(2, 3, 4, 5)
 2 3 4 5 
 ```
@@ -40,7 +40,7 @@ Vector(2, 3, 4, 5)
 
 ## 斯卡拉
 
-```
+```scala
 import scala.collection.immutable._
 object GFG {
 
@@ -67,7 +67,7 @@ object GFG {
 
 **Output:**
 
-```
+```scala
 Vector Elements after adding: 2 3 4 5 10 
 Vector Elements after merging: 2 3 4 5 10 7 100 
 ```
@@ -78,7 +78,7 @@ Vector Elements after merging: 2 3 4 5 10 7 100
 
 ## 斯卡拉
 
-```
+```scala
 import scala.collection.immutable._
 object GFG {
 
@@ -99,7 +99,7 @@ object GFG {
 
 **Output:**
 
-```
+```scala
 Vector elements before reversing: 2 3 4 5 
 Vector Elements after reversing: 5 4 3 2 
 ```
@@ -110,7 +110,7 @@ Vector Elements after reversing: 5 4 3 2
 
 ## 斯卡拉
 
-```
+```scala
 import scala.collection.immutable._
 object GFG {
 
@@ -132,7 +132,7 @@ object GFG {
 
 **Output:**
 
-```
+```scala
 Vector elements before sorting:5 1 9 100 2 25 17 
 Vector Elements after sorting: 1 2 5 9 17 25 100 
 ```

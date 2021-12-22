@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of toUpper()
 // method
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 A
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of toUpper()
 // method
 // Creating object
@@ -62,7 +62,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 B
 
 ```

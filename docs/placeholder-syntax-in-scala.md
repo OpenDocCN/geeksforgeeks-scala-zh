@@ -9,13 +9,13 @@
 **例 1:**
 假设我们要检查数字是否大于 5。
 
-```
+```scala
 scala> someNumbers.filter(_ > 5)
 ```
 
 在上面的示例中，条件在内部扩展为:
 
-```
+```scala
 scala> someNumbers.filter(x=>x>5) 
 ```
 
@@ -26,13 +26,13 @@ scala> someNumbers.filter(x=>x>5)
 **例 2:**
 假设我们要加两个数字。如果我们理解上面的例子，我们会认为两个数字相加的正常语法应该是:
 
-```
+```scala
 scala> val f = _ + _ 
 ```
 
 当它被传递给编译器时，它会给出一个错误，因为你没有提到编译器应该把哪种类型的数字作为输入。
 
-```
+```scala
 val f = _ + _ 
        ˆ 
 error: missing parameter type for expanded function ((x$1, x$2) => x$1.$plus(x$2)) 
@@ -41,19 +41,19 @@ error: missing parameter type for expanded function ((x$1, x$2) => x$1.$plus(x$2
 
 我们应该提到我们期望从函数中得到的数字类型。类型可以在冒号(':')的帮助下传递给函数。请注意，在内部，
 
-```
+```scala
 f = _ + _
 ```
 
 扩展为
 
-```
+```scala
 ((x$1, x$2) => x$1.$plus(x$2)).
 ```
 
 现在，使用函数将两个数字相加的正确占位符语法是:
 
-```
+```scala
 scala> val f = (_: Int) + (_: Int) 
 f: (Int, Int) => Int = <function> 
 
@@ -67,7 +67,7 @@ res: Int = 25
 
 **例 3:**
 
-```
+```scala
 scala> r.map((x,y) => x + y / x min y)
 ```
 

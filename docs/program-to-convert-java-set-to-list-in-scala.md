@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to List in Scala
 
@@ -41,7 +41,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 List(GfG, is a, CS-portal)
 
 ```
@@ -49,7 +49,7 @@ List(GfG, is a, CS-portal)
 因此，返回一个字符串列表。这里，首先创建一个集合，利用 *add* 方法向其中添加字符串元素。之后利用*列表*方法将所述集合转换为字符串列表。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to List in Scala
 
@@ -84,7 +84,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 List(nidhi, Author, is an)
 
 ```

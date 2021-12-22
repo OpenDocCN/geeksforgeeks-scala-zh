@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
      def duplicate: (Iterator[A], Iterator[A])
 
     ```
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of duplicate()
 // method
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (non-empty iterator, non-empty iterator)
 
 ```
@@ -51,7 +51,7 @@ object GfG
 这里，所述迭代器是非空的，因此创建了两个非空迭代器。
 **例:**
 
-```
+```scala
 // Scala program of duplicate()
 // method
 
@@ -78,7 +78,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (empty iterator, empty iterator)
 
 ```

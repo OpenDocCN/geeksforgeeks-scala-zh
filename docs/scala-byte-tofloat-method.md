@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Byte toFloat() 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 13.0
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Byte toFloat() 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 123.0
 
 ```

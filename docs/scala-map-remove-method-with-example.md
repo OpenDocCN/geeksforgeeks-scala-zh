@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of remove()
 // method
 
@@ -38,7 +38,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Some(3)
 
 ```

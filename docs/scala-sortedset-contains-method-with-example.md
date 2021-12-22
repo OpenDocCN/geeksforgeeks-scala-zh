@@ -10,7 +10,7 @@ contains()方法用于检查 SortedSet 中是否存在元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -71,7 +71,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 false
 
 ```

@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of replaceFirst()
 // method
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 ##NidhimsoSingh
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of replaceFirst()
 // method
 
@@ -64,14 +64,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Nidhi*Singhcso
 
 ```
 
 **示例#3:**
 
-```
+```scala
 // Scala program of replaceFirst()
 // method
 
@@ -95,7 +95,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 *NidhimsoSinghcso
 
 ```

@@ -9,7 +9,7 @@
 在编程时，可能会有这样的情况，我们需要重复，直到满足某个条件。在这些情况下，使用 while 循环。while 循环通常在括号中带一个条件。如果条件为真，则执行 while 循环体中的代码。当我们不知道希望循环执行的次数，但是我们知道循环的终止条件时，就使用 while 循环。循环停止的条件称为中断条件。
 **语法:**
 
-```
+```scala
 while (condition)
 {
     // Code to be executed
@@ -24,7 +24,7 @@ while (condition)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of while loop
 
 // Creating object
@@ -48,7 +48,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 a is : 5
 a is : 4
 a is : 3
@@ -60,7 +60,7 @@ a is : 1
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of while loop
 
 // Creating object
@@ -86,7 +86,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 index of while is 2
 ```
 
@@ -97,7 +97,7 @@ index of while is 2
 做..while 循环与 while 循环几乎相同。唯一不同的是..而循环至少运行一次。第一次执行后检查条件。做..当我们希望循环至少运行一次时，使用 while 循环。它也称为退出控制循环，因为在执行循环后会检查条件。在 while 循环中，条件放在循环的顶部，而在 do 循环中，条件放在末尾，由于条件的这种定位，do while gets 下的所有语句至少执行一次。
 **语法:**
 
-```
+```scala
 do {
 
 // statements to be Executed
@@ -113,7 +113,7 @@ do {
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of do-while loop
 
 // Creating object
@@ -138,7 +138,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 a is : 5
 a is : 4
 a is : 3
@@ -150,7 +150,7 @@ a is : 1
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program for do-while loop
 
 // Creating object
@@ -177,7 +177,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 program is saying hello
 program is saying This
 program is saying is

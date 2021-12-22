@@ -9,7 +9,7 @@ Scala List 类拥有一个有序的、线性的项目列表。只有从后向前
 
 **示例:**
 
-```
+```scala
 var name = new ListBuffer[datatype]()  // empty buffer is created
 
 var name = new ListBuffer("class", "gfg", "geeksforgeeks")
@@ -27,7 +27,7 @@ var name = new ListBuffer("class", "gfg", "geeksforgeeks")
 
 **创建列表缓冲区实例:**
 
-```
+```scala
 // Scala program to create a ListBuffer 
 // ListBuffer class is imported 
 import scala.collection.mutable.ListBuffer
@@ -51,7 +51,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 ListBuffer(GeeksForGeeks, gfg, Class)
 ```
 
@@ -59,7 +59,7 @@ ListBuffer(GeeksForGeeks, gfg, Class)
 
 元素的访问与列表相同，`ListBuffer(i)`用于访问列表的 *i <sup>th</sup>* 索引元素。
 
-```
+```scala
 // Scala program to access element of ListBuffer 
 // ListBuffer class is imported 
 import scala.collection.mutable.ListBuffer 
@@ -85,7 +85,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 gfg
 ```
 
@@ -93,25 +93,25 @@ gfg
 
 > *   Add a single element
 >     
->     ```
+>     ```scala
 >     ListBuffer+=( element)
 >     ```
 >     
 >     to the buffer
 > *   Add two or more elements (method has varargs parameter)
 >     
->     ```
+>     ```scala
 >      ListBuffer+= (element1, element2, ..., elementN )
 >     ```
 >     
 >     
 > *   Append one or more elements (using varargs parameter)
 >     
->     ```
+>     ```scala
 >     ListBuffer.append( elem1, elem2, ... elemN)
 >     ```
 
-```
+```scala
 // Scala program to add element in ListBuffer 
 // ListBuffer class is imported 
 import scala.collection.mutable.ListBuffer 
@@ -143,7 +143,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 ListBuffer(GeeksForGeeks, gfg, class, Scala, Article)
 ```
 
@@ -151,18 +151,18 @@ ListBuffer(GeeksForGeeks, gfg, class, Scala, Article)
 
 > *   Remove an element
 >     
->     ```
+>     ```scala
 >     ListBuffer-= (element)
 >     ```
 >     
 >     
 > *   Remove multiple elements
 >     
->     ```
+>     ```scala
 >     ListBuffer-= (elem1, elem2, ....., elemN)
 >     ```
 
-```
+```scala
 // Scala program to delete element from ListBuffer 
 // ListBuffer class is imported 
 import scala.collection.mutable.ListBuffer 
@@ -193,7 +193,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 ListBuffer(Scala, Article)
 ```
 
@@ -201,7 +201,7 @@ ListBuffer(Scala, Article)
 
 `remove()`方法用于根据一个元素在`ListBuffer`中的位置删除该元素，或者从起始位置开始删除一系列元素。
 
-```
+```scala
 // Scala program for remove method, on ListBuffer 
 // ListBuffer class is imported 
 import scala.collection.mutable.ListBuffer 
@@ -233,7 +233,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 ListBuffer(gfg, class, Scala, Article)
 ListBuffer(gfg)
 ```

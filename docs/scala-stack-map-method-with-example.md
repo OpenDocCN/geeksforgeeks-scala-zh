@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 3, 2, 7, 6, 1)
 New stack after squaring all elements: Stack(25, 9, 4, 49, 36, 1)
 
@@ -51,7 +51,7 @@ New stack after squaring all elements: Stack(25, 9, 4, 49, 36, 1)
 
 **例 2:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 7, 6, 5)
 New queue after dividing all elements by 2: Stack(0, 1, 1, 3, 3, 2)
 

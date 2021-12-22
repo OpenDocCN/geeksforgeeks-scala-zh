@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toArray() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -38,7 +38,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 3
 22
 44
@@ -48,7 +48,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of toArray() 
 // method
 import scala.collection.mutable.SortedSet 
@@ -76,7 +76,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 443
 451
 772

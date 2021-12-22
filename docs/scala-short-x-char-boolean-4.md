@@ -11,7 +11,7 @@ T2】原文:[https://www.geeksforgeeks.org/scala-short-x-char-boolean-4/](https:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Short <(x: Char)
 // method
 
@@ -35,7 +35,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 false
 ```
 
@@ -43,7 +43,7 @@ false
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Short <(x: Char)
 // method
 
@@ -67,6 +67,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 true
 ```

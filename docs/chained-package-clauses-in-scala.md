@@ -6,7 +6,7 @@
 
 **让我们破解代码，了解这里发生了什么。**
 
-```
+```scala
 package x.z
 object a {
   b  //object b
@@ -18,7 +18,7 @@ object b{
 
 **或者我们可以编写如下代码**
 
-```
+```scala
 // but this is not a good and short way of writing package clauses
 // let's just stick to the first style.
 package x{
@@ -33,7 +33,7 @@ package x{
 
 **这里对象 a 和 b 是在目录 x 中的目录 z 中定义的。包 z 的可见性是成员 a 和 b，而不是成员 x。我们还可以将这些对象写入不同的 scala 文件，如下所示。**
 
-```
+```scala
 // a.scala
 package x.z
 object a {
@@ -41,7 +41,7 @@ object a {
 } 
 ```
 
-```
+```scala
 // b.scala
 package x.z
 object b{
@@ -49,7 +49,7 @@ object b{
 } 
 ```
 
-```
+```scala
 // files would created like this
 +x
   +z
@@ -63,7 +63,7 @@ object b{
 
 **让我们用一个 eg 来理解它，它的目录结构是这样的**
 
-```
+```scala
 +company
       +ceo
          +Ceo.scala
@@ -76,7 +76,7 @@ object b{
                              +employee.scala 
 ```
 
-```
+```scala
 // employee.scala
 package company.ceo.directors.managers
 
@@ -89,7 +89,7 @@ package employees{
 } 
 ```
 
-```
+```scala
 // hrManager.scala
 package company.ceo.directors.managers
 
@@ -101,7 +101,7 @@ object hrManager extends Enumeration{
 } 
 ```
 
-```
+```scala
 // techManager.scala
 package company.ceo.directors.managers
 
@@ -125,7 +125,7 @@ val x=Director
 
 **我们编写了目录名，它与导入的文件在当前/相同的基础上**
 
-```
+```scala
 +hrManager.scala        //file
 +techManager.scala      //file
 +employees              //directory 

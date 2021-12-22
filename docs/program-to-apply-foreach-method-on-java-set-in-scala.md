@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Program to apply foreach() method on 
 // Java set in Scala
 
@@ -40,7 +40,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 GfG
 is a
 CS-portal
@@ -50,7 +50,7 @@ CS-portal
 因此，当对所述器械包应用*或*方法时，器械包的每一项都被打印。
 T3】例:2#
 
-```
+```scala
 // Program to apply foreach() method on 
 // Java set in Scala
 
@@ -84,7 +84,7 @@ def main(args:Array[String])
 
 **Output:**
 
-```
+```scala
 Geeks
 GfG
 CS portal

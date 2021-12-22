@@ -5,7 +5,7 @@
 有时在竞争性编程中，以给定的指定格式打印输出是很重要的。大多数用户都熟悉 c 语言中的 printf 函数。让我们看看如何在 Scala 中格式化输出。当一个字符串包含值和其后的文本时，需要格式化来更改值和添加包含它的文本。
 **例:**
 
-```
+```scala
 I have written 30 articles
 ```
 
@@ -19,7 +19,7 @@ I have written 30 articles
 ***【格式】*** 方法可用于格式化字符串，您甚至可以向其传递参数，其中 *%d* 用于整数， *%f* 用于浮点或双精度。
 **示例:**
 
-```
+```scala
 // Scala program of format 
 // method
 
@@ -50,14 +50,14 @@ object GFG
 
 **Output:**
 
-```
+```scala
 There are 15 books and cost of each book is 345.250000
 
 ```
 
 **示例:**
 
-```
+```scala
 // Scala program of format for
 // strings and characters.
 
@@ -87,7 +87,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Geeta is a coder.
 
 ```
@@ -99,7 +99,7 @@ Geeta is a coder.
 这个方法可以用于整数、双精度和字符串，因为它可以应用于任何对象。
 **例:**
 
-```
+```scala
 // Scala program for formatted
 // method
 
@@ -125,7 +125,7 @@ object GFG
 
 **Output :**
 
-```
+```scala
 I have written 30 articles.
 
 ```

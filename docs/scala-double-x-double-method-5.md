@@ -10,7 +10,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-double-x-double-method-5/](
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Double <(x: Double) method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

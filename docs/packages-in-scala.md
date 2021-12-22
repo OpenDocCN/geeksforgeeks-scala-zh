@@ -9,7 +9,7 @@ Scala 中的 Package 是一种封装一组类、子包、特征和包对象的�
 包被声明为 Scala 文件顶部的第一条语句。
 **语法:**
 
-```
+```scala
 package package_name
 // Scala classes
 // traits
@@ -21,7 +21,7 @@ package package_name
 
 *   [**Chained methods**](https://www.geeksforgeeks.org/chained-package-clauses-in-scala/)
 
-    ```
+    ```scala
     package x.y.z
     // members of z
 
@@ -29,7 +29,7 @@ package package_name
 
     或者可以用作:-
 
-    ```
+    ```scala
     package x
     package y
     package z
@@ -39,7 +39,7 @@ package package_name
 
 *   **筑巢包**
 
-    ```
+    ```scala
     package x{
        // members of x {as required}
        package y{
@@ -56,7 +56,7 @@ package package_name
 
 包将数据绑定在一个文件中，或者作为数据封装，当保存一个文件时，它位于默认包下或文件顶部指定的包名下。包名和目录结构密切相关。例如，如果包名是 college.student.cse，那么将有 3 个目录，college、student 和 cse。使得 cse 存在于学生中，学生存在于大学中。
 
-```
+```scala
 college
      +student
           +cse
@@ -71,7 +71,7 @@ college
 我们可以在一个包中添加任意数量的成员，比如类、子类、特征、包含主方法和子包的对象。与 java 包不同，我们可以在不同的 scala 文件中添加一个声明的包，也就是说，可以为同一个包编写不同的 scala 文件。
 **例:**
 
-```
+```scala
 // file named as faculty.scala
 package college
 class faculty{
@@ -80,7 +80,7 @@ class faculty{
 
 ```
 
-```
+```scala
 // file named as student.scala
 // containing the main method
 
@@ -108,7 +108,7 @@ object Main
 
 目录结构中实际创建的内容如下
 
-```
+```scala
 college
      +faculty.scala
      +student.scala
@@ -119,7 +119,7 @@ college
 
 包可以在程序中以不同的方式使用。Scala 中的 Import 子句比 java 中的更灵活。比如 import 子句可以在程序中的任何地方作为独立语句使用，在程序中使用关键字 **import** ，Java 不允许这样。
 
-```
+```scala
 // base.scala
 // bb directory
 package bb 
@@ -138,7 +138,7 @@ class geek
 
 下面是使用导入条款的包的示例。
 
-```
+```scala
 // main.scala
 // aa directory
 package aa 
@@ -163,7 +163,7 @@ object Main
 
 *   正在导入包的所有公共成员。
 
-    ```
+    ```scala
     import college._
     //imports all college members students, faculties, houseKeeping etc.
 
@@ -171,7 +171,7 @@ object Main
 
 *   仅导入包中选定的成员。
 
-    ```
+    ```scala
     import college.{faculty, houseKeeping}
     //member student is not selected hence cannot be used in current file
 
@@ -179,7 +179,7 @@ object Main
 
 *   导入并重命名成员。
 
-    ```
+    ```scala
     import college.{student => stu}
     //stu is used in-place of student
 

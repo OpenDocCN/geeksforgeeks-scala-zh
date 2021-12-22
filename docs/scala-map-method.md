@@ -13,7 +13,7 @@ Scala 中的集合是一种保存一组对象的数据结构。集合的例子�
 
 **语法**:
 
-```
+```scala
 collection = (e1, e2, e3, ...)
 
 //func is some function
@@ -25,7 +25,7 @@ collection.map(func)
 
 **例 1** :使用自定义功能
 
-```
+```scala
 // Scala program to
 // transform a collection
 // using map()
@@ -59,7 +59,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 9, 4, 25, 16, 49, 36)
 
 ```
@@ -68,7 +68,7 @@ List(1, 9, 4, 25, 16, 49, 36)
 
 **例 2** :使用匿名函数
 
-```
+```scala
 // Scala program to
 // transform a collection
 // using map()
@@ -93,7 +93,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 9, 4, 25, 16, 49, 36)
 
 ```

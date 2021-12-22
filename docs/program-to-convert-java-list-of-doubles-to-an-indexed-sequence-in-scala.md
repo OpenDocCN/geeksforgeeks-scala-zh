@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Indexed Sequence in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(1.43, 2.23, 3.45)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Indexed Sequence in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(9.44, 4.44, 8.44)
 
 ```

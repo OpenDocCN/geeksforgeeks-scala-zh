@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 sealed trait X
 class A extends X
 class B extends X
@@ -16,12 +16,12 @@ class C extends X
 
 穷举检查主要用于 scala 中的 type / [模式匹配](https://www.geeksforgeeks.org/scala-pattern-matching/)。假设我们有一个密封的特征 X 和扩展特征 X 的类。在匹配特征 X 的子类型时，我们必须确保包含所有已知的子类型是必须的。下面的方法会给我们一个警告。虽然我们会得到正确的输出，但这可能会导致我们的应用程序意外的运行时崩溃。
 
-```
+```scala
 Warning: match may not be exhaustive
 
 ```
 
-```
+```scala
 def obj(item: X) = item match {
    case A => //
    case B => //
@@ -31,7 +31,7 @@ def obj(item: X) = item match {
 
 正确的实施就像-
 
-```
+```scala
 def obj(item: X) = item match{
    case A => //
    case B => //
@@ -48,7 +48,7 @@ def obj(item: X) = item match{
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program that illustrates sealed trait
 // language.scala
 sealed trait Geeks
@@ -101,7 +101,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 scala article
 java article
 csharp article
@@ -114,12 +114,12 @@ csharp article
 
 *   **密封特征只能在子类型的同一个源文件中扩展-** 在上面的例子中，我们在另一个 scala 文件中有另一个类 **python** 。从**语言导入特性**极客**。Scala**我们会得到如下错误消息。
 
-```
+```scala
 illegal inheritance from sealed trait bag
 
 ```
 
-```
+```scala
 import geeks
 class python extends geeks{
     val article="python article";
@@ -132,7 +132,7 @@ class python extends geeks{
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program that illustrates sealed trait
 // By using Enumeration
 sealed trait card extends Enumeration
@@ -179,7 +179,7 @@ object obj1
 
 **输出:**
 
-```
+```scala
 heart
 club
 spade

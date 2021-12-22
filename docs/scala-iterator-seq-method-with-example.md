@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
     def seq: Iterator[A]
 
     ```
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of seq()
 // method
 
@@ -46,7 +46,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 4
 5
@@ -58,7 +58,7 @@ object GfG
 这里，所述迭代器的顺序视图由 Scala 的 *seq* 方法返回。
 T3】例:
 
-```
+```scala
 // Scala program of seq()
 // method
 
@@ -85,7 +85,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```

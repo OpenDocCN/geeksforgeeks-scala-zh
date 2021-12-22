@@ -10,7 +10,7 @@
 
 **示例:1#**
 
-```
+```scala
 // Scala program of *(x: Double)
 // method
 
@@ -34,14 +34,14 @@ println(result)
 
 **输出:**
 
-```
+```scala
 719.7459
 
 ```
 
 **示例:2#**
 
-```
+```scala
 // Scala program of *(x: Double)
 // method
 
@@ -65,7 +65,7 @@ println(result)
 
 **输出:**
 
-```
+```scala
 3518.0145
 
 ```

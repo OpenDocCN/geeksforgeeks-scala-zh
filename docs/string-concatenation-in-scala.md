@@ -5,7 +5,7 @@
 一个[字符串](https://www.geeksforgeeks.org/scala-string/)是一个字符序列。在 Scala 中，String 的对象是不可变的，这意味着一个常量，一旦创建就不能更改。当通过添加两个字符串来创建一个新字符串时，称为字符串串联。Scala 提供了 **concat()** 方法来连接两个字符串，这个方法返回一个使用两个字符串创建的新字符串。我们也可以使用“ **+** ”运算符来连接两个字符串。
 **语法:**
 
-```
+```scala
 *str1.concat(str2);*
 
 Or
@@ -19,7 +19,7 @@ Or
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to 
 // concatenate strings
 object GFG
@@ -52,7 +52,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 String 1:Welcome! GeeksforGeeks 
 String 2: to Portal
 New String :Welcome! GeeksforGeeks  to Portal
@@ -66,7 +66,7 @@ This is the tutorial of Scala language on GFG portal
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // concatenate strings
 
@@ -87,7 +87,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 After concatenate two string: Welcome toGeeksforGeeks
 ```
 

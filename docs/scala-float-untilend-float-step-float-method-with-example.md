@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Float until() 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 NumericRange(1.0, 4.0, 7.0, 10.0)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Float until() 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 NumericRange(3.0, 5.0, 7.0, 9.0, 11.0, 13.0, 15.0, 17.0, 19.0)
 
 ```

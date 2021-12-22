@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala Program to illustrate the keywords 
 
 // Here object, def, and var are valid keywords
@@ -24,7 +24,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 The sum of p and q is :40
 
 ```
@@ -89,7 +89,7 @@ Scala 包含以下关键词:
 
 **示例:**
 
-```
+```scala
 // Scala Program to illustrate the keywords 
 
 // Here class keyword is used to create a new class
@@ -122,7 +122,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Hello! my name is Priyankaand my age is20
 My branch name is Computer Science
 

@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Sequence in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(4.34, 51.34, 2.34)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Sequence in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(4.15, 4.45, 4.11)
 
 ```

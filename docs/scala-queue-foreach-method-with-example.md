@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -38,14 +38,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Elements in the queue: 1 3 2 7 6 5
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -75,7 +75,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 1 times 1 = 1
 3 times 3 = 9

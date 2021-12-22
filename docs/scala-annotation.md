@@ -19,7 +19,7 @@ scala 中的预定义注释是内置的 Scala 注释，它将元信息与定义�
     *   **@SerialVersionUID():** 它将一个串行版本标识符(一个长常量)附加到一个类上。
         T3】例:
 
-```
+```scala
 private final static SerialVersionUID = < longlit >
 
 ```
@@ -30,14 +30,14 @@ private final static SerialVersionUID = < longlit >
     *   **@deprecated(message: , since: ):** This annotation is used to mark a definition as deprecated. Deprecated warnings are suppressed in code that belongs itself to a definition that is labeled deprecated.
         **Syntax:**
 
-        ```
+        ```scala
         @deprecated("deprecation message", "release # which deprecates method")
 
         ```
 
         **示例:**
 
-        ```
+        ```scala
         // Scala program of Deprecation Annotations
         import scala.deprecated;
 
@@ -60,7 +60,7 @@ private final static SerialVersionUID = < longlit >
 
         **输出:**
 
-        ```
+        ```scala
         This method is deprecated
         ```
 
@@ -68,14 +68,14 @@ private final static SerialVersionUID = < longlit >
     *   **@uncheckedStable:** This annotation when applied to a value declaration or definition, allows the defined value to appear in a path, even if its type is volatile.
         **Syntax:**
 
-        ```
+        ```scala
          @annotation.unchecked.uncheckedStable val x: A with B = null
 
         ```
 
         **示例:**
 
-        ```
+        ```scala
         // Scala program of uncheckedStable
         // Compiler Annotations
         import scala.deprecated;
@@ -114,14 +114,14 @@ private final static SerialVersionUID = < longlit >
     *   **@tailrec:**This annotation ensures that a method is tail-recursive. Tail-recursion can keep memory requirements constant.
         **Syntax:**
 
-        ```
+        ```scala
          @tailrec
 
         ```
 
         **示例:**
 
-        ```
+        ```scala
         // Scala program of Compiler Annotations 
         // of tail recursion
         import scala.annotation.tailrec
@@ -151,7 +151,7 @@ private final static SerialVersionUID = < longlit >
 
         **输出:**
 
-        ```
+        ```scala
         120
         ```
 
@@ -160,7 +160,7 @@ private final static SerialVersionUID = < longlit >
 用户定义的注释将元信息与定义相关联。对于一个类，类文件保存了一个注释类实例，该类继承了 Scala.ClassfileAnnotation 的特性。对于我们访问注释符号的每个编译单元，这些实例对 Scala 类型检查器都是可见的，而类继承了 scala.StaticAnnotation 的特性。
 **语法:**
 
-```
+```scala
 // needed for @Documented
 import java.lang.annotation.*;
 

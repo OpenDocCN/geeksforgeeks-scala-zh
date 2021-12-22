@@ -10,7 +10,7 @@ Scala 中的**:()**运算符用于向列表的开头添加一个元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of ::()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(5, 1, 2, 3)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of ::()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 1, 2, 3)
 
 ```

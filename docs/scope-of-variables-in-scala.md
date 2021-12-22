@@ -15,7 +15,7 @@
 我们可以从对象中的每个方法访问这些类型的变量&如果我们用正确的访问修饰符声明了它们，就可以从对象外部访问它们。一个字段可以是*可变的*或*不可变的*，他们可以使用**【var】**或**【val】**来定义它们。
 **示例:**
 
-```
+```scala
 // Scala program of field 
 // scope for Scala variable
 
@@ -45,7 +45,7 @@ object Example 
 
 **输出:**
 
-```
+```scala
 Value of y : 7.0
 Value of x : 10.3
 ```
@@ -58,7 +58,7 @@ Value of x : 10.3
 
 **示例:**
 
-```
+```scala
 // Scala program of Method 
 // scope for Scala variable
 
@@ -86,7 +86,7 @@ object Area 
 
 **输出:**
 
-```
+```scala
 Area is: 50
 ```
 
@@ -98,7 +98,7 @@ Area is: 50
 
 **示例:**
 
-```
+```scala
 // Scala program of Method 
 // scope for Scala variable
 
@@ -127,7 +127,7 @@ object Test 
 
 **输出:**
 
-```
+```scala
 Area is: 240
 ```
 

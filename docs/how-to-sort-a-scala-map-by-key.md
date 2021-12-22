@@ -7,14 +7,14 @@
 Map 与保存键:值对的字典相同。在本文中，我们将学习如何按键对 Scala 映射进行排序。我们可以使用**排序按**键从低到高或从高到低对地图进行排序。
 **语法:**
 
-```
+```scala
 mapName.toSeq.sortBy(_._1):_*
 ```
 
 让我们试着用更好的例子来理解它。
 **例 1:**
 
-```
+```scala
 // Scala program to sort given map by key
 import scala.collection.immutable.ListMap
 
@@ -40,14 +40,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Map(Charlie -> 50, Jhavesh -> 20, Zash -> 30)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to sort given map by key
 import scala.collection.immutable.ListMap
 
@@ -73,14 +73,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Map(Charlie -> 50, Jhavesh -> 20, Zash -> 30)
 
 ```
 
 **示例#3:**
 
-```
+```scala
 // Scala program to sort given map by key
 import scala.collection.immutable.ListMap
 
@@ -106,7 +106,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Map(Zash -> 30, Jhavesh -> 20, Charlie -> 50)
 
 ```

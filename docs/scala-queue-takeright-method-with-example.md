@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 Queue containing last two elements: Queue(7, 1)
 
@@ -51,7 +51,7 @@ Queue containing last two elements: Queue(7, 1)
 
 **例 2:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 Queue containing last three elements: Queue(13, 7, 1)
 

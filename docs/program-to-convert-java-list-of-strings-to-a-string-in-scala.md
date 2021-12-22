@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list
 // to a String in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [geeks, for, geeks]
 
 ```
@@ -49,7 +49,7 @@ object GfG
 这里，重复的元素没有被消除，列表中的元素的结果顺序与上述相同。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list
 // to a String in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [I, am a, writer]
 
 ```

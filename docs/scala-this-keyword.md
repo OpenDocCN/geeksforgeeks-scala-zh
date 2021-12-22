@@ -10,7 +10,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate this keyword
 class Addition(i:Int)
 {
@@ -36,7 +36,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 15 + 12 = 27
 ```
 
@@ -46,7 +46,7 @@ object GFG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate this keyword
 class geeks
 {
@@ -82,7 +82,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Language name Scala published article 105
 ```
 

@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Traversable in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(5, 6, 7)
 
 ```
@@ -49,7 +49,7 @@ Buffer(5, 6, 7)
 因此，返回一个整数缓冲区。这里，首先创建一个列表，使用 *add* 方法将 int 元素添加到列表中。之后，使用*到可遍历*方法将所述列表转换为可遍历集合。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Traversable in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(3, 1, 2)
 
 ```

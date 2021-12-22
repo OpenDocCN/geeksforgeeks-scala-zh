@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 MapName.toSeq.sortBy(_._2):_*
 ```
 
@@ -16,7 +16,7 @@ MapName.toSeq.sortBy(_._2):_*
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to sort given map by value
 import scala.collection.immutable.ListMap
 
@@ -42,6 +42,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Map(Jhavesh -> 20, Zash -> 30, Charlie -> 50)
 ```

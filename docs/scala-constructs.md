@@ -6,13 +6,13 @@
 **1。Scala 表达式:**Scala 中的可计算语句称为表达式。例如下面是一个表达式: *3 + 4* 。使用 println()打印表达式的输出。
 **语法**
 
-```
+```scala
 println(expression)
 ```
 
 **示例**
 
-```
+```scala
 // Scala program to illustrate expressions
 object Main 
 {
@@ -28,7 +28,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 3
 7
 Scala
@@ -38,13 +38,13 @@ How are you?
 **2。值:**我们可以用‘val’关键字来命名。这个表达式返回一个结果。
 **语法**
 
-```
+```scala
 val variable_name = 'Result to be printed'
 ```
 
 **示例**
 
-```
+```scala
 // Scala program to illustrate values
 object Main 
 {
@@ -61,7 +61,7 @@ object Main 
 
 **输出**
 
-```
+```scala
 Arjun
 Sheena
 ```
@@ -71,13 +71,13 @@ Sheena
 **3。Scala 变量:** [变量](https://www.geeksforgeeks.org/variables-in-scala/)只是一个存储位置，它以其名称为人所知，并存储一些已知和未知的信息，称为值。要声明一个变量，我们使用' var '关键字。
 **语法**
 
-```
+```scala
 var variable_name = Any_number
 ```
 
 **例**
 
-```
+```scala
 // Scala program to illustrate variables
 object Main 
 {
@@ -93,20 +93,20 @@ object Main 
 
 **输出**
 
-```
+```scala
 16
 ```
 
 **4。Scala Block:** 由花括号({})分隔的一组表达式称为块。
 **语法**
 
-```
+```scala
 println({// Expression})
 ```
 
 **例**
 
-```
+```scala
 // Scala program to illustrate blocks
 object Main 
 {
@@ -120,7 +120,7 @@ object Main 
 
 **输出**
 
-```
+```scala
 21
 ```
 
@@ -128,7 +128,7 @@ object Main 
 
 **语法**
 
-```
+```scala
 {
     class class_name{}
     val variable_name = new class_name
@@ -137,7 +137,7 @@ object Main 
 
 **例**
 
-```
+```scala
 // Scala program to illustrate class
 
 // class 
@@ -169,14 +169,14 @@ object Main  
 
 **输出:**
 
-```
+```scala
 Company's name : GeeksforGeeks
 ```
 
 **6。对象:** [对象](https://www.geeksforgeeks.org/class-and-object-in-scala/)是它自己的类的单例，即它是它自己的定义的单个实例。
 **强:**
 
-```
+```scala
 object MyObject{
       def method_name() = {
       // Expression
@@ -186,7 +186,7 @@ object MyObject{
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate object
 object Main extends App
 {
@@ -203,7 +203,7 @@ object Main extends App
 
 **输出:**
 
-```
+```scala
 7
 ```
 
@@ -211,7 +211,7 @@ object Main extends App
 
 **语法**
 
-```
+```scala
 (y:Int)=>y+y
 
 ```
@@ -219,7 +219,7 @@ object Main extends App
 这个函数接受一个整数参数 y，并返回它的加法。我们也可以给值命名。
 **例:**
 
-```
+```scala
 // Scala program to illustrate function
 object Main 
 {
@@ -233,7 +233,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 8
 
 ```
@@ -241,7 +241,7 @@ object Main 
 **8。Scala 方法:**我们使用关键字“def”定义方法。它几乎类似于一个函数。接下来是标识符、参数列表、返回类型和主体。或者换句话说，它是执行特定任务的语句的集合。
 **语法**
 
-```
+```scala
 def method_name ([parameter_list]) : [return_type] = {
 
   // Method body
@@ -251,7 +251,7 @@ def method_name ([parameter_list]) : [return_type] = {
 
 **例**
 
-```
+```scala
 // Scala program to illustrate method
 object Main 
 {
@@ -269,14 +269,14 @@ object Main 
 
 **输出**
 
-```
+```scala
 Welcome to GFG
 ```
 
 **9。Scala Trait:**[Trait](https://www.geeksforgeeks.org/scala-traits/)就像 Java 中的接口。但是特性允许你实现成员。它可以有方法(抽象的和非抽象的)和字段作为其成员。它是用关键词“特质”来定义的。
 **语法**
 
-```
+```scala
 trait trait_name
 {
 // Fields
@@ -286,7 +286,7 @@ trait trait_name
 
 **例**
 
-```
+```scala
 // Scala program to illustrate traits 
 
 // Trait 
@@ -322,7 +322,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Hey Geeks
 ```
 

@@ -6,7 +6,7 @@
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     def sameElements(that: Iterator[_]): Boolean
 
     ```
@@ -18,7 +18,7 @@
 
 **示例-1:**
 
-```
+```scala
 // Scala program of sameElements()
 // method
 
@@ -48,7 +48,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -56,7 +56,7 @@ true
 这里，两个声明的迭代器是相同的，所以 *sameElements* 方法返回 true。
 T3】例:
 
-```
+```scala
 // Scala program of sameElements()
 // method
 
@@ -86,7 +86,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

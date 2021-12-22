@@ -8,7 +8,7 @@
 
 *   Simply print last element of a list
 
-    ```
+    ```scala
     // Scala program to find the last element of a given list 
     import scala.collection.immutable._
 
@@ -31,13 +31,13 @@
 
     **输出:**
 
-    ```
+    ```scala
     Last element is: best
     ```
 
 *   Print last element of a list using for loop
 
-    ```
+    ```scala
     // Scala program to find the last element of a given list
     // using for loop 
     import scala.collection.immutable._
@@ -64,13 +64,13 @@
 
     **输出:**
 
-    ```
+    ```scala
     portal
     ```
 
 *   Print last element of a list using foreach loop
 
-    ```
+    ```scala
     // Scala program to find the last element of a given list
     // using foreach loop 
     import scala.collection.immutable._
@@ -97,7 +97,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Original list is: 1 2 3 4 5 6 
     Last element is: 6
     ```

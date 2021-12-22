@@ -25,14 +25,14 @@ scala 中的异常与 C++或 Java 中的异常工作方式相同。当异常发�
 抛出异常。它看起来和 Java 中的一样。我们创建一个异常对象，然后使用 throw 关键字抛出它。
 **语法:**
 
-```
+```scala
 throw new ArithmeticException
 ```
 
 ***try/catch*构造**
 try/catch 构造在 Scala 中与在 Java 中不同，Scala 中的 try/catch 是一个*表达式*。Scala 中的异常和导致值的异常可以在 catch 块中进行模式匹配，而不是为每个不同的异常提供单独的 catch 子句。因为 Scala 中的 try/catch 是一个表达式。这是一个在 Scala 中使用传统的 try-catch 块进行异常处理的例子。
 
-```
+```scala
 // Scala program of try-catch Exception 
 import java.io.IOException
 
@@ -67,7 +67,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Arithmetic Exception occurred.
 ```
 
@@ -77,7 +77,7 @@ Arithmetic Exception occurred.
 
 如果不管表达式如何终止，我们都希望执行代码的某个部分，那么我们可以使用 finally 块。下面是上面的一个例子:
 
-```
+```scala
 // Scala program of finally Exception 
 
 // Creating object
@@ -109,7 +109,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Arithmetic Exception occurred.
 This is final block.
 ```

@@ -10,7 +10,7 @@ foreach()方法用于将给定的函数应用于 SortedMap 的所有元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach()
 // method
 import scala.collection.immutable.SortedMap
@@ -36,7 +36,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 key=1, value=for
 key=2, value=cs
 key=3, value=geeks

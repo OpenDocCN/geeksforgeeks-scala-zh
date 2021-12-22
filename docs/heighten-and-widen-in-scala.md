@@ -6,7 +6,7 @@
 
 例如，计算以下表达式将无法正常工作，因为组合元素中的第二行比第一行长:
 
-```
+```scala
 new ArrayElement(Array("geeks")) above 
 new ArrayElement(Array("forgeeks"))
 
@@ -14,7 +14,7 @@ new ArrayElement(Array("forgeeks"))
 
 同样，计算下面的表达式也不能正常工作，因为第一个 ArrayElement 的高度为 2，第二个 ArrayElement 的高度仅为 1:
 
-```
+```scala
 new ArrayElement(Array("yes", "no")) beside 
 new ArrayElement(Array("yes"))
 
@@ -24,7 +24,7 @@ new ArrayElement(Array("yes"))
 
 **示例:**
 
-```
+```scala
 // Widen function
 def widen(w: Int): Element =
 

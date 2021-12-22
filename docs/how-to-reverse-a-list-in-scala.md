@@ -7,7 +7,7 @@
 
 *   Reverse a simple list
 
-    ```
+    ```scala
     // Scala program to reverse a simple Immutable lists 
     import scala.collection.immutable._
 
@@ -30,13 +30,13 @@
 
     **输出:**
 
-    ```
+    ```scala
     Reversed List is: List(best, is, geeks, For, Geeks)
     ```
 
 *   Reverse a list using for loop
 
-    ```
+    ```scala
     // Scala program to print reverse immutable lists 
     // using for loop
     import scala.collection.immutable._
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     portal
     fabulous
     a
@@ -75,7 +75,7 @@
 
 *   Reverse a list using foreach loop
 
-    ```
+    ```scala
     // Scala program to reverse a list
     // using foreach loop
     import scala.collection.immutable._
@@ -103,7 +103,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Original list is: Geeks For geeks is a fabulous portal 
     Reversed list: List(portal, fabulous, a, is, geeks, For, Geeks)
     ```

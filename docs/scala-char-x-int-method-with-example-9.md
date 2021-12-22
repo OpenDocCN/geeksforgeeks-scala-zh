@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of <<(x: Int)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 570425344
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of <<(x: Int)
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 34816
 
 ```

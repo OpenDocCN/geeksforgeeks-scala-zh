@@ -11,7 +11,7 @@ Scala 中的 throw 关键字用于从方法或任何代码块中显式抛出异�
 
 **语法:**
 
-```
+```scala
  throw exception object
 Example:
  throw new ArithmeticException("divide by 0") 
@@ -31,7 +31,7 @@ Example:
 
 **示例:**
 
-```
+```scala
 
 // Scala program of throw keyword
 
@@ -57,7 +57,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 You are eligible for internship
 ```
 
@@ -65,7 +65,7 @@ You are eligible for internship
 
 当错误发生时，scala 方法可以抛出异常，而不是正常返回。在下面的例子中，我们观察到一个从函数中抛出的异常。
 
-```
+```scala
 // Scala program of throw keyword
 
 // Creating object
@@ -99,7 +99,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Exception caught in main: java.lang.Exception: Exception thrown from func
 
 ```

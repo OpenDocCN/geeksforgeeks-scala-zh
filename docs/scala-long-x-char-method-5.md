@@ -10,7 +10,7 @@ T2】原文:[https://www.geeksforgeeks.org/scala-long-x-char-method-5/](https://
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Long <(x: Char) method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

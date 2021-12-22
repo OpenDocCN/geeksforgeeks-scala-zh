@@ -23,7 +23,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of type casting
 object GFG
 {
@@ -63,7 +63,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 i = 40 is of type java.lang.Integer
 f = 6.0 is of type java.lang.Float
 d = 85.2 is of type java.lang.Double
@@ -78,7 +78,7 @@ c1 = 99 is of type java.lang.Integer
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of type casting
 
 // The parent class
@@ -130,7 +130,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Value of i : 10
 Value of j : 5
 Values Changed
@@ -140,7 +140,7 @@ Value of j : 12
 
 在上例中**p . change()；将添加**，将出现以下错误:
 
-```
+```scala
 error:value change is not a member of parent.
 ```
 
@@ -148,7 +148,7 @@ error:value change is not a member of parent.
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of type casting
 
 class Parent
@@ -199,7 +199,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 java.lang.ClassCastException: Parent cannot be cast to Unrelated
 java.lang.ClassCastException: Parent cannot be cast to Child
 ```

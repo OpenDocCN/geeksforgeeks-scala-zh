@@ -23,7 +23,7 @@ Scala 中有三种类型的访问修饰符:
 
 **示例:**
 
-```
+```scala
 // Scala program of private access modifier
 class abc
 { 
@@ -46,7 +46,7 @@ object access extends App
 
 **输出:**
 
-```
+```scala
 8
 ```
 
@@ -56,7 +56,7 @@ object access extends App
 
 **示例:**
 
-```
+```scala
 // Scala program of protected access modifier
 
 class gfg
@@ -94,7 +94,7 @@ object access extends App
 
 **输出:**
 
-```
+```scala
 8
 9
 ```
@@ -103,7 +103,7 @@ object access extends App
 
 **3。public:**Scala 中没有 **public** 关键字。默认访问级别(未指定修饰符时)对应于 Java 的公共访问级别。我们可以在任何地方找到这些。
 
-```
+```scala
 // Scala program of protected access modifier
 
 class gfg
@@ -120,6 +120,6 @@ object access extends App
 
 **输出:**
 
-```
+```scala
 444
 ```

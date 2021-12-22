@@ -17,7 +17,7 @@
 
     我们创建了一个扩展**线程类**的类。此类重写线程类中可用的 run()方法。线程在 run()方法中开始它的生命。我们创建一个新类的对象，并调用 start()方法来启动线程的执行。Start()调用 Thread 对象上的 run()方法。
 
-    ```
+    ```scala
     // Scala code for thread creation by extending 
     // the Thread class 
     class MyThread extends Thread 
@@ -48,7 +48,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Thread 1 is running.
     Thread 2 is running.
     Thread 3 is running.
@@ -60,7 +60,7 @@
 
     我们创建了一个新的类，它扩展了 Runnable 接口并覆盖了 run()方法。然后我们实例化一个线程对象，将创建的类传递给构造函数。然后我们在这个对象上调用 start()方法。
 
-    ```
+    ```scala
     // Scala code for thread creation by implementing 
     // the Runnable Interface 
     class MyThread extends Runnable 
@@ -91,7 +91,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Thread 1 is running.
     Thread 3 is running.
     Thread 4 is running.

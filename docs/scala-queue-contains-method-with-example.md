@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(10, 11, 12, 13, 14)
 Queue contains 12: true
 
@@ -50,7 +50,7 @@ Queue contains 12: true
 
 **例 2:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(10, 11, 12, 13, 14)
 Queue contains 20: false
 

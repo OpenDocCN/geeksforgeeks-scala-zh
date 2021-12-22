@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropRight() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 Queue after using dropRight(2) method: TreeSet(2, 4, 6, 7)
 
@@ -51,7 +51,7 @@ Queue after using dropRight(2) method: TreeSet(2, 4, 6, 7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropRight() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 Queue after using dropRight(4) method: TreeSet(2, 4)
 

@@ -10,7 +10,7 @@
     此代码使用 reduce 函数实现序列中元素的求和。
     **例:**
 
-    ```
+    ```scala
     // Scala program sum of elements 
     // using reduce function 
 
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Elements  = List(3.5, 5.0, 1.5)
     Sum of elements = 10.0
 
@@ -43,7 +43,7 @@
     该代码使用减少函数
     **找到序列中的最大和最小元素。示例:**
 
-    ```
+    ```scala
     // Scala program to find maximum and minimum 
     // using reduce function 
 
@@ -70,7 +70,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Elements = List(3.5, 5.0, 1.5)
     Maximum element = 5.0
     Minimum element = 1.5
@@ -84,7 +84,7 @@
     该代码使用 fold 函数实现序列中元素的求和。这里初始值取 0.0，因为序列是数据类型 Double。
     **例:**
 
-    ```
+    ```scala
     // Scala program sum of elements 
     // using fold function 
 
@@ -107,7 +107,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Elements = List(3.5, 5.0, 1.5)
     Sum of elements = 10.0
 
@@ -116,7 +116,7 @@
     这段代码用连字符连接字符串。我们使用初始值作为空字符串。因此，我们的 fold 方法将对空字符串应用运算符，并且使用 reduce，我们不会在集合的第一个值之前获得连字符。
     **例:**
 
-    ```
+    ```scala
     // Scala program concatenate string 
     // using fold function 
 
@@ -141,7 +141,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Elements = List(hello, Geeks, For, Geeks)
     After concatenation = -hello-Geeks-For-Geeks
 
@@ -153,7 +153,7 @@
     该代码使用扫描函数实现所有元素之和的迭代。
     T3】例:
 
-    ```
+    ```scala
     // Scala program sum of elements 
     // using scan function 
 
@@ -177,7 +177,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Elements of numbers = List(4, 2, 1, 6, 9)
     Running total of all elements in the collection = List(0, 4, 6, 7, 13, 22)
 
@@ -186,7 +186,7 @@
     这是用连字符连接字符串的实现，并显示了迭代。
     **例:**
 
-    ```
+    ```scala
     // Scala program concatenate string 
     // using scan function 
 

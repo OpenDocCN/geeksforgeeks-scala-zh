@@ -18,7 +18,7 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     将以下程序视为申请过程中驾照审批的一部分。如果申请人年龄不等于或大于 18 岁，则会产生错误。
 
-    ```
+    ```scala
     // Code to check the age of the applicant
     val applicant_age = 16
 
@@ -28,13 +28,13 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     如果年龄超过要求的最小值，进程将向前移动，否则，程序将抛出异常，如下所示:
 
-    ```
+    ```scala
     Exception in thread "main" java.lang.AssertionError: assertion failed
     ```
 
     在**预定义的标量**中查找相同的代码，会发现类似上面的代码:
 
-    ```
+    ```scala
     def assert(assertion: Boolean) { 
       if (!assertion) 
         throw new java.lang.AssertionError("assertion failed") 
@@ -47,7 +47,7 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     以下示例讲述了一个程序，该程序在执行时假设申请人的年龄在任何情况下都大于或等于 18 岁。主要代码已被避免，仅包含调用假定()的代码被合并。
 
-    ```
+    ```scala
     // Code to check the age of the applicant
     license_approval(17)
 
@@ -67,13 +67,13 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     假设()方法为静态检查器提供了一个可以依赖的公理。这减轻了检查人员的负担。如果满足假设()参数的布尔条件，程序将深入代码，否则将引发异常:
 
-    ```
+    ```scala
     Exception in thread "main" java.lang.AssertionError: assumption failed
     ```
 
     类似的代码可以在 Predef.scala 包中找到:
 
-    ```
+    ```scala
     def assume(assumption: Boolean) { 
       if (!assumption) 
         throw new java.lang.AssertionError("assumption failed") 
@@ -87,7 +87,7 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
     这种方法有处理问题的创新模式。如果某个条件不满足，它通常会责怪方法调用方。如果条件满足，程序继续执行，如果不满足，它抛出一个异常。在布尔条件作为参数之后，assert()和假设()的语法与之前相同。require()函数的工作可以用一个例子来说明:
     下面的例子展示了一个将任意奇数翻倍的方法。如果在函数中传递的数字是奇数，它会顺利工作，如果不是，则会引发异常。
 
-    ```
+    ```scala
     // Code to double the odd numbers
     def double_odd_numbers(number:Int) : Int = {
 
@@ -102,13 +102,13 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     如果条件不满足，将引发以下异常:
 
-    ```
+    ```scala
     Exception in thread "main" java.lang.IllegalArgumentException: requirement failed
     ```
 
     在 Predef.scala 中查找异常代码时，我们遇到了以下代码:
 
-    ```
+    ```scala
     def require(requirement: Boolean) { 
       if (!requirement) 
         throw new IllegalArgumentException("requirement failed") 
@@ -119,7 +119,7 @@ Scala 先决条件是一组主要的函数，程序员在设计软件时必须�
 
     与其他条件不同，保证是一个**后条件**。这种方法通常与 require()方法一起使用，以制作一个可行的程序。考虑到上面的例子本身，我们可以通过添加一个保证条件来修改代码，该条件要求输入的数字小于某个限制。
 
-    ```
+    ```scala
     // Code to double the odd numbers
     def double_odd_numbers(number:Int, lmt:Int) : Int = {
 

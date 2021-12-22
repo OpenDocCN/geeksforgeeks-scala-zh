@@ -8,7 +8,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to print Hello GFG! 
 
 // Creating object 
@@ -26,7 +26,7 @@ def main(args: Array[String]) 
 
 **输出:**
 
-```
+```scala
 Hello GFG!
 ```
 
@@ -36,7 +36,7 @@ Hello GFG!
 
 ## 去
 
-```
+```scala
 // Golang program
 package main
 
@@ -51,7 +51,7 @@ func main() {
 
 **输出:**
 
-```
+```scala
 Hello Geeks
 ```
 

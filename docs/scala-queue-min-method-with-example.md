@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 The smallest element of the queue: 1
 
@@ -51,7 +51,7 @@ The smallest element of the queue: 1
 
 **例 2:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 11, 23, 72, 14, 21, 118)
 The smallest element of the queue: 5
 

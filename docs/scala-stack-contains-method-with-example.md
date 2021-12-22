@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4, 5)
 Stack contains element 10: false
 
@@ -50,7 +50,7 @@ Stack contains element 10: false
 
 **例 2:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(C++, Java, Python, Scala)
 Stack contains element Scala: true
 

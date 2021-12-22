@@ -4,7 +4,7 @@
 
 如果一个特定的成员在类中没有一个完整的定义，那么这个成员被称为 ***抽象的*** 。这些抽象成员总是在定义它的类的任何子类中实现。这些类型的声明在许多编程语言中都是允许的，并且是面向对象编程语言的关键特性之一。Scala 还允许声明如下例所示的方法:
 
-```
+```scala
 abstract class Sample{
   def contents: Array[String]
   def width: Int = a
@@ -16,7 +16,7 @@ abstract class Sample{
 因此，在上面的类 Sample 中，我们已经声明了三个方法:内容、宽度和高度。后两种方法的实现已经定义，而在第一种方法 contents 中，没有提到任何类型的实现。因此，该方法是样本类的抽象成员。需要注意的是，具有抽象成员的类本身必须声明为抽象的。类前面的这个**抽象**关键字表示该类肯定会有一个没有实现的抽象成员。
 如何编写类内抽象成员的另一个例子:
 
-```
+```scala
 abstract class Example{
    type T
    def transform(x: T): T
@@ -32,7 +32,7 @@ abstract class Example{
 
 **示例:**
 
-```
+```scala
 // Scala program of abstract type member 
 
 // Declaring an abstract class
@@ -119,7 +119,7 @@ object AbstractFieldsDemo extends App
 
 **输出**
 
-```
+```scala
 car
 bus
 truck

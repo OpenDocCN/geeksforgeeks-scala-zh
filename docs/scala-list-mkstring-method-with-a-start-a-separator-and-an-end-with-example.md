@@ -11,7 +11,7 @@
 我们来看一些例子。
 **例 1:**
 
-```
+```scala
 // Scala program of mkString()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 _2*3*5*7*8_
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of mkString()
 // method
 
@@ -70,7 +70,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 /2_3_5_7_5/
 
 ```

@@ -5,7 +5,7 @@
 一个**栈**是一个遵循*后进先出*(后进先出)原则的数据结构。我们只能从称为*顶端*的一端添加或移除元素。Scala 有可变和不可变版本的堆栈。
 **语法:**
 
-```
+```scala
 import scala.collection.mutable.Stack
 var s = Stack[type]()
 
@@ -21,7 +21,7 @@ var s = Stack(val1, val2, val3, ...)
 *   **Push**: We can push element of any type to the stack using **push()** function. All elements must have same data type.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to
     // push element
     // to the stack
@@ -57,7 +57,7 @@ var s = Stack(val1, val2, val3, ...)
 
     **输出**:
 
-    ```
+    ```scala
     s:Stack(2, 1, 5)
     s2:Stack(2, 1, 5)
     ```
@@ -65,7 +65,7 @@ var s = Stack(val1, val2, val3, ...)
 *   **弹出**:我们可以使用**弹出**功能从栈顶弹出元素。该函数返回的类型与堆栈元素的类型相同。
     **例:**
 
-```
+```scala
 // Scala program to
 // pop element from
 // top of the stack
@@ -99,7 +99,7 @@ object GfG
 
 **输出**:
 
-```
+```scala
 Stack(2, 1, 5)
 Popped:2
 Popped:1
@@ -114,7 +114,7 @@ Popped:5
 *   **isEmpty**: To check whether the stack is empty. Returns *true* if it is empty.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to
     // check if the stack
     // is empty
@@ -152,7 +152,7 @@ Popped:5
 
     **输出**:
 
-    ```
+    ```scala
     Stack(2, 1, 5)
     Popped:2
     Popped:1
@@ -164,7 +164,7 @@ Popped:5
 *   **top**: Returns the element that is currently at the top of the stack.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to
     // print top of stack
 
@@ -193,7 +193,7 @@ Popped:5
 
     **输出**:
 
-    ```
+    ```scala
     Stack(2, 1, 5)
     Top: 2
     Popped:2
@@ -203,7 +203,7 @@ Popped:5
 *   **size**:Returns the number of elements present in the stack.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to
     // print size of the stack
 
@@ -232,7 +232,7 @@ Popped:5
 
     **输出**:
 
-    ```
+    ```scala
     Stack(2, 1, 5)
     Size: 3
     Popped:2

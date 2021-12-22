@@ -17,7 +17,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Importing SparkSession
 import org.apache.spark.sql.SparkSession
 
@@ -60,7 +60,7 @@ intRDD.collect().foreach(println)
 
 **输出:**
 
-```
+```scala
 Number of partitions in intRDD : 3
 First element in intRDD : 1
 String from intRDD : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10

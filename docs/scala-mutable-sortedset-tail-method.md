@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(6, 7, 8)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(4, 23, 43)
 
 ```

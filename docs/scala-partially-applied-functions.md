@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```scala
 val multiply = (a: Int, b: Int, c: Int) => a * b * c
 
 // less arguments passed
@@ -21,7 +21,7 @@ val f = multiply(1, 2, _: Int)
 正如我们在上面的语法中看到的，我们定义了一个普通的函数乘法，它有三个参数，我们传递的参数较少(两个)。我们可以看到它没有抛出部分应用函数的异常。
 **例:**
 
-```
+```scala
 // Scala program of Partially
 // applied functions
 
@@ -56,7 +56,7 @@ object Applied
 
 **Output:**
 
-```
+```scala
 300.0
 
 ```
@@ -68,7 +68,7 @@ object Applied
 1.  即使未应用于任何已定义的参数，也可以获得部分应用的函数。
     **例:**
 
-    ```
+    ```scala
     // Scala program of Partially
     // applied functions
 
@@ -99,7 +99,7 @@ object Applied
 
     **输出:**
 
-    ```
+    ```scala
     72.0
 
     ```
@@ -107,7 +107,7 @@ object Applied
 2.  部分应用的函数可以用来替换任意数量的参数。
     **例:**
 
-    ```
+    ```scala
     // Scala program of Partially
     // applied functions
 
@@ -138,7 +138,7 @@ object Applied
 
     **输出:**
 
-    ```
+    ```scala
     560.0
 
     ```
@@ -146,7 +146,7 @@ object Applied
 3.  *Currying* approach can be utilized in Partially applied functions to transmit a function with multiple arguments into multiple functions, where each function takes only one argument.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of Partially
     // applied functions using
     // Currying approach
@@ -178,7 +178,7 @@ object Applied
 
     **Output:**
 
-    ```
+    ```scala
     8.0
 
     ```

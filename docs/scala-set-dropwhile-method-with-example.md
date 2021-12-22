@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -40,7 +40,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(5, 1, 2, 3, 4)
 Set(2, 3, 4)
 
@@ -48,7 +48,7 @@ Set(2, 3, 4)
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -78,7 +78,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(5, 1, 2, 3, 4)
 Set()
 

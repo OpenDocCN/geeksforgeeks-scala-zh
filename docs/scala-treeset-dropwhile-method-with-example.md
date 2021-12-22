@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 TreeSet after using dropWhile() method: TreeSet(7, 8, 9)
 
@@ -51,7 +51,7 @@ TreeSet after using dropWhile() method: TreeSet(7, 8, 9)
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(3, 5, 6, 7, 8, 9)
 TreeSet after using dropWhile() method: TreeSet(6, 7, 8, 9)
 

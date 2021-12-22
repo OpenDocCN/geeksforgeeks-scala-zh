@@ -11,7 +11,7 @@ Scala 位集是由非负整数组成的集合，这些整数被表示为大小�
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Bitset ++
 // method 
 import scala.collection.immutable.BitSet 
@@ -39,14 +39,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(0, 1, a, 2, B, 3)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Bitset ++
 // method 
 import scala.collection.immutable.BitSet 
@@ -74,7 +74,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(0, 1, A, 2, 3)
 
 ```

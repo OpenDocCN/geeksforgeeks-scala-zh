@@ -5,7 +5,7 @@
 为了从 Scala 映射中获取所有值，我们需要使用 *values* 方法(以 Iterable 的形式获取所有值)，如果我们想要以迭代器的形式获取值，我们需要使用*ValueSiteror*方法。现在，让我们来看看一些例子。
 **例 1:**
 
-```
+```scala
 // Scala program of values()
 // method
 
@@ -32,7 +32,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 MapLike(geeks, for, cs)
 
 ```
@@ -40,7 +40,7 @@ MapLike(geeks, for, cs)
 这里，使用*值*方法。
 **例 2:**
 
-```
+```scala
 // Scala program of valuesIterator()
 // method
 
@@ -67,7 +67,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```

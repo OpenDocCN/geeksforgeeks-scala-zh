@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Vector in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(Geeks, for, Geeks)
 
 ```
@@ -49,7 +49,7 @@ Vector(Geeks, for, Geeks)
 因此，结果输出的顺序与上面列表中的顺序相同，重复的输出也不会被删除。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Vector in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(My, name is, Nidhi)
 
 ```

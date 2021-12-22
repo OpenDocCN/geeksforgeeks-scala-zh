@@ -16,14 +16,14 @@
 *   **十进制文字:**
     这里，允许的位数是从 0 到 9。
 
-    ```
+    ```scala
     val x = 37
     ```
 
     *   **Hexa-decimal literals:**
     Here, the allowed digits are from 0 to 9 and characters used are from a to f. We can use uppercase as well as lowercase characters.
 
-    ```
+    ```scala
     // The hexa-decimal number should be prefix
     // with 0X or 0x.
     val x = 0xFFF
@@ -31,7 +31,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of integer
     // literals
 
@@ -59,7 +59,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     46
     255
 
@@ -70,13 +70,13 @@
     *   **Floating Point Literals :**
     This type of literals are of type Double as well as type Float when a suffix F or f is added at the end and we can even specify Double type by suffixed with d or D.
 
-    ```
+    ```scala
     val x = 3.14159
     ```
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of floating
     // point literals
 
@@ -104,7 +104,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     3.156
     123.34
 
@@ -115,25 +115,25 @@
     *   **Character Literals :**
     character literals are either uni-code character which are printable or are represented by escape sequences.
 
-    ```
+    ```scala
     val x = 'b' 
     //character literal in a single quote.
     ```
 
-    ```
+    ```scala
     val x = '\u0051' 
     //uni-code representation of character literal,
     //This uni-code represents Q.
     ```
 
-    ```
+    ```scala
     val x = '\n' 
     //Escape sequence in character literals
     ```
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of character
     // literal
 
@@ -166,7 +166,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     b
     Q
 

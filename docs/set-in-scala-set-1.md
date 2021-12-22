@@ -5,7 +5,7 @@
 一套**套**是只包含 ***独有物品*** 的集合。集合的唯一性由集合所包含的类型的==方法定义。如果您试图在集合中添加重复的项目，则集合会悄悄地放弃您的请求。
 **语法:**
 
-```
+```scala
 // Immutable set
 val variable_name: Set[type] = Set(item1, item2, item3)
 or
@@ -28,7 +28,7 @@ var variable_name = Set(item1, item2, item3)
 *   在 Scala 中，我们可以创建空集合。
     **语法:**
 
-    ```
+    ```scala
     // Immutable empty set
     val variable_name = Set()
 
@@ -38,7 +38,7 @@ var variable_name = Set(item1, item2, item3)
 
 **例 1:**
 
-```
+```scala
 // Scala program to illustrate the 
 // use of immutable set
 import scala.collection.immutable._
@@ -70,7 +70,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set 1:
 Set(Geeks, GFG, GeeksforGeeks, Geek123)
 
@@ -86,7 +86,7 @@ Java
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate the 
 // use of mutable set
 import scala.collection.immutable._
@@ -115,7 +115,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set 1:
 Set(Geeks, GFG, GeeksforGeeks, Geek123)
 
@@ -130,7 +130,7 @@ Set 2:
 
 **例 3:**
 
-```
+```scala
 // Scala program to illustrate the 
 // use of empty set
 import scala.collection.immutable._
@@ -152,7 +152,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 The empty set is:
 Set()
 
@@ -163,7 +163,7 @@ Set()
 在集合中，**排序集合**用于按排序顺序从集合中获取值。SortedSet 只适用于不可变集合。
 T3】例:
 
-```
+```scala
 // Scala program to get sorted values 
 // from the set
 import scala.collection.immutable.SortedSet 
@@ -182,7 +182,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 0
 3
 6

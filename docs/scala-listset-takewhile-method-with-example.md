@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala program of takeWhile() 
 // method 
 import scala.collection.immutable._
@@ -38,14 +38,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 ListSet(4, 5, 7)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of takeWhile() 
 // method 
 import scala.collection.immutable._
@@ -73,7 +73,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 ListSet()
 
 ```

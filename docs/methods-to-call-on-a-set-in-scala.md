@@ -7,7 +7,7 @@
 **1。def+(elem:A):Set[A]–**此方法用于向集合中添加一个元素，然后将其返回。
 T3】例:
 
-```
+```scala
 // Scala program of +() 
 // method 
 
@@ -33,14 +33,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(1, 6, 9, 2, 7, 8, 4)
 ```
 
 **2。def-(elem:A):Set[A]–**此方法用于从集合中移除元素，然后将其返回。
 T3】例:
 
-```
+```scala
 // Scala program of -() 
 // method 
 
@@ -66,14 +66,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(9, 2, 7, 8, 4)
 ```
 
 **3。def 包含(elem:A):Boolean–**如果集合包含指定的元素，则此方法返回 true。否则，它将返回 false。
 T3】例:
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -99,14 +99,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 true
 ```
 
 **4。def &(即:Set[A]):Set[A]–**此方法用于返回两个集合的交集。
 T3】例:
 
-```
+```scala
 // Scala program of &() 
 // method 
 
@@ -133,14 +133,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(8, 4)
 ```
 
 **5。def & ~(即:设置[A]):设置[A]–**此符号表示设置差异。
 T3】例:
 
-```
+```scala
 // Scala program of &~() 
 // method 
 
@@ -167,14 +167,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(1, 9, 2, 7)
 ```
 
 **6。def +(elem1: A，elem2: A，elems:A *):Set[A]–**这个方法是将多个元素加到一个 Scala 集合中，然后返回。
 T3】例:
 
-```
+```scala
 // Scala program of +() 
 // method 
 
@@ -200,14 +200,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(1, 6, 9, 2, 7, 3, 8, 4)
 ```
 
 **7。def++(elems:A):Set[A]–**此方法用于一个集合与另一个集合的串联。
 T3】例:
 
-```
+```scala
 // Scala program of ++() 
 // method 
 
@@ -234,14 +234,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(1, 6, 9, 2, 7, 3, 8, 4)
 ```
 
 **8。def -(elem1: A，elem2: A，elems:A *):Set[A]–**此方法用于从集合中移除提到的每个元素。
 T3】例:
 
-```
+```scala
 // Scala program of -() 
 // method 
 
@@ -267,14 +267,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(9, 2, 7, 4)
 ```
 
 **9。def add String(b:StringBuilder):StringBuilder–**该方法用于将集合的所有元素添加到 StringBuilder 中。
 T3】例:
 
-```
+```scala
 // Scala program of addString() 
 // method 
 
@@ -300,14 +300,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 192784
 ```
 
 **10。def addString(b: StringBuilder，sep:String):StringBuilder–**这个方法被用作上述功能的分隔符。
 T3】例:
 
-```
+```scala
 // Scala program of addString() 
 // method 
 
@@ -333,14 +333,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 1*9*2*7*8*4
 ```
 
 **11 时。def apply(elem:A)–**此方法用于检查元素是否是集合的一部分。它返回布尔值“真”或“假”。
 T3】例:
 
-```
+```scala
 // Scala program of apply() 
 // method 
 
@@ -366,14 +366,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 true
 ```
 
 **12 时。def drop(n:Int):Set[A]]–**此方法用于返回除第一个 n.
 之外的所有元素**示例:**
 
-```
+```scala
 // Scala program of drop() 
 // method 
 
@@ -399,14 +399,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(7, 3, 8)
 ```
 
 **13。def drop right(n:Int):Set[A]–**此方法用于返回除最后 n 个元素之外的所有元素，这与上述方法()正好相反。
 T3】例:
 
-```
+```scala
 // Scala program of dropRight() 
 // method 
 
@@ -432,14 +432,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(5, 1, 9, 2)
 ```
 
 **14。def 等于(即:任意):布尔值–**该方法用于将集合与另一个序列进行比较。
 T3】例:
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -465,14 +465,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 true
 ```
 
 **15。def head:A–**此方法用于返回集合中的第一个元素。
 T3】例:
 
-```
+```scala
 // Scala program of head() 
 // method 
 
@@ -498,14 +498,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 5
 ```
 
 **16。def init:Set[A]–**此方法用于返回集合中除最后一个元素之外的所有元素。
 T3】例:
 
-```
+```scala
 // Scala program of init() 
 // method 
 
@@ -531,14 +531,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(5, 1, 9, 2, 7)
 ```
 
 **17。def intersect(即:Set[A]):Set[A]–**这个方法用来返回两个集合的交集，也就是说它返回两个集合的公共元素。
 T3】例:
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -565,14 +565,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(1, 9, 2, 3)
 ```
 
 **18。def isEmpty:Boolean–**如果给定的集合为空，则该方法返回 true。否则，它将返回 False。
 T3】例:
 
-```
+```scala
 // Scala program of isEmpty() 
 // method 
 
@@ -598,14 +598,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 false
 ```
 
 **19。def 迭代器:迭代器[A]–**这个方法有助于在集合上创建一个新的迭代器。
 T3】例:
 
-```
+```scala
 // Scala program of iterator() 
 // method 
 
@@ -631,14 +631,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 non-empty iterator
 ```
 
 **20。def last:A–**这个方法有助于从集合中返回最后一个元素。
 T3】例:
 
-```
+```scala
 // Scala program of last() 
 // method 
 
@@ -664,14 +664,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 3
 ```
 
 **21。def max:A–**此方法用于返回集合中的最高值。
 T3】例:
 
-```
+```scala
 // Scala program of max() 
 // method 
 
@@ -697,14 +697,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 8
 ```
 
 **22。def min:A–**此方法用于返回集合中最低的元素。
 T3】例:
 
-```
+```scala
 // Scala program of min() 
 // method 
 
@@ -730,14 +730,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 1
 ```
 
 **23。def mkString:String–**此方法有助于将集合中的所有元素表示为字符串。
 T3】例:
 
-```
+```scala
 // Scala program of mkString() 
 // method 
 
@@ -763,14 +763,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 52738
 ```
 
 **24。def product:A–**此方法用于返回集合中所有元素的乘积。
 T3】例:
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -796,14 +796,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 1890
 ```
 
 **25。def size:Int–**此方法用于返回集合的大小。
 T3】例:
 
-```
+```scala
 // Scala program of size() 
 // method 
 
@@ -829,14 +829,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 5
 ```
 
 **26。def sum:A–**此方法用于返回集合所有元素的和。
 T3】例:
 
-```
+```scala
 // Scala program of sum() 
 // method 
 
@@ -862,14 +862,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 27
 ```
 
 **27。def tail:Set[A]–**此方法用于返回集合中除第一个元素之外的所有元素。
 T3】例:
 
-```
+```scala
 // Scala program of tail() 
 // method 
 
@@ -895,14 +895,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(2, 7, 3, 8)
 ```
 
 **28。def take(n:Int):Set[A]–**此方法用于返回集合中的前 n 个元素。
 T3】例:
 
-```
+```scala
 // Scala program of take() 
 // method 
 
@@ -928,7 +928,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Set(5, 1, 9)
 ```
 

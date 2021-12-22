@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of exists()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -45,7 +45,7 @@ true
 因此，这里陈述的谓词对于第二个**键值**对是真的，所以返回真。
 **例 2:**
 
-```
+```scala
 // Scala program of exists()
 // method
 
@@ -72,7 +72,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

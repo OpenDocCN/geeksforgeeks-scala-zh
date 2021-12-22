@@ -5,7 +5,7 @@
 Scala 对类型参数或类型变量有一些限制，即(类型界限)**上限**就是其中之一。通过实现类型界限，我们可以解释类型变量的约束，这些类型界限限制了类型变量的确定值，并揭示了关于这些类型的成员的更多细节。上限是在类型参数上定义的。
 **语法**
 
-```
+```scala
 [T <: S]
 ```
 
@@ -13,7 +13,7 @@ Scala 对类型参数或类型变量有一些限制，即(类型界限)**上限*
 我们用例子来理解上界。
 **例**
 
-```
+```scala
 // Scala Program To Demonstrate Scala Upper Bound
 class GeeksforGeeks
 class Author extends GeeksforGeeks
@@ -50,7 +50,7 @@ object ScalaUpperBounds
 
 **Output:**
 
-```
+```scala
 Geeks@506e1b77
 Author@4fca772d
 
@@ -60,7 +60,7 @@ Author@4fca772d
 
 **例**
 
-```
+```scala
 // Scala Program To Demonstrate Scala Upper Bound
 class  Principal
 class Teacher extends Principal
@@ -97,7 +97,7 @@ object ScalaUpperBounds
 
 **Output:**
 
-```
+```scala
 Teacher@506e1b77
 Student@4fca772d
 

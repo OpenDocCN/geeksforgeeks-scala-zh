@@ -11,7 +11,7 @@ splitAt()方法用于在指定的位置将给定的队列拆分成一对前缀/�
 
 **示例#1:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -44,7 +44,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 (Queue(5, 2, 13), Queue(7, 1))
 
@@ -52,7 +52,7 @@ Queue(5, 2, 13, 7, 1)
 
 **例 2:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -85,7 +85,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 (Queue(5, 2), Queue(13, 7, 1))
 

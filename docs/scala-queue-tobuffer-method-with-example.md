@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toBuffer() 
 // method 
 
@@ -46,7 +46,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Elements in the buffer: 1 2 3 4 5
 
@@ -54,7 +54,7 @@ Elements in the buffer: 1 2 3 4 5
 
 **例 2:**
 
-```
+```scala
 // Scala program of toBuffer() 
 // method 
 
@@ -90,7 +90,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 Elements in the buffer: 5 2 13 7 1
 

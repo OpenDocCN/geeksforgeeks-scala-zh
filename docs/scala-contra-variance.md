@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 List[-T]
 ```
 
@@ -14,7 +14,7 @@ List[-T]
 
 **示例 1:** 让我们考虑一个例子，其中打印机是打印某种类型的类。我们将在这里为类型定义子类:
 
-```
+```scala
 // Scala program to illustrate contra-variance 
 
 abstract class Printer[-S] 
@@ -70,7 +70,7 @@ object Contravariance extends App
 
 **输出:**
 
-```
+```scala
 Lily's name is: White Lily
 The flower's name is: White Lily
 
@@ -80,7 +80,7 @@ The flower's name is: White Lily
 
 **示例 2:** 考虑该示例通用级车辆:
 
-```
+```scala
 // Scala program to illustrate contra-variance 
 
 abstract class GetVehicleName[-S] 
@@ -134,7 +134,7 @@ object Contravariance extends App
 
 **输出:**
 
-```
+```scala
 Bike's name is: Yamaha Fazer
 The vehicle's name is: Yamaha Fazer
 

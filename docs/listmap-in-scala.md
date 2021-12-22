@@ -5,7 +5,7 @@
 不可变映射通过使用基于列表的数据结构来实现。 [Scala 列表](https://www.geeksforgeeks.org/scala-lists/)类保存一个有序的线性项目列表。我们必须为 ListMap 导入 Scala . collection . mutatable . ListMap。ListMap 集合仅用于少量元素。
 **语法:**
 
-```
+```scala
 var listMapName = ListMap("k1"->"v1", "k2"->"v2", "k3"->"v3", ...) 
 ```
 
@@ -18,7 +18,7 @@ var listMapName = ListMap("k1"->"v1", "k2"->"v2", "k3"->"v3", ...)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to create or print ListMap
 import scala.collection.immutable.ListMap
 
@@ -40,7 +40,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 Map(C -> Csharp, S -> Scala, J -> Java)
 ```
 
@@ -49,7 +49,7 @@ Map(C -> Csharp, S -> Scala, J -> Java)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to Adding and Accessing Elements ListMap
 import scala.collection.mutable.ListMap
 
@@ -84,7 +84,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 J -> Java
 C -> Csharp
 S -> Scala
@@ -100,7 +100,7 @@ S -> Scala
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to removing Element from ListMap
 import scala.collection.mutable.ListMap
 
@@ -134,7 +134,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 J -> Java
 C -> Csharp
 S -> Scala
@@ -148,7 +148,7 @@ S -> Scala
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to Create an empty ListMap
 import scala.collection.mutable.ListMap
 
@@ -174,7 +174,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 Map()
 Map()
 ```

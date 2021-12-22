@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of mkString() method
 // with a start, a separator and an
 // end
@@ -38,14 +38,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 >>>cs -> 2|for -> 3|geeks -> 5--
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of mkString() method
 // with a start, a separator and an
 // end
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 >>>for -> 3|geeks -> 5--
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 2, 13, 7, 1)
 (Stack(5, 2), Stack(13, 7, 1))
 
@@ -51,7 +51,7 @@ Stack(5, 2, 13, 7, 1)
 
 **例 2:**
 
-```
+```scala
 // Scala program of splitAt() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 2, 13, 7, 1)
 (Stack(5, 2, 13), Stack(7, 1))
 

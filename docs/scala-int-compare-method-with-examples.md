@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala Program to demonstrate the 
 // compare method of Int class
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala Program to demonstrate the 
 // compare method of Int class
 
@@ -63,7 +63,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 -1
 
 ```

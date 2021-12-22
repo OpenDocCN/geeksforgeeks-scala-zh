@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of head() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 7, 6, 5)
 Top element of the stack: 1
 
@@ -51,7 +51,7 @@ Top element of the stack: 1
 
 **例 2:**
 
-```
+```scala
 // Scala program of head() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 3, 2, 7, 6, 1)
 Top element of the stack: 5
 

@@ -7,7 +7,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // A simple scala program of enumeration
 
 // Creating enumeration
@@ -31,7 +31,7 @@ object Main extends Enumeration
 
 **Output:** 
 
-```
+```scala
 Main Movie Genres = Movies.ValueSet(Thriller, Horror, Comedy, Romance)
 ```
 
@@ -48,7 +48,7 @@ Main Movie Genres = Movies.ValueSet(Thriller, Horror, Comedy, Romance)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program Printing particular
 // element of the enumeration
 
@@ -73,6 +73,6 @@ object Main extends Enumeration
 
 **Output:** 
 
-```
+```scala
 The third value = Comedy
 ```

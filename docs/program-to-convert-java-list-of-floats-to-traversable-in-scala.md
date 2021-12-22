@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Traversable in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(1.2, 1.6, 5.3)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list
 // to a Traversable in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(4.8, 8.8, 7.8)
 
 ```

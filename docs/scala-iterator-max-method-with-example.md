@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of max()
 // method
 
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 66
 
 ```
@@ -47,7 +47,7 @@ object GfG
 因此，返回集合中最大的元素。
 **例 2:**
 
-```
+```scala
 // Scala program of max()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 9.9
 
 ```

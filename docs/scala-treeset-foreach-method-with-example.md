@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -41,7 +41,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 Elements in the TreeSet: 2 4 6 7 8 9
 
@@ -49,7 +49,7 @@ Elements in the TreeSet: 2 4 6 7 8 9
 
 **例 2:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -79,7 +79,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 2 times 2 = 4
 4 times 4 = 16

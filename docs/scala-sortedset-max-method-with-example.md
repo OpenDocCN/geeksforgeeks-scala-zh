@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of max() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 72
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of max() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 118
 
 ```

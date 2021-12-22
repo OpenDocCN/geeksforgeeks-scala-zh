@@ -5,13 +5,13 @@
 **Lambda 表达式**是指使用[匿名函数](https://www.geeksforgeeks.org/anonymous-functions-in-scala/)代替变量或值的表达式。当我们有一个简单的函数在一个地方使用时，Lambda 表达式更方便。这些表达式比定义整个函数更快、更有表现力。我们可以使我们的 lambda 表达式*可重用*用于任何类型的转换。它可以迭代对象集合，并对它们执行某种转换。
 **语法**:
 
-```
+```scala
 val lambda_exp = (variable:Type) => Transformation_Expression
 ```
 
 **例**:
 
-```
+```scala
 // lambda expression to find double of x
 val ex = (x:Int) => x + x
 ```
@@ -21,7 +21,7 @@ val ex = (x:Int) => x + x
 *   We can pass values to a lambda just like a normal function call.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to show
     // working of lambda expression
 
@@ -46,7 +46,7 @@ val ex = (x:Int) => x + x
 
     **输出:**
 
-    ```
+    ```scala
     9
     6
     ```
@@ -54,7 +54,7 @@ val ex = (x:Int) => x + x
 *   要对任何集合应用变换，我们一般使用 **map()** 函数。这是一个高阶函数，我们可以将 lambda 作为参数传递，以便根据 lambda 表达式的定义转换集合中的每个元素。
     T3】例:
 
-```
+```scala
 // Scala program to apply
 // transformation on collection
 
@@ -81,7 +81,7 @@ val res = l.map( x=> x * x )
 
 **输出:**
 
-```
+```scala
 List(1, 1, 4, 9, 25, 64)
 ```
 
@@ -90,7 +90,7 @@ List(1, 1, 4, 9, 25, 64)
 *   We are passing it as an argument. However, we can make it reusable and may use it with different collections.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to apply
     // transformation on collection
 
@@ -119,7 +119,7 @@ List(1, 1, 4, 9, 25, 64)
 
     **输出:**
 
-    ```
+    ```scala
     List(1, 1, 4, 9, 25, 64)
     List(169, 441, 1156)
     ```
@@ -127,7 +127,7 @@ List(1, 1, 4, 9, 25, 64)
     *   A lambda can also be used as a parameter to a function.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to pass lambda
     // as parameter to a function
 
@@ -156,7 +156,7 @@ List(1, 1, 4, 9, 25, 64)
 
     **输出:**
 
-    ```
+    ```scala
     12.56
     ```
 
@@ -165,7 +165,7 @@ List(1, 1, 4, 9, 25, 64)
     *   We can perform the same task on any collection as well. In case of collections, the only change we need to make in transform function is using **map** function to apply transformation defined by *f* to every element of the list *l*.
     **Example :**
 
-    ```
+    ```scala
     // Scala program to pass lambda
     // as parameter to a function
 
@@ -192,6 +192,6 @@ List(1, 1, 4, 9, 25, 64)
 
     **输出:**
 
-    ```
+    ```scala
     List(3.14, 12.56, 28.259999999999998)
     ```

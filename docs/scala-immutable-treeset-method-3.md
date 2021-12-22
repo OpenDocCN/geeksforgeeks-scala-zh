@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of +() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o)
 After adding an element: TreeSet(a, e, i, o, u)
 
@@ -51,7 +51,7 @@ After adding an element: TreeSet(a, e, i, o, u)
 
 **例 2:**
 
-```
+```scala
 // Scala program of +() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 4, 5)
 After adding an element: TreeSet(1, 2, 3, 4, 5)
 

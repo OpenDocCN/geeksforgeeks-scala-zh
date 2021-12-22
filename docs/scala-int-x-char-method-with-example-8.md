@@ -11,7 +11,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-int-x-char-method-with-exam
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int <(x: Char)
 // method
 
@@ -35,7 +35,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```
 
@@ -43,7 +43,7 @@ true
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int <(x: Char)
 // method
 
@@ -67,6 +67,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 false
 ```

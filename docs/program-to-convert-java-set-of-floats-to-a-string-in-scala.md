@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [3.2, 6.4, 9.6]
 
 ```
@@ -49,7 +49,7 @@ object GfG
 这里，对于集合的每个元素，十进制后的数字是不同的，因此，结果输出按十进制后的数字的升序排列。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [2.1, 3.1, 1.1]
 
 ```

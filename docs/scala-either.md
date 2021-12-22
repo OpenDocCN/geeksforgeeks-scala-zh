@@ -5,7 +5,7 @@
 在 Scala 中**或者**，功能完全类似于 [*选项*](https://www.geeksforgeeks.org/scala-option/) 。唯一不同的是，无论使用哪种方法，都可以返回一个字符串，该字符串可以解释关于出现的错误的指令。*或者*有两个孩子，分别命名为*右*和*左*，其中 ***右*** 类似于*部分*班， ***左**T21】与*无*班相同。左侧用于失败，我们可以返回发生在“非此即彼”子级中的错误，右侧用于成功。
 **例:***
 
-```
+```scala
  Either[String, Int]
 ```
 
@@ -13,7 +13,7 @@
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of Either
 
     // Creating object and inheriting
@@ -47,7 +47,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Right(GeeksforGeeks)
     Left(There is no name.)
 
@@ -57,7 +57,7 @@
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of Either with
     // Pattern matching
 
@@ -101,7 +101,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Right: 2
 
     ```

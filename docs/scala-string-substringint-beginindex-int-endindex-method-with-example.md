@@ -12,7 +12,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of substring()
 // method
 
@@ -36,14 +36,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 sfor
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of substring()
 // method
 
@@ -67,7 +67,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Geek
 
 ```

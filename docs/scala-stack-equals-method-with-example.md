@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -46,7 +46,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Stack_1: Stack(1, 3, 2, 7, 6, 5)
 Stack_2: Stack(1, 3, 2, 7, 6, 5)
 Stack_1 == Stack_2: true

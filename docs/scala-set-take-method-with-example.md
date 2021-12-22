@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of take() 
 // method 
 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(5, 1)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of take() 
 // method 
 
@@ -68,7 +68,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(41, 12, 23)
 
 ```

@@ -5,7 +5,7 @@
 在 Scala 中，一个**匿名函数**也被称为函数文字。不包含名称的函数称为匿名函数。匿名函数提供轻量级函数定义。当我们想要创建一个内联函数时，它非常有用。
 **语法:**
 
-```
+```scala
 (z:Int, y:Int)=> z*y
 Or
 (_:Int)*(_Int)
@@ -19,7 +19,7 @@ Or
 
 **例 1:**
 
-```
+```scala
 // Scala program to illustrate the anonymous method
 object Main 
 {
@@ -46,7 +46,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Geeks12Geeks
 GeeksforGeeks
 
@@ -56,7 +56,7 @@ GeeksforGeeks
 我们可以定义一个无参数匿名函数。在 Scala 中，我们可以将匿名函数作为参数传递给另一个函数。
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate anonymous method
 object Main 
 {
@@ -90,7 +90,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Welcome to GeeksforGeeks...!!
 DogCat
 DogCat

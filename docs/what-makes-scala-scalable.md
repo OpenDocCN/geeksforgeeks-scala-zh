@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```scala
 class Geek
 {
     // data members of the class.
@@ -32,7 +32,7 @@ class Geek
 
 ## 斯卡拉
 
-```
+```scala
 class Geek(name: String, id: Int) {}
 ```
 
@@ -41,7 +41,7 @@ class Geek(name: String, id: Int) {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```scala
 // Function to find string which has
    // first character of each word.
    static char first(String str)
@@ -57,7 +57,7 @@ class Geek(name: String, id: Int) {}
 
 ## 斯卡拉
 
-```
+```scala
 val first = str.exists(_.isUpperCase)
 ```
 

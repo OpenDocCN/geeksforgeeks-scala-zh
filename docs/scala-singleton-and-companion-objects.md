@@ -7,7 +7,7 @@
 Scala 是比 Java 更面向对象的语言，所以 Scala 不**不**包含任何**静态**关键字的概念。Scala 没有静态关键字，而是有**单例对象**。单例对象是定义一个类的单个对象的对象。单例对象为程序执行提供了入口点。如果你没有在你的程序中创建一个单独的对象，那么你的代码编译成功但是没有输出。所以你需要一个单独的对象来获得你的程序的输出。使用**对象**关键字创建单例对象。
 **语法:**
 
-```
+```scala
 object Name{
 // code...
 }
@@ -26,7 +26,7 @@ object Name{
 
 ## 斯卡拉
 
-```
+```scala
 // A simple Scala program to illustrate
 // the concept of singleton object
 
@@ -62,7 +62,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Height of the rectangle is:40
 Length of the rectangle is:20
 Area of the rectangle is :800
@@ -72,7 +72,7 @@ Area of the rectangle is :800
 
 ## 斯卡拉
 
-```
+```scala
 // A Scala program to illustrate
 // how to call method inside singleton object
 
@@ -107,7 +107,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Welcome ! GeeksforGeeks
 This is Scala language tutorial
 ```
@@ -121,7 +121,7 @@ This is Scala language tutorial
 
 ## **斯卡拉**
 
-```
+```scala
 // A Scala program to illustrate
 // the concept of the Companion object
 
@@ -154,7 +154,7 @@ object ExampleofCompanion
 
 ****输出:**** 
 
-```
+```scala
 GeeksforGeeks
 Tutorial of Companion object
 ```

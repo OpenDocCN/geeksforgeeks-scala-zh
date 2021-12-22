@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Float +(x: Double)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 11.0
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Float +(x: Double)
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 108.0
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -37,7 +37,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 4
 5
 
@@ -45,7 +45,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -72,7 +72,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 2
 3
 4

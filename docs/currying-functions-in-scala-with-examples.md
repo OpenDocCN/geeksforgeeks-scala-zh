@@ -6,14 +6,14 @@
 
 **语法**
 
-```
+```scala
 def function name(argument1, argument2) = operation
 ```
 
 让我们用一个简单的例子来理解，
 **例子:**
 
-```
+```scala
 // Scala program add two numbers
 // using currying Function
 object Curry
@@ -30,7 +30,7 @@ object Curry
 
 **输出:**
 
-```
+```scala
 39
 ```
 
@@ -41,13 +41,13 @@ object Curry
 
 **语法**
 
-```
+```scala
 def function name(argument1) = (argument2) => operation
 ```
 
 **例**
 
-```
+```scala
 // Scala program add two numbers
 // using Currying function
 
@@ -68,7 +68,7 @@ object Curry
 
 **输出:**
 
-```
+```scala
 39
 ```
 
@@ -80,7 +80,7 @@ object Curry
 
 **例**
 
-```
+```scala
 // Scala program add two numbers
 // using Currying function
 object Curry
@@ -99,7 +99,7 @@ object Curry
 
 **输出:**
 
-```
+```scala
 34
 ```
 
@@ -109,13 +109,13 @@ object Curry
 
 **语法**
 
-```
+```scala
 def function name(argument1) (argument2) = operation
 ```
 
 **例**
 
-```
+```scala
 // Scala program add two numbers
 // using Currying function
 object Curry
@@ -132,14 +132,14 @@ object Curry
 
 **输出:**
 
-```
+```scala
 34
 ```
 
 对于这种语法，部分应用程序函数也会改变。
 **例**
 
-```
+```scala
 // Scala program add two numbers
 // using Currying function
 object Curry
@@ -158,7 +158,7 @@ object Curry
 
 **输出:**
 
-```
+```scala
 34
 ```
 

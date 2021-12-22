@@ -10,7 +10,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-int-x-double-method-with-ex
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int <(x: Double)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int <(x: Double)
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

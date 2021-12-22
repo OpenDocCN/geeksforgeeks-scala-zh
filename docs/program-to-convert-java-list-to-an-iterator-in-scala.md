@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to iterator in Scala
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```
@@ -48,7 +48,7 @@ non-empty iterator
 因此，返回一个非空迭代器。这里，首先创建一个列表，使用 *add* 方法将 int 元素添加到列表中。之后利用*到迭代器*的方法将所述列表转换成迭代器。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to iterator in Scala
 
@@ -78,7 +78,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 empty iterator
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of count() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Number of even element in the TreeSet: 2
 
@@ -51,7 +51,7 @@ Number of even element in the TreeSet: 2
 
 **例 2:**
 
-```
+```scala
 // Scala program of count() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Number of odd element in the TreeSet: 3
 

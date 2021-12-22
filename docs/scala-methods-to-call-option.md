@@ -9,7 +9,7 @@ Scala 中的[选项](https://www.geeksforgeeks.org/scala-option/)是指某一特
     This method is utilized to return an Option’s value.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of using
     // get method
 
@@ -35,7 +35,7 @@ Scala 中的[选项](https://www.geeksforgeeks.org/scala-option/)是指某一特
 
     **Output:**
 
-    ```
+    ```scala
     20
 
     ```
@@ -46,7 +46,7 @@ Scala 中的[选项](https://www.geeksforgeeks.org/scala-option/)是指某一特
     这个方法是用来返回选项值的大小。
     **例:**
 
-    ```
+    ```scala
     // Scala program of returning 
     // the size of the value
 
@@ -74,7 +74,7 @@ Scala 中的[选项](https://www.geeksforgeeks.org/scala-option/)是指某一特
 
     **输出:**
 
-```
+```scala
 1
 
 ```

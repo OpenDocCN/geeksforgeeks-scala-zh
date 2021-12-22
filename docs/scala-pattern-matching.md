@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala program to illustrate 
 // the pattern matching
 
@@ -41,7 +41,7 @@ object GeeksforGeeks {
 
 **输出:**
 
-```
+```scala
 Are you learning Scala?
 
 ```
@@ -50,7 +50,7 @@ Are you learning Scala?
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate 
 // the pattern matching
 
@@ -83,7 +83,7 @@ object GeeksforGeeks {
 
 **输出:**
 
-```
+```scala
 Default Case Executed
 
 ```

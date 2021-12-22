@@ -6,7 +6,7 @@
 斯卡拉系列的一个根本特征是**可穿越特征**。它位于集合层次结构的最高位置。它有一个唯一的抽象操作，那就是 **foreach** 。这里，每个操作都保证以单线程方式执行。
 **语法:**
 
-```
+```scala
 def foreach[U](f: Elem => U)
 ```
 
@@ -26,7 +26,7 @@ def foreach[U](f: Elem => U)
     这里唯一的抽象方法是 *foreach* ，可以遍历集合的所有元素。
     **示例:**
 
-    ```
+    ```scala
     //Scala program of abstract method
 
     //Creating object 
@@ -51,7 +51,7 @@ def foreach[U](f: Elem => U)
 
     **输出:**
 
-```
+```scala
 geeks
 for
 geeks

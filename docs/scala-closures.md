@@ -6,13 +6,13 @@
 **举例:**
 如果我们定义一个函数如下所示:
 
-```
+```scala
 def example(a:double) = a*p / 100
 ```
 
 现在在运行上面的代码时，我们会得到一个错误，开始没有找到 p。所以现在我们给函数外的 **p** 一个值。
 
-```
+```scala
 // defined the value of p as 10
 val p = 10
 
@@ -22,7 +22,7 @@ def example(a:double) = a*p / 100
 
 现在上面的函数可以运行了，因为自由变量有一个值。现在，如果我们按如下方式运行函数:
 
-```
+```scala
 Calling the function: example(10000)
 Input: p = 10
 Output: double = 1000.0
@@ -32,7 +32,7 @@ Output: double = 1000.0
 现在，如果自由变量的值改变了，闭包函数的值如何改变呢？
 所以基本上闭包函数的作用是，取自由变量的最近状态，并相应地改变闭包函数的值。
 
-```
+```scala
 Input: p = 10
 Output: double = 1000.0
 
@@ -45,7 +45,7 @@ Output: double = 2000.0
 
 **示例:**
 
-```
+```scala
 // Addition of two numbers with 
 // Scala closure
 
@@ -69,7 +69,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Final_Sum(1) value = 5
 Final_Sum(2) value = 6
 Final_Sum(3) value = 7
@@ -79,7 +79,7 @@ Final_Sum(3) value = 7
 这里，在上述程序函数中**和**是一个闭包函数。var a = 4 是不纯闭包。a 的值相同，b 的值不同。
 T3】例:
 
-```
+```scala
 // Scala closure program to print a string
 
 // Creating object
@@ -102,7 +102,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Company name is geeksforgeeks and total no. of employees are 50.
 
 ```

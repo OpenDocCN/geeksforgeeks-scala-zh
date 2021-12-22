@@ -9,7 +9,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of sequence comprehensions
 
 // Creating an object with extending APP
@@ -24,7 +24,7 @@ object CT extends App
 
 **输出:**
 
-```
+```scala
 List(0, 4, 8, 12, 16)
 ```
 
@@ -33,7 +33,7 @@ List(0, 4, 8, 12, 16)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of sequence comprehensions
 
 // Creating object with extending App
@@ -56,7 +56,7 @@ object ComprehensionTest2 extends App
 
 **输出:**
 
-```
+```scala
 (9, 11)
 (10, 10)
 ```

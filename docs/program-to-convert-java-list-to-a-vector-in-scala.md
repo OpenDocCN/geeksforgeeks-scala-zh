@@ -9,7 +9,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to convert Java list
 // to a Vector in Scala
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 Vector(5, 6)
 ```
 
@@ -53,7 +53,7 @@ Vector(5, 6)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to convert Java list
 // to a Vector in Scala
 
@@ -88,7 +88,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 Vector(5, 6, 1)
 ```
 

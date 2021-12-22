@@ -7,7 +7,7 @@
 让我们用简单的阶乘例子来理解。
 **例:**
 
-```
+```scala
 // Scala program of factorial using recursion
 
 // Creating object
@@ -30,7 +30,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 6
 ```
 
@@ -39,7 +39,7 @@ object GFG
 让我们通过一个 gcd 的例子来更清楚地理解。
 **例:**
 
-```
+```scala
 // Scala program of GCD using recursion
 
 // Creating object
@@ -62,7 +62,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 6
 ```
 
@@ -70,7 +70,7 @@ object GFG
 我们用一个例子来理解一下:
 **示例代码:**
 
-```
+```scala
 // Scala program of sum all numbers
 // using recursion
 
@@ -96,7 +96,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 1540
 ```
 
@@ -111,7 +111,7 @@ object GFG
 
 **示例:**
 
-```
+```scala
 // Scala program of factorial using tail recursion
 import scala.annotation.tailrec
 
@@ -142,7 +142,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 120
 ```
 
@@ -152,7 +152,7 @@ object GFG
 
 **示例:**
 
-```
+```scala
 // Scala program of factorial with tail recursion
 import scala.annotation.tailrec
 
@@ -178,6 +178,6 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Could not optimize @tailrec annotated method factorial: it contains a recursive call not in tail position
 ```

@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set
 // to an Iterable in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(geeks, for)
 
 ```
@@ -49,7 +49,7 @@ Set(geeks, for)
 这里，重复的字符串被消除，结果输出是正确的顺序，因为所述的集合也是正确的顺序。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set
 // to an Iterable in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(author, i, am an)
 
 ```

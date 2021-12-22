@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 trait C{}
 trait B{}
 class A{}
@@ -16,7 +16,7 @@ object a_obj= new class A extends B with C
 
 线性化如下所示
 
-```
+```scala
 C-> AnyRef-> Any   
 B-> AnyRef-> Any   
 A-> AnyRef-> Any    
@@ -28,7 +28,7 @@ a_obj-> A-> C-> B-> AnyRef-> Any
 
 **示例:**
 
-```
+```scala
 // Scala program defining trait A
 trait A
 {
@@ -69,7 +69,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 class c
 
 ```
@@ -82,7 +82,7 @@ class c
 
 从上图中我们可以看出，线性化将不同于继承结构。Scala 特性/类被动态地以线性顺序放置，线性化将被应用如下。
 
-```
+```scala
 D-> C-> B-> A-> AnyRef-> Any
 
 ```
@@ -97,7 +97,7 @@ D-> C-> B-> A-> AnyRef-> Any
 让我们理解一些例子。
 **例:**
 
-```
+```scala
 // Scala program for linearization
 // defining old_car class
 class old_Car
@@ -145,14 +145,14 @@ object geekforgeeks
 
 **输出:**
 
-```
+```scala
 new car-> Designing-> Add new part-> Repainting-> old car 
 
 ```
 
 **示例:**
 
-```
+```scala
 // Scala program for trait linearization
 // defining classes and traits
 class flavour 
@@ -233,7 +233,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 chocolate with jelly texture 
 ()
 vanilla with jelly in cone with cream texture 

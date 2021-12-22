@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of size() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Size of the stack: 4
 
@@ -51,7 +51,7 @@ Size of the stack: 4
 
 **例 2:**
 
-```
+```scala
 // Scala program of size() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(a, e, i, o, u)
 Size of the stack: 5
 

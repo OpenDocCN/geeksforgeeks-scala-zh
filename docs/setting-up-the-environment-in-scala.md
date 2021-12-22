@@ -9,13 +9,13 @@ Scala 是一种非常兼容的语言，因此可以非常容易地安装到 Wind
 
 **适用于车窗**
 
-```
+```scala
 C:\Users\Your_PC_username>java -version
 ```
 
 执行该命令后，输出将显示 java 版本，输出如下:
 
-```
+```scala
 java version "1.8.0_111"
 Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
@@ -25,13 +25,13 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
 
 **对于 Linux**
 
-```
+```scala
 $ java -version
 ```
 
 执行该命令后，输出将显示 java 版本，输出如下:
 
-```
+```scala
 java version "1.8.0_20"
 Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
 Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
@@ -63,7 +63,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
 **步骤 3:测试并运行 Scala 命令**
 现在打开命令提示符，输入以下代码
 
-```
+```scala
 C:\Users\Your_PC_username>scala
 
 ```
@@ -74,7 +74,7 @@ C:\Users\Your_PC_username>scala
 
 既然我们已经在系统中安装了 Scale，我们现在可以编写一些命令来测试一些 Scala 语句:
 
-```
+```scala
 scala>println("Hi, Learning Scala")
 scala>4+5
 scala>6-2

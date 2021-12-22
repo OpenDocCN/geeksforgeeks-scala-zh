@@ -11,7 +11,7 @@ T3【几点注意:
 
 **示例:**
 
-```
+```scala
 // Scala program for Uniform
 // Access Principle
 
@@ -42,7 +42,7 @@ object Access
 
 **Output:**
 
-```
+```scala
 5
 13
 
@@ -51,7 +51,7 @@ object Access
 现在，我们知道数组的长度是一个变量，字符串的长度是类“字符串”中的一个方法，但是我们以相同的方式访问它们。
 **例:**
 
-```
+```scala
 // Scala program for Uniform
 // Access Principle
 
@@ -86,7 +86,7 @@ object Access
 
 **Output:**
 
-```
+```scala
 13
 6
 

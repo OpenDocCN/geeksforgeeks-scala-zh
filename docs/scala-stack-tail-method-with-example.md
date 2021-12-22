@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 7, 6, 5)
 Elements of the queue except the first one: Stack(3, 2, 7, 6, 5)
 
@@ -51,7 +51,7 @@ Elements of the queue except the first one: Stack(3, 2, 7, 6, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 3, 2, 7, 6, 1)
 Elements of the queue except the first one: Stack(3, 2, 7, 6, 1)
 

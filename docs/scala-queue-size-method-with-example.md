@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of size() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 3, 7, 1)
 Number of elements in the queue: 5
 
@@ -51,7 +51,7 @@ Number of elements in the queue: 5
 
 **例 2:**
 
-```
+```scala
 // Scala program of size() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(a, e, i, o, u)
 Number of elements in the queue: 5
 

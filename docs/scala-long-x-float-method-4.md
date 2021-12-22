@@ -10,7 +10,7 @@ T2】原文:[https://www.geeksforgeeks.org/scala-long-x-float-method-4/](https:/
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Long <(x: Float) method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

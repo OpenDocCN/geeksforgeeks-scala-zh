@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Product of all the elements of the stack: 24
 
@@ -51,7 +51,7 @@ Product of all the elements of the stack: 24
 
 **例 2:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 2, 3, 7)
 Product of all the elements of the stack: 210
 

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```scala
 def function_name ([parameter_list]) : [return_type] = {
 
   // function body
@@ -34,19 +34,19 @@ def function_name ([parameter_list]) : [return_type] = {
 
 Scala 中调用函数主要有两种方式。第一种方式是标准方式如下:
 
-```
+```scala
 function_name(paramter_list)
 ```
 
 第二种方式，用户也可以在实例和点标记的帮助下调用函数，如下所示:
 
-```
+```scala
 [instance].function_name(paramter_list)
 ```
 
 **例:**
 
-```
+```scala
 object GeeksforGeeks {
 
    def main(args: Array[String]) {
@@ -70,6 +70,6 @@ object GeeksforGeeks {
 
 **输出:**
 
-```
+```scala
 Sum is: 8
 ```

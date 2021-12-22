@@ -5,7 +5,7 @@
 Scala **最终块**用于执行关闭连接、流或释放资源等重要代码(可以是文件、网络连接、数据库连接等)。不管是否抛出异常，它都会被执行。最后一个区块将在*尝试*和*抓住*区块之后，但在控制权转移回其原点之前执行。
 **语法:**
 
-```
+```scala
 try {
        //your scala code here    
     } 
@@ -23,7 +23,7 @@ finally {
 1.  **Exception raised:** Control flow will be finally block followed by default exception handling mechanism If exception has been occurred in try block .
     **Example:**
 
-    ```
+    ```scala
     // Scala program to demonstrate 
     // control flow of try-finally clause 
     // when exception occur in try block 
@@ -59,14 +59,14 @@ finally {
 
     **输出:**
 
-    ```
+    ```scala
     finally block executed
     ```
 
 2.  **未引发异常:**如果在尝试块中未发生异常，控制流将最终被阻塞，然后是程序的其余部分。
     T3】例:
 
-```
+```scala
 // Scala program to demonstrate  
 // control flow of try-finally clause 
 // when exception doesn't occur in try block 
@@ -102,7 +102,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Inside try block
 finally block executed
 Outside try-finally clause
@@ -113,7 +113,7 @@ Outside try-finally clause
 finally 关键字与 try/catch 块结合使用，保证即使抛出异常，也能执行一段代码。
 **例:**
 
-```
+```scala
 // Scala program of try-catch-finally clause 
 
 // Creating object
@@ -149,7 +149,7 @@ object GFG
 
 **输出**
 
-```
+```scala
 java.lang.ArrayIndexOutOfBoundsException: 5
 this block always executes
 Rest of code executing

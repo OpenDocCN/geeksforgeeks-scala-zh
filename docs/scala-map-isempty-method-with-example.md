@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of isEmpty()
 // method
 
@@ -36,14 +36,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of isEmpty()
 // method
 
@@ -69,7 +69,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

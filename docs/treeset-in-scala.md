@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 var TreesetName = TreeSet(element1, element2, element3, ....) 
 ```
 
@@ -17,7 +17,7 @@ var TreesetName = TreeSet(element1, element2, element3, ....)
 下面是创建或初始化 TreeSet 的示例。
 **例:**
 
-```
+```scala
 // Scala program of Initializing TreeSet 
 import scala.collection.immutable.TreeSet 
 
@@ -39,7 +39,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize a TreeSet
 Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 ```
@@ -47,7 +47,7 @@ Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 **检查树集中的具体元素:**
 **示例:**
 
-```
+```scala
 // Scala program of Check specific elements in TreeSet 
 import scala.collection.immutable.TreeSet 
 
@@ -73,7 +73,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize a TreeSet
 Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 Element Geeks = true
@@ -85,7 +85,7 @@ Element Student = false
 我们可以使用 **+** 符号在 TreeSet 中添加一个元素。下面是在 TreeSet 中添加元素的示例。
 T3】例:
 
-```
+```scala
 // Scala program of adding an element in TreeSet 
 import scala.collection.immutable.TreeSet 
 
@@ -111,7 +111,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize a TreeSet
 Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 Adding elements to TreeSet = TreeSet(Author, Geeks, GeeksClasses, GeeksForGeeks)
@@ -122,7 +122,7 @@ Adding elements to TreeSet = TreeSet(Author, Geeks, GeeksClasses, GeeksForGeeks)
 我们可以通过使用++符号来添加两个树集。下面是添加两个 TreeSets 的示例。
 **例:**
 
-```
+```scala
 // Scala program of adding two TreeSets
 import scala.collection.immutable.TreeSet 
 
@@ -148,7 +148,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize a TreeSet
 Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 Add more than one TreeSets = TreeSet(Author, Geeks, GeeksForGeeks, Java, Scala)
@@ -159,7 +159,7 @@ Add more than one TreeSets = TreeSet(Author, Geeks, GeeksForGeeks, Java, Scala)
 我们可以通过使用–号来移除 TreeSet 中的一个元素。下面是在 TreeSet 中移除元素的示例。
 **例:**
 
-```
+```scala
 // Scala program of removing element in TreeSet 
 import scala.collection.immutable.TreeSet 
 
@@ -185,7 +185,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize a TreeSet
 Elements are = TreeSet(Author, Geeks, GeeksForGeeks)
 remove element from treeset = TreeSet(Author, GeeksForGeeks)
@@ -196,7 +196,7 @@ remove element from treeset = TreeSet(Author, GeeksForGeeks)
 我们可以通过使用&符号来找到两个树集之间的交集。下面是寻找两个树集交集的例子。
 **例:**
 
-```
+```scala
 // Scala program of finding the intersection
 // between two TreeSets 
 import scala.collection.immutable.TreeSet 
@@ -226,7 +226,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize two TreeSets
 Elements of treeset1 are = TreeSet(Author, Geeks, GeeksForGeeks)
 Elements of treeset2 are = TreeSet(Geeks, Java, Scala)
@@ -238,7 +238,7 @@ Intersection of treeSet1 and treeSet2 = TreeSet(Geeks)
 下面是显示空 TreeSet 的示例。
 **例:**
 
-```
+```scala
 // Scala program of Initializing an empty TreeSet 
 import scala.collection.immutable.TreeSet 
 
@@ -257,6 +257,6 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Empty TreeSet = TreeSet()
 ```

@@ -16,7 +16,7 @@
 *   The data members, class or methods which are not declared using any access modifiers i.e. having default access modifier are accessible anywhere using package & imports or by creating new instances.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Public Scope
     // package testA
     class classA
@@ -43,7 +43,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     method1
 
     ```
@@ -58,7 +58,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of Private Scope
     // package testA
     class classA 
@@ -87,7 +87,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     x = 1
 
     ```
@@ -98,7 +98,7 @@
 *   Protected members can be accessed only by the sub classes in the same package.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Protected Scope
     // package test
     class classab
@@ -122,7 +122,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     4
     1
 
@@ -131,7 +131,7 @@
 *   Protected members cannot be accessed by other members in other packages even with imports.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Protected Scope
     // package testA
     package testA
@@ -183,7 +183,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of Object Private/Protected Scope
     // package test1.test11
     class class11 
@@ -225,7 +225,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     1
     2
     3
@@ -243,7 +243,7 @@
 *   成员可以由名称被限定为的任何其他包访问。
     **例:**
 
-    ```
+    ```scala
     // Scala program of Package Specific
     // Scala program of Package Specific
     package aa
@@ -283,7 +283,7 @@
 
 **输出:**
 
-```
+```scala
 welcome to inner class g1
 a= 1
 b= 1

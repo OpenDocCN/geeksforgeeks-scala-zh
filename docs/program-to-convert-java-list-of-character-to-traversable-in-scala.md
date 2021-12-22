@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to a Traversable in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(l, m, n)
 
 ```
@@ -49,7 +49,7 @@ Buffer(l, m, n)
 这里，所述输出与给定列表中所述的顺序相同。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list
 // to a Traversable in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(b, c, a)
 
 ```

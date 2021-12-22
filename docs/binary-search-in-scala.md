@@ -20,7 +20,7 @@
 
 在递归方法中，我们递归调用已实现的具有更新的开始和结束值的二分搜索法算法，直到我们将中间元素与要搜索的元素匹配或者数组大小减小到零。下面是 Scala 中二分搜索法递归方法的代码。
 
-```
+```scala
 // Scala code for Recursive Binary Search
 
 // Creating object
@@ -77,7 +77,7 @@ def main(args: Array[String]){
 
 **输出**
 
-```
+```scala
 Element found at Index 3
 ```
 
@@ -85,7 +85,7 @@ Element found at Index 3
 
 在迭代方法中，我们运行 while 循环，直到找到要搜索的元素或者数组大小减小到零。下面是 Scala 中二分搜索法迭代方法的代码。
 
-```
+```scala
 // Scala code for Iterative Binary Search
 
 // Creating object
@@ -155,7 +155,7 @@ def main(args: Array[String])
 
 <**输出**
 
-```
+```scala
 Element found at Index 5
 ```
 
@@ -163,7 +163,7 @@ Element found at Index 5
 
 在这种情况下，我们首先将中间元素与要搜索的元素进行匹配。如果元素存在，我们返回它的索引。否则，我们继续用更新的参数调用创建的函数。下面是该方法的代码:
 
-```
+```scala
 // Scala code for Iterative Binary Search
 
 // Creating object
@@ -236,7 +236,7 @@ def main(args: Array[String]){
 
 **输出**
 
-```
+```scala
 Element not found
 
 ```

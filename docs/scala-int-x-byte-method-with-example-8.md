@@ -10,7 +10,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-int-x-byte-method-with-exam
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int <(x: Byte)
 // method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

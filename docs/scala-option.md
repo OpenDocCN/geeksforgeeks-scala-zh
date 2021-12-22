@@ -12,7 +12,7 @@ Scala 中的 ***选项*** 指的是一种指定类型的单元素或无元素的
 
 **示例:**
 
-```
+```scala
 // Scala program for Option
 
 // Creating object
@@ -41,7 +41,7 @@ object option
 
 **Output:**
 
-```
+```scala
 Some(author)
 None
 
@@ -55,7 +55,7 @@ None
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program for Option
     // with Pattern matching
 
@@ -94,7 +94,7 @@ None
 
     **Output:**
 
-    ```
+    ```scala
     author
     key not found
 
@@ -106,7 +106,7 @@ None
     This method is utilized in returning either a value if it is present or a default value when its not present. Here, For *Some* class a value is returned and for *None* class a default value is returned.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of using
     // getOrElse method
 
@@ -140,7 +140,7 @@ None
 
     **Output:**
 
-    ```
+    ```scala
     15
     17
 
@@ -152,7 +152,7 @@ None
     This method is utilized to check if the Option has a value or not.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of using
     // isEmpty method
 
@@ -184,7 +184,7 @@ None
 
     **Output:**
 
-    ```
+    ```scala
     false
     true
 

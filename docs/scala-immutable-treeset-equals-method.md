@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -47,7 +47,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 t1: TreeSet(1, 2, 3, 5, 6, 7)
 t2: TreeSet(1, 2, 3, 5, 6, 7)
 Both the TreeSets are equal: true
@@ -56,7 +56,7 @@ Both the TreeSets are equal: true
 
 **例 2:**
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -93,7 +93,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 t1: TreeSet(1, 2, 3, 5, 6, 7)
 t2: TreeSet(2, 3, 5, 6, 7)
 Both the TreeSets are equal: false

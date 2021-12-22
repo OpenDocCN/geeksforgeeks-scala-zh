@@ -8,7 +8,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate sequence
 import scala.collection.immutable._
 
@@ -35,7 +35,7 @@ object GFG
 
 **Output:** 
 
-```
+```scala
 1,2,3,4,5,6,
 Elements Access Using Index
 1
@@ -65,7 +65,7 @@ Elements Access Using Index
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate sequence
 object MainObject
 {
@@ -91,7 +91,7 @@ object MainObject
 
 **Output:** 
 
-```
+```scala
 1,2,3,4,5,6,
 is Empty: false
 

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filter()
 // method
 import scala.collection.immutable.SortedMap
@@ -38,7 +38,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Map(geeks -> 5)
 
 ```

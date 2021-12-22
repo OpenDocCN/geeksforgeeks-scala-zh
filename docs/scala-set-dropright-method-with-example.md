@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropRight()
 // method
 
@@ -38,7 +38,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 1
 2
@@ -48,7 +48,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropRight()
 // method
 
@@ -76,7 +76,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 1
 2

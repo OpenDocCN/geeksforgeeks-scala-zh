@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [3.1, 2.23, 4.2]
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [4.22, 6.22, 3.22]
 
 ```

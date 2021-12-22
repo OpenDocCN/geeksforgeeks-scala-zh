@@ -5,7 +5,7 @@
 为了连接两个列表，我们需要在 Scala 中使用 **concat()** 方法。
 **语法:**
 
-```
+```scala
 List.concat(l1, l2)
 ```
 
@@ -13,7 +13,7 @@ List.concat(l1, l2)
 下面是在 scala 中连接两个列表的例子。
 **例 1:**
 
-```
+```scala
 // Scala program of concat()
 // method
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 2, 3, 4, 5, 6)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of concat()
 // method
 
@@ -76,7 +76,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 2, 3, 3, 4, 5)
 
 ```

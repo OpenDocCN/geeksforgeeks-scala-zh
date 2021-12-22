@@ -6,7 +6,7 @@
 现在，让我们讨论下面的一些例子。
 **例:1#**
 
-```
+```scala
 // Scala program of Using anonymous 
 // functions with the map method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Iggmu
 
 ```
@@ -42,7 +42,7 @@ Iggmu
 在这个例子中，方法*添加两个*有一个类型为 Char 的参数，因为字符串是字符的集合，当我们用所述字符串上的映射函数调用这个*添加两个*方法时，这个映射将一次对一个 Char 起作用。
 **例:2#**
 
-```
+```scala
 // Scala program of Using anonymous 
 // functions with the map method
 
@@ -75,7 +75,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(2, 6, 8)
 
 ```

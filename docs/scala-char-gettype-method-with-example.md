@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of getType()
 // method
 
@@ -34,7 +34,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 1
 
 ```

@@ -16,7 +16,7 @@ Scala 支持三种类型的类型界限:
 
 **语法:**
 
-```
+```scala
 [T <% S]
 ```
 
@@ -24,7 +24,7 @@ Scala 支持三种类型的类型界限:
 
 **例 1:**
 
-```
+```scala
 // Scala program to demonstrate view bound 
 
 // Declaration of view bound
@@ -52,13 +52,13 @@ object ViewBoundExample 
 
 **输出:**
 
-```
+```scala
 25
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to demonstrate view bound 
 
 // Declaration of view bound
@@ -86,6 +86,6 @@ object ScalaViewBound 
 
 **输出:**
 
-```
+```scala
 GeeksforGeeks
 ```

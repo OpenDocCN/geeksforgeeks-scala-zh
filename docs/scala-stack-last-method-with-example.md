@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of last() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 7, 6, 5)
 The last element of the stack: 5
 
@@ -51,7 +51,7 @@ The last element of the stack: 5
 
 **例 2:**
 
-```
+```scala
 // Scala program of last() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 7, 6, 13)
 The last element of the stack: 13
 

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filterNot()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(12, 13)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of filterNot()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(5, 12, 3, 13)
 
 ```

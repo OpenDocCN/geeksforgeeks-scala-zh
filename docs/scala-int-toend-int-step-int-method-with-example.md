@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int to() 
 // method 
 
@@ -33,14 +33,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Range(5, 7, 9)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int to() 
 // method 
 // Creating object 
@@ -62,7 +62,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Range(0, 3, 6, 9)
 
 ```

@@ -5,7 +5,7 @@
 **unappriseq()**方法是一种*提取器*方法。它提取一个特定类型的对象，然后再次将其重构为一个提取值序列，并且该序列的长度在编译时没有指定。因此，为了重建包含序列的对象，您需要使用这个*不应用序列*方法。
 **语法:**
 
-```
+```scala
 def unapplySeq(object: X): Option[Seq[T]]
 ```
 
@@ -14,7 +14,7 @@ def unapplySeq(object: X): Option[Seq[T]]
 
 **示例:**
 
-```
+```scala
 // Scala program of unapplySeq
 // method
 
@@ -79,7 +79,7 @@ class Author
 
 **Output:**
 
-```
+```scala
 The age of Nidhi is: 24
 The age of Nisha is: 22
 
@@ -88,7 +88,7 @@ The age of Nisha is: 22
 这里，我们在*选项*中使用了一个特性*产品 2* ，以便向其传递两个参数。*产品 2* 是两个元素的笛卡尔乘积。
 **例:**
 
-```
+```scala
 // Scala program of using 
 //'UnapplySeq' method of 
 // Extractors
@@ -132,7 +132,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 List(1, 3, 5)
 
 ```

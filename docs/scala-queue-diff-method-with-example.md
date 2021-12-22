@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of diff() 
 // method 
 
@@ -46,7 +46,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 2, 3, 4, 5)
 Queue_2: Queue(3, 4, 5)
 (Queue_1 - Queue_2): Queue(1, 2)
@@ -55,7 +55,7 @@ Queue_2: Queue(3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of diff() 
 // method 
 
@@ -91,7 +91,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 2, 3, 4, 5)
 Queue_2: Queue(3, 4, 5, 6, 7, 8)
 (Queue_2 - Queue_1): Queue(6, 7, 8)

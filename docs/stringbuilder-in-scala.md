@@ -14,7 +14,7 @@
 *   **Appending character:** This operation is helpful in appending character.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to append
     // a character
 
@@ -41,7 +41,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Authors
 
     ```
@@ -51,7 +51,7 @@
 *   **追加字符串:**该操作有助于追加字符串。
     **示例:**
 
-    ```
+    ```scala
     // Scala program to append
     // a String
 
@@ -79,7 +79,7 @@
 
     **输出:**
 
-```
+```scala
 Authors of GeeksforGeeks
 
 ```

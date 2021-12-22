@@ -14,7 +14,7 @@
 用于继承的关键字是**扩展**。
 **语法:**
 
-```
+```scala
 class parent_class_name extends child_class_name{
 // Methods and fields
 }
@@ -22,7 +22,7 @@ class parent_class_name extends child_class_name{
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate the 
 // implementation of inheritance
 
@@ -61,7 +61,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Author name: Ankita
 Total numbers of articles: 130
 
@@ -77,7 +77,7 @@ Total numbers of articles: 130
     ![](img/f2d37a6d3680a61249af0c6148539a8d.png)
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate the 
     // Single inheritance
 
@@ -117,7 +117,7 @@ Total numbers of articles: 130
 
     **输出:**
 
-    ```
+    ```scala
     Name: Ankita
     Age: 22
 
@@ -127,7 +127,7 @@ Total numbers of articles: 130
     ![](img/89f625a2db30519028a456f859cf134e.png)
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate the 
     // Multilevel inheritance
 
@@ -170,7 +170,7 @@ Total numbers of articles: 130
 
     **输出:**
 
-    ```
+    ```scala
     Name: Soniya
     Age: 32
 
@@ -180,7 +180,7 @@ Total numbers of articles: 130
     ![](img/47dfc9867e917f9c8ee1c3627f1ea294.png)
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate the 
     // Hierarchical inheritance
 
@@ -233,7 +233,7 @@ Total numbers of articles: 130
 
     **输出:**
 
-    ```
+    ```scala
      Name: Siya
      Age: 32
      Name: Soniya
@@ -245,7 +245,7 @@ Total numbers of articles: 130
     ![](img/d3a0ab46ab5aa3f7c1698f58b0afd7b0.png)
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate the 
     // multiple inheritance using traits
 
@@ -293,7 +293,7 @@ Total numbers of articles: 130
 
     **输出:**
 
-    ```
+    ```scala
     Trait 1
     Trait 2
 

@@ -6,7 +6,7 @@
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     abstract def isDefinedAt(x: A): Boolean
 
     ```
@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of isDefinedAt()
 // method
 
@@ -49,7 +49,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -57,7 +57,7 @@ true
 这里，值，即上面定义的 *x* 存在于函数域中，所以它返回真。
 T3】例:
 
-```
+```scala
 // Scala program of isDefinedAt()
 // method
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

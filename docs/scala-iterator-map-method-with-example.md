@@ -6,7 +6,7 @@
 
 **方法定义:**
 
-```
+```scala
 def map[B](f: (A) => B): Iterator[B]
 
 ```
@@ -16,7 +16,7 @@ def map[B](f: (A) => B): Iterator[B]
 将函数应用于给定迭代器的每个元素后，从指定的迭代器返回一个新的迭代器。
 **示例#1:**
 
-```
+```scala
 // Scala program of map()
 // method
 
@@ -50,7 +50,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 9
 18
 
@@ -59,7 +59,7 @@ object GfG
 这里，该函数应用于所述迭代器的所有元素，我们可以在这里看到前两个元素，其中三乘以每个元素，类似地，它乘以所述迭代器的所有元素，得到一个新的迭代器。
 **例 2:**
 
-```
+```scala
 // Scala program of map()
 // method
 
@@ -93,7 +93,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 2
 

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of zip()
 // method
 
@@ -40,14 +40,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of zip()
 // method
 
@@ -77,7 +77,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 empty iterator
 
 ```

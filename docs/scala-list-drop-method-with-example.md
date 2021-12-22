@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 
 // Scala program of drop()
 // method
@@ -40,14 +40,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(e, f)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of drop()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(3, 4, 5, 6)
 
 ```

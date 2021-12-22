@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 val str = 1 #:: 2 #:: 3 #:: Stream.empty
 ```
 
@@ -17,7 +17,7 @@ val str = 1 #:: 2 #:: 3 #:: Stream.empty
 **创建流:**下面是在 Scala 中创建流的例子。
 T3】例:
 
-```
+```scala
 // Program to creating an empty stream
 
 // Creating object
@@ -35,7 +35,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Stream(1, ?)
 ```
 
@@ -45,7 +45,7 @@ Stream(1, ?)
 
 **示例:**
 
-```
+```scala
 // Program to creating an stream
 // using cons
 import scala.collection.immutable.Stream.cons
@@ -65,7 +65,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Elements of stream2 = Stream(1, ?)
 ```
 
@@ -73,7 +73,7 @@ Elements of stream2 = Stream(1, ?)
 
 **示例:**
 
-```
+```scala
 // Program to Using take function on stream
 
 // Creating object
@@ -97,7 +97,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Stream(1, ?)
 Take first 2 numbers from stream = 1, 2, empty
 Take first 10 numbers from stream2 = 1, 2, 8, empty
@@ -109,7 +109,7 @@ Take first 10 numbers from stream2 = 1, 2, 8, empty
 
 **示例:**
 
-```
+```scala
 // Scala program to using map function on stream
 
 // Creating object
@@ -130,7 +130,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Stream(1, ?)
 Stream(6, ?)
 ```
@@ -140,7 +140,7 @@ Stream(6, ?)
 **初始化一个空流:**下面的代码展示了如何初始化一个空流。
 **例:**
 
-```
+```scala
 // Program to create empty stream
 
 // Creating object
@@ -158,6 +158,6 @@ object GFG
 
 **输出:**
 
-```
+```scala
  Empty Stream = Stream()
 ```

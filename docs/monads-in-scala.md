@@ -13,14 +13,14 @@
 
 让我们看一个例子来明确地说明它。
 
-```
+```scala
 var x = Seq("Geeks", "For", "Geeks")
 
 ```
 
 让我们对给定的序列应用 map()。
 
-```
+```scala
 // Applying map()
  var y = x.map(_.toUpperCase)
 // Output
@@ -30,7 +30,7 @@ List(GEEKS, FOR, GEEKS)
 
 现在，让我们对给定的序列应用 flatMap()。
 
-```
+```scala
 // Applying flatMap()
 var z = x.flatMap(_.toUpperCase)
 // Output
@@ -45,7 +45,7 @@ List(G, E, E, K, S, F, O, R, G, E, E, K, S)
 支持*地图*以及*平面图*的收藏示例。
 **例:**
 
-```
+```scala
 // Scala program of Monads
 
 // Creating object
@@ -75,7 +75,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(6, 7, 8, 9, 7, 8, 9, 10, 8, 9, 10, 11, 9, 10, 11, 12)
 
 ```
@@ -99,7 +99,7 @@ List(6, 7, 8, 9, 7, 8, 9, 10, 8, 9, 10, 11, 9, 10, 11, 12)
 
 **示例:**
 
-```
+```scala
 // Scala program of Monads
 
 // Creating object
@@ -129,7 +129,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 3, 5, 7, 2, 6, 10, 14, 3, 9, 15, 21)
 
 ```
@@ -146,7 +146,7 @@ List(1, 3, 5, 7, 2, 6, 10, 14, 3, 9, 15, 21)
 
 现在，让我们应用 flatMap()。
 
-```
+```scala
 // Applying flatMap() we get a list like below
 List(1, 3, 5, 7, 2, 6, 10, 14, 3, 9, 15, 21)
 

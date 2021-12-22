@@ -9,7 +9,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala program of +(x: Char) 
 // method 
 
@@ -33,14 +33,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 70.39432456
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of +(x: Char) 
 // method 
 
@@ -64,7 +64,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 100.3943245623
 
 ```

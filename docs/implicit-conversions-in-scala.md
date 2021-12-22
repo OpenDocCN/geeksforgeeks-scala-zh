@@ -12,7 +12,7 @@
 的成员的转换。现在，让我们用一个例子来理解。
 对列表[Int]类型的两个列表 xa 和 ya 的以下操作是合法的:
 
-```
+```scala
  xa = ya
 ```
 
@@ -29,7 +29,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of implicit conversions
 import A.fromString
 import scala.language.implicitConversions
@@ -62,7 +62,7 @@ object C
 
 **输出:**
 
-```
+```scala
 A(GeeksforGeeks)
 ```
 
@@ -77,7 +77,7 @@ A(GeeksforGeeks)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of implicit conversions
 import ComplexImplicits._
 
@@ -134,7 +134,7 @@ def main(args : Array[String]) : Unit =
 
 **输出:**
 
-```
+```scala
 6.0 + 4.0i
 7.0 + 6.0i
 5.0 + 6.0i

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of head() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 First element of the TreeSet: 1
 
@@ -51,7 +51,7 @@ First element of the TreeSet: 1
 
 **例 2:**
 
-```
+```scala
 // Scala program of head() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 First element of the TreeSet: a
 

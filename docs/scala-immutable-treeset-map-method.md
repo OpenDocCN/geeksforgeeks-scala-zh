@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 TreeSet with squared elements: TreeSet(1, 4, 9, 16, 25)
 
@@ -51,7 +51,7 @@ TreeSet with squared elements: TreeSet(1, 4, 9, 16, 25)
 
 **例 2:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 TreeSet with cubed elements: TreeSet(1, 8, 27, 64, 125)
 

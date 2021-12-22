@@ -8,7 +8,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to call a method
 // on a superclass in Scala
 
@@ -55,7 +55,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 I'm reading
 I'm writing
 
@@ -65,7 +65,7 @@ I'm writing
 
 **例 2:**
 
-```
+```scala
 // Scala program to call a method
 // on a superclass in Scala
 
@@ -115,7 +115,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 This is student class
 This is person class
 

@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Iterable in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(8, 9, 10)
 
 ```
@@ -49,7 +49,7 @@ Buffer(8, 9, 10)
 因此，返回一个缓冲区，元素以所述列表的顺序出现，并且这里没有消除重复的元素。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Iterable in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(3, 2, 1)
 
 ```

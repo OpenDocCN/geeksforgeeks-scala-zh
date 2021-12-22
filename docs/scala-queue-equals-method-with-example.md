@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -46,7 +46,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 3, 2, 7, 6, 5)
 Queue_2: Queue(1, 3, 2, 7, 6, 5)
 Queue_1 = Queue_2: true
@@ -55,7 +55,7 @@ Queue_1 = Queue_2: true
 
 **例 2:**
 
-```
+```scala
 // Scala program of equals() 
 // method 
 
@@ -91,7 +91,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 3, 2, 7, 6, 5)
 Queue_2: Queue(5, 3, 2, 7, 6, 1)
 Queue_1 = Queue_2: false

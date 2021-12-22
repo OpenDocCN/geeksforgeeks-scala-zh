@@ -5,7 +5,7 @@
 **reduce()** 方法是一个高阶函数，它获取集合(数组、列表等)中的所有元素，并使用*二进制运算*将其组合以产生一个值。有必要确保操作是可交换的和关联的。[匿名函数](https://www.geeksforgeeks.org/anonymous-functions-in-scala)作为参数传递给 reduce 函数。
 **语法** :
 
-```
+```scala
 val l = List(2, 5, 3, 6, 4, 7)
 // returns the largest number from the collection
 l.reduce((x, y) => x max y)
@@ -16,7 +16,7 @@ l.reduce((x, y) => x max y)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to
 // print maximum value
 // using reduce()
@@ -41,7 +41,7 @@ def main(args:Array[String])
 
 **输出:**
 
-```
+```scala
 7
 ```
 
@@ -51,7 +51,7 @@ def main(args:Array[String])
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to
 // print average
 // using map() and reduce()
@@ -89,7 +89,7 @@ def main(args:Array[String])
 
 **输出** :
 
-```
+```scala
 (21, 4)
 Average= 5.25
 ```

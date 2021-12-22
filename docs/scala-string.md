@@ -11,7 +11,7 @@
 *   这里，当编译器遇到一个字符串文字并创建一个字符串对象字符串时。
     **语法:**
 
-```
+```scala
 var str = "Hello! GFG"
 or
 val str = "Hello! GFG"
@@ -20,7 +20,7 @@ val str = "Hello! GFG"
 *   这里，在满足字符串文字之前指定一个字符串类型。
     **语法:**
 
-```
+```scala
 var str: String = "Hello! GFG"
 or
 val str: String = "Hello! GFG"
@@ -31,7 +31,7 @@ val str: String = "Hello! GFG"
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to 
 // create a string
 object Main
@@ -52,7 +52,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Hello! GFG
 GeeksforGeeks
 ```
@@ -62,7 +62,7 @@ GeeksforGeeks
 存取器方法是用于查找对象信息的方法。所以，一个 **length()** 方法是 Scala 中的访问器方法，用来求给定字符串的长度。或者换句话说，length()方法返回字符串对象中存在的字符数。
 **语法:**
 
-```
+```scala
 var len1 = str1.length();
 ```
 
@@ -70,7 +70,7 @@ var len1 = str1.length();
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to 
 // get the length of the given string
 object Main 
@@ -98,7 +98,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 String 1:Hello! GFG, Length :10
 String 2:GeeksforGeeks, Length :13
 ```
@@ -108,14 +108,14 @@ String 2:GeeksforGeeks, Length :13
 当通过添加两个字符串来创建一个新字符串时，称为字符串串联。Scala 提供 **concat()** 方法来连接两个字符串，这个方法返回一个使用两个字符串创建的新字符串。您也可以使用“+”运算符来连接两个字符串。
 **语法:**
 
-```
+```scala
 str1.concat(str2);
 ```
 
 或
 **语法:**
 
-```
+```scala
 "welcome" + "GFG"
 ```
 
@@ -123,7 +123,7 @@ str1.concat(str2);
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to 
 // concatenate strings
 object Main 
@@ -156,7 +156,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 String 1:Welcome! GeeksforGeeks 
 String 2: to Portal
 New String :Welcome! GeeksforGeeks  to Portal
@@ -170,7 +170,7 @@ This is the tutorial of Scala language on GFG portal
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to 
 // Creating format string
 object Main 
@@ -193,7 +193,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Ankita , Scala|Strings, 130
 ```
 

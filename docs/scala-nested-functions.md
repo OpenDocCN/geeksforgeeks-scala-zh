@@ -17,7 +17,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Single Nested Function
 object MaxAndMin
 {
@@ -62,7 +62,7 @@ object MaxAndMin
 
 **输出**T2】
 
-```
+```scala
 Min and Max from 5, 7
 Max is: 7
 Min is: 5
@@ -75,7 +75,7 @@ Min is: 5
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Multiple Nested Function
 object MaxAndMin
 {
@@ -114,7 +114,7 @@ object MaxAndMin
 
 **输出**T2】
 
-```
+```scala
 geeks
 gfg
 geeksforgeeks

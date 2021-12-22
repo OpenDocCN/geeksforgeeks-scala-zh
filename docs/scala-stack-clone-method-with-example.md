@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4, 5)
 Clone of the stack: Stack(1, 2, 3, 4, 5)
 
@@ -50,7 +50,7 @@ Clone of the stack: Stack(1, 2, 3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(3, 4, 5, 6, 7, 8)
 Clone of the stack: Stack(3, 4, 5, 6, 7, 8)
 

@@ -6,7 +6,7 @@ Scala 中的 **Try-Catch** 构造与 Java 中的不同，Scala 中的 Try-Catch 
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of try-catch
     // exception
 
@@ -42,7 +42,7 @@ Scala 中的 **Try-Catch** 构造与 Java 中的不同，Scala 中的 Try-Catch 
 
     **Output:**
 
-    ```
+    ```scala
     Exception: A number is not divisible by zero.
 
     ```
@@ -51,7 +51,7 @@ Scala 中的 **Try-Catch** 构造与 Java 中的不同，Scala 中的 Try-Catch 
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of Try-Catch
     // Exception
     import java.io.FileReader
@@ -102,7 +102,7 @@ Scala 中的 **Try-Catch** 构造与 Java 中的不同，Scala 中的 Try-Catch 
 
     **Output:**
 
-    ```
+    ```scala
     Exception: File missing
 
     ```

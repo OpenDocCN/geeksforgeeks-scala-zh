@@ -12,7 +12,7 @@ min()方法属于抽象迭代器类的具体值成员。它在类 *IterableOnceO
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 11
 
 ```
@@ -47,7 +47,7 @@ object GfG
 这里，返回指定集合的最小元素。
 **例 2:**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1.1
 
 ```

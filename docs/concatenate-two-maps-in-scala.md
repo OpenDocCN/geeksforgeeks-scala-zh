@@ -5,7 +5,7 @@
 Scala 映射的拼接是利用**+**运算符得到的。
 **语法:**
 
-```
+```scala
 def ++(xs: Map[(A, B)]): Map[A, B]
 
 ```
@@ -14,7 +14,7 @@ def ++(xs: Map[(A, B)]): Map[A, B]
 它通过连接两个地图返回一个地图，但是它将相同的键分开。
 **示例#1:**
 
-```
+```scala
 // Scala program of concatenating
 // two maps
 
@@ -44,7 +44,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Map(Nidhi -> 23, Rahul -> 18, Geeta -> 22)
 
 ```
@@ -52,7 +52,7 @@ Map(Nidhi -> 23, Rahul -> 18, Geeta -> 22)
 正如我们在上面的例子中看到的，我们通过使用 **++** 操作符连接了两个地图。
 **例 2:**
 
-```
+```scala
 // Scala program of concatenating
 // two maps
 
@@ -82,7 +82,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Map(geeks -> 5, for -> 3, cs -> 2)
 
 ```

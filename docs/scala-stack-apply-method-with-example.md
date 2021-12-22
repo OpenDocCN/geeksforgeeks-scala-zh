@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of apply() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4, 5)
 Element at 0th position: 1
 
@@ -50,7 +50,7 @@ Element at 0th position: 1
 
 **例 2:**
 
-```
+```scala
 // Scala program of apply() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(C++, Java, Python, Scala)
 Element at 2nd position: Python
 

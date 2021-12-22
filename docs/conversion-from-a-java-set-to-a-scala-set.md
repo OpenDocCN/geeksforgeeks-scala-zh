@@ -6,7 +6,7 @@
 现在，让我们来看一些例子。
 **例:1#***
 
-```
+```scala
 // Scala program of converting a Java Set
 // to a Scala Set
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(14, 15, 16)
 
 ```
@@ -52,7 +52,7 @@ Set(14, 15, 16)
 让我们再看一个例子。
 **例:2#**
 
-```
+```scala
 // Scala program of converting a Java list
 // to a Scala Buffer
 
@@ -89,7 +89,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(5, 9, 11)
 
 ```

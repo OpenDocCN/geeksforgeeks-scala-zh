@@ -10,7 +10,7 @@ toDouble()方法用于将指定的数字转换为双数据类型值。
 
 **例 1:**
 
-```
+```scala
 // Scala program of long toDouble()
 // method
 
@@ -33,13 +33,13 @@ object Test
 
 **输出:**
 
-```
+```scala
 3.00
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Long toDouble()
 // method
 
@@ -62,6 +62,6 @@ object Test
 
 **输出:**
 
-```
+```scala
 9.8796
 ```

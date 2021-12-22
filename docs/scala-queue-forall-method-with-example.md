@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of forall() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 All the elements are divisible by 7: false
 
@@ -50,7 +50,7 @@ All the elements are divisible by 7: false
 
 **例 2:**
 
-```
+```scala
 // Scala program of forall() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 7, 5)
 All the elements are odd: true
 

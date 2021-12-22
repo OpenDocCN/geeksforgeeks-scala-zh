@@ -16,7 +16,7 @@
 
 算术表达式解析器示例:
 
-```
+```scala
 expr ::= term {"+" term | "-" term}. 
 term ::= factor {"*" factor | "/" factor}. 
 factor ::= ?FloatingPointNumber | "(" expr ")".
@@ -28,7 +28,7 @@ factor ::= ?FloatingPointNumber | "(" expr ")".
 
 上例的 Scala 代码:
 
-```
+```scala
 import scala.util.parsing.combinator._
 class Arith extends JavaTokenParsers 
 { 
@@ -50,7 +50,7 @@ class Arith extends JavaTokenParsers 
 
 **用下面的代码测试你的解析器是否工作！**
 
-```
+```scala
 object ParseExpr extends Arith 
 { 
     def main(args: Array[String]) 
@@ -65,7 +65,7 @@ ParseExpr 对象定义了一个主方法，用于解析传递给它的第一个�
 
 我们可以使用以下命令运行算术解析器:
 
-```
+```scala
 $ scala ParseExpr "4 * (5 + 7)" 
 input: 4 * (5 + 7) 
 [1.12] parsed: ((4~List((*~(((~((5~List())~List((+ ~(7~List())))))~)))))~List())
@@ -77,7 +77,7 @@ input: 4 * (5 + 7)
 我们还可以检查解析器是否处理错误的输入，并给出错误与否。
 **例:**
 
-```
+```scala
 $ scala ParseExpr "2 * (3 + 7))" 
 input: 2 * (3 + 7)) 
 [1.12] failure: `-' expected but `)' found

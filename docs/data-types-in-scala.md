@@ -20,7 +20,7 @@ Scala 中可用的数据类型如下表所示:
 
 **例如:**
 
-```
+```scala
 // Scala program to illustrate Datatypes
 object Test
 {
@@ -49,7 +49,7 @@ def main(args: Array[String]) 
 
 **输出:**
 
-```
+```scala
 boolean:geeksforgeeks
 byte:126
 float:2.45673

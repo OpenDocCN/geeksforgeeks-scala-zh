@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of sum()
 // method
 
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 6
 
 ```
@@ -47,7 +47,7 @@ object GfG
 这里 *foldLeft* 方法中的零为初始值。
 **例 2:**
 
-```
+```scala
 // Scala program of sum()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 4
 
 ```

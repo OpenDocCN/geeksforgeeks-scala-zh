@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of find() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 Element divisible by 7: Some(7)
 
@@ -51,7 +51,7 @@ Element divisible by 7: Some(7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of find() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 Element divisible by 10: None
 

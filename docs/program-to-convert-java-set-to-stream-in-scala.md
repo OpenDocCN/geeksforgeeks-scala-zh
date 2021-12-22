@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to Stream in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Stream(9, ?)
 
 ```
@@ -49,7 +49,7 @@ Stream(9, ?)
 因此，返回一个流。这里，首先创建一个集合，利用 *add* 方法向其中添加整数元素。之后利用*到流*方法将所述集合转换为流。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a Stream in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Stream(1, ?)
 
 ```

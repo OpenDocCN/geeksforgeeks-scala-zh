@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain working 
 // of Double -(x: Float) function
 
@@ -34,7 +34,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 6.012299999999996
 
 ```

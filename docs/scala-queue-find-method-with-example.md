@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of find() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 Element divisible by 7: Some(7)
 
@@ -50,7 +50,7 @@ Element divisible by 7: Some(7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of find() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 Element divisible by 10: None
 

@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of compareTo()
 // method
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```
@@ -48,7 +48,7 @@ object GfG
 它返回零，因为两个字符串是相同的。
 **例 2:**
 
-```
+```scala
 // Scala program of compareTo()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 
 ```
@@ -82,7 +82,7 @@ object GfG
 它返回一个正数，因为这里的 S1 比 S2 大。
 **例 3:**
 
-```
+```scala
 // Scala program of compareTo()
 // method
 
@@ -108,7 +108,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 -32
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 Elements of the TreeSet except the first one: TreeSet(2, 3, 5, 6, 7)
 
@@ -51,7 +51,7 @@ Elements of the TreeSet except the first one: TreeSet(2, 3, 5, 6, 7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of tail() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 Elements of the TreeSet except the first one: TreeSet(e, i, o, u)
 

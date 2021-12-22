@@ -9,7 +9,7 @@
 
 示例#1:
 
-```
+```scala
 // Scala program of Byte -(x: Float)
 // method 
 
@@ -33,13 +33,13 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 -213.0
 ```
 
 示例 2:
 
-```
+```scala
 // Scala program of Byte -(x: Float)
 // method 
 
@@ -63,6 +63,6 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 -130.0
 ```

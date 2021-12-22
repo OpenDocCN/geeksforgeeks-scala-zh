@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(10, 11, 12, 13, 14)
 Clone of the queue: Queue(10, 11, 12, 13, 14)
 
@@ -50,7 +50,7 @@ Clone of the queue: Queue(10, 11, 12, 13, 14)
 
 **例 2:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(geeks, for, geeks)
 Clone of the queue: Queue(geeks, for, geeks)
 

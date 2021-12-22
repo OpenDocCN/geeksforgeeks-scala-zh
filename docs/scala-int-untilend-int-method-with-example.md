@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int until() 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Range(1, 2, 3, 4, 5, 6, 7, 8)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int until() 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Range(10, 11, 12, 13, 14, 15, 16)
 
 ```

@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of splitAt()
 // method
 
@@ -39,14 +39,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (List(a, b, c), List(d, e, f))
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of splitAt()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (List(1, 2, 3, 4), List(5, 6, 7))
 
 ```

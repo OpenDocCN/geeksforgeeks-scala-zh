@@ -9,7 +9,7 @@
 *   Traits are created using *trait* keywords.
     **Syntax:**
 
-    ```
+    ```scala
     trait Trait_Name{
     // Fields..
     // Methods..
@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to illustrate how to 
     // create traits
 
@@ -67,7 +67,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Pet: Dog
     Pet_color: White
     Pet_name: Dollar
@@ -77,7 +77,7 @@
 *   在 Scala 中，我们被允许在特征中实现方法(只有抽象方法)。如果一个特征包含方法实现，那么扩展这个特征的类不需要实现已经在特征中实现的方法。如下例所示。
     **例:**
 
-```
+```scala
 // Scala program to illustrate the concept of
 // abstract and non-abstract method in Traits
 
@@ -123,7 +123,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Welcome to GeeksfoGeeks
 This is a tutorial of Traits in Scala
 
@@ -132,7 +132,7 @@ This is a tutorial of Traits in Scala
 *   Traits 不包含构造函数参数。*   当一个类继承一个特性时，使用*扩展*关键字。
     **语法:**
 
-    ```
+    ```scala
     class Class_Name extends Trait_Name{
     // Code..
     }
@@ -141,7 +141,7 @@ This is a tutorial of Traits in Scala
     *   When a class inherits multiple traits then use *extends* keyword before the first trait and after that use *with* keyword before other traits. As shown in the below example.
     **Syntax:**
 
-    ```
+    ```scala
     class Class_Name extends Trait_Name1 with Trait_Name2 with Trait_Name3{
     // Code..
     }
@@ -149,7 +149,7 @@ This is a tutorial of Traits in Scala
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to illustrate how
     // a class inherits multiple traits
 
@@ -200,7 +200,7 @@ This is a tutorial of Traits in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Welcome to GeeksfoGeeks
     This is a tutorial of Traits in Scala
 
@@ -209,7 +209,7 @@ This is a tutorial of Traits in Scala
     *   抽象类也可以通过使用*扩展*关键字来继承特征。
     **语法:**
 
-    ```
+    ```scala
     abstract class Class_name extends Trait_Name{
     // code..
     }
@@ -218,7 +218,7 @@ This is a tutorial of Traits in Scala
     *   在 Scala 中，一个特征可以通过使用*扩展*关键字来继承另一个特征。
     **语法:**
 
-    ```
+    ```scala
     trait Trait_Name1 extends Trait_Name2{
     // Code..
     }
@@ -227,7 +227,7 @@ This is a tutorial of Traits in Scala
     *   性状支持多重遗传。*   在 Scala 中，一个类既可以继承普通类，也可以继承抽象类和特征，方法是在类名前使用*扩展*关键字，在特征名前使用*扩展*关键字。
     **语法:**
 
-    ```
+    ```scala
     class Class_Name1 extends Class_Name2 with Trait_Name{
     // Code..
     } 
@@ -236,7 +236,7 @@ This is a tutorial of Traits in Scala
     *   In Traits, abstract fields are those fields with containing initial value and concrete fields are those fields which contain the initial value. we are allowed to override them in the class which extends trait. If a field is declared using the *var* keyword, then there is no need to write *override* keyword when we override them. And if a field is declared using the *val* keyword, then you must write *override* keyword when we override them.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // concrete and abstract fields in traits
 
@@ -282,7 +282,7 @@ This is a tutorial of Traits in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Value:12
     Height:40
     Width:10
@@ -291,13 +291,13 @@ This is a tutorial of Traits in Scala
     *   We can also add traits to an object instance. Or in other words, We can directly add a trait in the object of a class without inheriting that trait into the class. We can add a trait in the object instance by using *with* keyword.
     **Syntax:**
 
-    ```
+    ```scala
     val object_name = new Class_name with Trait_Name;
     ```
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to illustrate how 
     // to add a trait to an object instance 
 
@@ -322,6 +322,6 @@ This is a tutorial of Traits in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Welcome to MyTrait
     ```

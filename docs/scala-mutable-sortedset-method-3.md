@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of -() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(11, 20, 33, 55)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of -() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -71,7 +71,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(12, 23, 41, 43)
 
 ```

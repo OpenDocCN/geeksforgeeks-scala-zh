@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toArray()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [I@506e1b77
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of toArray()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [I@3535dee8
 
 ```

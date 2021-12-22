@@ -6,7 +6,7 @@
 现在，让我们看看下面的一些例子，以便详细了解它。
 **例:1#**
 
-```
+```scala
 // Scala program to transform an array of 
 // String to an array of Int using map 
 // function
@@ -38,7 +38,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 12
 6
 888
@@ -48,7 +48,7 @@ object GfG
 这里，字符串数组被转换成整数数组。重复的元素也会重复。
 **例:2#**
 
-```
+```scala
 // Scala program to transform an array of 
 // String to an array of Int using map 
 // function
@@ -82,7 +82,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 1
 2

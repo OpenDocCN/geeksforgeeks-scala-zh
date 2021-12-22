@@ -11,7 +11,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int +(x: Int)
 // method
 
@@ -35,7 +35,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 160
 ```
 
@@ -43,7 +43,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int +(x: Int)
 // method
 
@@ -67,6 +67,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 26
 ```

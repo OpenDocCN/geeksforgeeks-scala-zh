@@ -10,11 +10,11 @@
 
 **语法:**
 
-```
+```scala
 def callByValue(x: Int)
 ```
 
-```
+```scala
 // Scala program of function call-by-value
 
 // Creating object
@@ -50,7 +50,7 @@ object GFG 
 
 **Output:**
 
-```
+```scala
 Tanya did article on day one is 1 - Total = 1
 Tanya did article on day two is 1 - Total = 1
 Tanya did article on day three is 1 - Total = 1
@@ -65,13 +65,13 @@ Tanya did article on day four is 1 - Total = 1
 按名称调用机制将代码块传递给函数调用，代码块被编译、执行并计算值。将首先打印消息，然后返回值。
 **语法:**
 
-```
+```scala
 def callByName(x: => Int)
 ```
 
 **示例:**
 
-```
+```scala
 // Scala program of function call-by-name
 
 // Creating object
@@ -106,7 +106,7 @@ object main 
 
 **Output:**
 
-```
+```scala
 Tanya did articles  on day one is 1 - Total = 1
 Tanya did articles on day two is 1 - Total = 2
 Tanya did articles on day three is 1 - Total = 3
@@ -119,7 +119,7 @@ Tanya did articles on day four is 1 - Total = 4
 
 **示例:**
 
-```
+```scala
 // Scala program of function call-by-name
 
 // Creating object
@@ -149,7 +149,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 calling something
 x1=1
 calling something

@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of isValidByte()
 // method
 
@@ -35,14 +35,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of isValidByte()
 // method
 
@@ -66,7 +66,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

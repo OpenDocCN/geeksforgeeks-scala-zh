@@ -10,7 +10,7 @@
 > 
 > **示例#1:**
 > 
-> ```
+> ```scala
 > // Scala program of mutable stack /:() 
 > // method 
 >   
@@ -44,7 +44,7 @@
 > 
 > **Output:**
 > 
-> ```
+> ```scala
 > 22
 > 10
 > 
@@ -52,7 +52,7 @@
 > 
 > **例 2:**
 > 
-> ```
+> ```scala
 > // Scala program of mutable stack /:() method 
 >   
 > // Import Stack 
@@ -80,7 +80,7 @@
 > 
 > **Output:**
 > 
-> ```
+> ```scala
 > 71
 > 
 > ```

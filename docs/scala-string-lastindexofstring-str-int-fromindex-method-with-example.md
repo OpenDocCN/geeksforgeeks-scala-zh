@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of int lastIndexOf()
 // method
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 10
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of int lastIndexOf()
 // method
 
@@ -64,7 +64,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```

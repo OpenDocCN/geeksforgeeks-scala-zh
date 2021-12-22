@@ -20,14 +20,14 @@ Scala 支持一维数组和多维数组。一维数组是一个只有一行 n �
 在这个数组中只包含一行用于存储值。该数组的所有值从 0 到数组大小连续存储。
 **语法:**
 
-```
+```scala
 var arrayname = new Array[datatype](size)
 ```
 
 在这里，数据类型指定要分配的数据类型，大小指定数组中的元素数量，var 是链接到数组的数组变量的名称。
 **例:**
 
-```
+```scala
 // Scala program to creating an array 
 // of the string as week days, store  
 // day values in the weekdays, 
@@ -54,7 +54,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Array elements are : 
 Sunday
 Monday
@@ -73,7 +73,7 @@ Saturday
 1.  **Accessing array elements:**
     **Example:**
 
-    ```
+    ```scala
     // Scala program to accessing an array 
     // of the string as name.
     object GFG
@@ -95,7 +95,7 @@ Saturday
 
     **输出:**
 
-    ```
+    ```scala
     second element of an array is: 
     geeks
     ```
@@ -103,7 +103,7 @@ Saturday
 2.  **Updating an element in array:**
     **Example:**
 
-    ```
+    ```scala
     // Scala program to updating an array 
     // of the string as name.
     object GFG
@@ -129,7 +129,7 @@ Saturday
 
     **输出:**
 
-    ```
+    ```scala
     After updation array elements are: 
     gfg
     employee
@@ -140,7 +140,7 @@ Saturday
 3.  **在数组中添加元素:**
     **示例:**
 
-```
+```scala
 // Scala program to adding elements in an array 
 // of the string as name.
 object GFG
@@ -168,7 +168,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 After adding array elements : 
 gfg
 geeks
@@ -180,7 +180,7 @@ geeksforgeeks
     We can concatenate two arrays by using concat() method. In concat() method we can pass more than one array as arguments.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to concatenate two array 
     // by using concat() method
     import Array._
@@ -208,7 +208,7 @@ geeksforgeeks
 
     **输出:**
 
-    ```
+    ```scala
     1
     2
     3
@@ -226,7 +226,7 @@ geeksforgeeks
 多维数组包含多行来存储值。Scala 有一个方法 *Array.ofDim* 在 Scala 中创建[多维数组。在像矩阵和表格这样的结构中，可以使用多维数组。
 **语法:**](https://www.geeksforgeeks.org/multidimensional-arrays-in-scala/)
 
-```
+```scala
 var array_name = Array.ofDim[ArrayType](N, M)
  or  
 var array_name = Array(Array(elements), Array(elements)
@@ -236,7 +236,7 @@ var array_name = Array(Array(elements), Array(elements)
 
 **示例:**
 
-```
+```scala
 // Scala program to creating a 
 // multidimension array of the 
 // string as names, store  
@@ -274,7 +274,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 (0)(0) = gfg
 (0)(1) = Geeks
 (0)(2) = GeeksQuize
@@ -297,7 +297,7 @@ object GFG
 
 示例显示如何使用上述方法向数组追加和预先添加元素:
 
-```
+```scala
 object GFG
 {
 
@@ -350,7 +350,7 @@ object GFG
 
 输出:
 
-```
+```scala
 Array a 
 45
 52

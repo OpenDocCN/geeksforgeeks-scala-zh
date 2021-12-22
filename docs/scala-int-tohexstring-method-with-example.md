@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int toHexString()
 // method 
 
@@ -33,14 +33,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int toHexString()
 // method 
 
@@ -63,7 +63,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 12
 
 ```

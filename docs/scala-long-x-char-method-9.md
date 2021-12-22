@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain working of
 // &(x: Char) method
 
@@ -34,13 +34,13 @@ println(result)
 
 **输出:**
 
-```
+```scala
 5
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to explain working of
 // &(x: Char) method
 
@@ -64,6 +64,6 @@ println(result)
 
 **输出:**
 
-```
+```scala
 1
 ```

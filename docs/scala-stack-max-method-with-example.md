@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of max() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 3, 2, 7, 6, 1)
 The largest element of the stack: 7
 
@@ -51,7 +51,7 @@ The largest element of the stack: 7
 
 **例 2:**
 
-```
+```scala
 // Scala program of max() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(15, 13, 12, 7, 6, 11)
 The largest element of the stack: 15
 

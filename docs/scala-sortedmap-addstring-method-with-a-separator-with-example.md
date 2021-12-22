@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of addString()
 // method with a separator
 import scala.collection.immutable.SortedMap
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 cs -> 2_for -> 3_geeks -> 5
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of addString()
 // method with a separator
 import scala.collection.immutable.SortedMap
@@ -77,7 +77,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 for -> 3_geeks -> 2
 
 ```

@@ -10,7 +10,7 @@ T2】原文:[https://www . geesforgeks . org/Scala-short-x-float-boolean-4/](htt
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Short <(x: Float) 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 True
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Short <(x: Float) 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 false
 
 ```

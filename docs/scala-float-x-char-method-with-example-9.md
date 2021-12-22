@@ -11,7 +11,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Float !=(x: Char)
 // method
 
@@ -35,7 +35,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 false
 ```
 
@@ -43,7 +43,7 @@ false
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Float !=(x: Char)
 // method
 
@@ -67,6 +67,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```

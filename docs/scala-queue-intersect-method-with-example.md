@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -49,7 +49,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 3, 2, 7, 6, 5)
 Queue_2: Queue(1, 13, 2, 17, 6, 15)
 The elements in both the queues: 1 2 6
@@ -58,7 +58,7 @@ The elements in both the queues: 1 2 6
 
 **例 2:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -95,7 +95,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue_1: Queue(1, 3, 2, 7, 6, 5)
 Queue_2: Queue(11, 3, 12, 7, 16, 5)
 The elements in both the queues: Queue(3, 7, 5)

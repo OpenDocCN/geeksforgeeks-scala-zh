@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of take()
 // method
 
@@ -45,7 +45,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 3
 5
@@ -56,7 +56,7 @@ object GfG
 这里，显示前四个元素，因为我们已经在方法中选择了前四个元素。
 **例 2:**
 
-```
+```scala
 // Scala program of take()
 // method
 
@@ -89,7 +89,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 3
 5

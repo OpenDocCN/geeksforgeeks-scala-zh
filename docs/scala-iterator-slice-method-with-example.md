@@ -6,7 +6,7 @@
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     def slice(from: Int, until: Int): Iterator[A]
     ```
 
@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of slice()
 // method
 
@@ -50,7 +50,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 3
 4
@@ -60,7 +60,7 @@ object GfG
 这里，如果切片中存在的间隔像(n，m)，那么元素将从第*个*索引打印到第 *(m-1)个*索引。函数*下一步*和*下一步*用于打印新迭代器的元素。
 **示例:**
 
-```
+```scala
 // Scala program of slice()
 // method
 
@@ -93,7 +93,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 4
 5

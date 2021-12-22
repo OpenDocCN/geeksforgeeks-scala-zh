@@ -13,13 +13,13 @@
 这些变量是那些允许我们在声明变量后更改值的变量。可变变量通过使用 **var** 关键字来定义。数据类型的第一个字母应该是大写字母，因为在 Scala 中，数据类型被视为对象。
 **语法:**
 
-```
+```scala
 var Variable_name: Data_type = "value";
 ```
 
 **例如:**
 
-```
+```scala
 var name: String = "geekforgeeks";
 ```
 
@@ -28,7 +28,7 @@ var name: String = "geekforgeeks";
 
 **语法:**
 
-```
+```scala
 var variable_name = value
 ```
 
@@ -46,13 +46,13 @@ var variable_name = value
 
 **语法:**
 
-```
+```scala
 val Variable_name: Data_type =  "value";
 ```
 
 **例如:**
 
-```
+```scala
 val name: String = "geekforgeeks";
 ```
 
@@ -61,7 +61,7 @@ val name: String = "geekforgeeks";
 
 **语法:**
 
-```
+```scala
 val variable_name = "value"
 ```
 
@@ -85,7 +85,7 @@ val variable_name = "value"
 **注意:** Scala 支持多次赋值，但只能对不可变变量使用多次赋值。
 **例如:**
 
-```
+```scala
 val(name1:Int, name2:String) = pair(2, "geekforgeeks")
 ```
 
@@ -93,7 +93,7 @@ val(name1:Int, name2:String) = pair(2, "geekforgeeks")
 
 **例如:**
 
-```
+```scala
 var name1=40;
 val name2="geeksforgeeks";
 ```

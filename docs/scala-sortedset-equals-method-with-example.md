@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of equals()
 // method
 import scala.collection.immutable.SortedSet 
@@ -39,14 +39,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of equals()
 // method
 import scala.collection.immutable.SortedSet 
@@ -75,7 +75,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 false
 
 ```

@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of 
 // Partial function
 
@@ -46,7 +46,7 @@ object Case
 
 **Output:**
 
-```
+```scala
 120
 
 ```
@@ -59,7 +59,7 @@ object Case
     我们将在下面使用 Case 语句创建分部函数。
     **例:**
 
-```
+```scala
 // Scala program using
 // case statements
 
@@ -89,7 +89,7 @@ object Case
 
 **Output:**
 
-```
+```scala
 9
 
 ```
@@ -100,7 +100,7 @@ object Case
     This method is helpful in chaining Partial functions together.
     **Example:**
 
-    ```
+    ```scala
     // Scala program using
     // orElse
 
@@ -143,7 +143,7 @@ object Case
 
     **Output:**
 
-    ```
+    ```scala
     25
     8
 
@@ -155,7 +155,7 @@ object Case
     *Collect* method requests Partial function to every single element of the collection and thus, helps in constructing a new collection.
     **Example:**
 
-    ```
+    ```scala
     // Scala program using
     // collect method
 
@@ -188,7 +188,7 @@ object Case
 
     **Output:**
 
-    ```
+    ```scala
     List(35, 45)
 
     ```
@@ -199,7 +199,7 @@ object Case
     This method appends at the end of the chains, which is utilized to continue towards additional chains of Partial functions.
     **Example:**
 
-    ```
+    ```scala
     // Scala program using
     // andThen method
 
@@ -235,7 +235,7 @@ object Case
 
     **Output:**
 
-    ```
+    ```scala
     280
 
     ```

@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of count()
 // method
 
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 
 ```
@@ -47,7 +47,7 @@ object GfG
 这里，只有两个元素满足所述谓词，因此，返回两个。
 **例 2:**
 
-```
+```scala
 // Scala program of count()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```

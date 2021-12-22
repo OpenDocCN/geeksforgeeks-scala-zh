@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 
 // Program to apply foreach() method on 
 // Java list of characters in Scala
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 e
 f
 g
@@ -51,7 +51,7 @@ g
 因此，当对所述字符列表应用*或*方法时，列表的每一项都被打印。
 T3】例:2#
 
-```
+```scala
 // Program to apply foreach() method on 
 // Java list of characters in Scala
 
@@ -85,7 +85,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 j
 l
 k

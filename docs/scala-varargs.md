@@ -6,7 +6,7 @@
 **注:-** 我们在最后一个参数上放置*使其可变长。
 **语法:–**
 
-```
+```scala
 
 def Nameoffunction(args: Int *) : Int = { s foreach println. }
 
@@ -25,7 +25,7 @@ def Nameoffunction(args: Int *) : Int = { s foreach println. }
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of varargs
     object GFG 
     { 
@@ -55,14 +55,14 @@ def Nameoffunction(args: Int *) : Int = { s foreach println. }
 
     **输出:**
 
-    ```
+    ```scala
     Sum is: 6008
     ```
 
     在上面的例子中，我们可以看到函数的最后一个参数是一个可变长度的参数。这里 1000 是可变长度参数。参数 **arg** 被添加到**结果**变量中。名称参数是类型**整数**。
     **例:**
 
-    ```
+    ```scala
     // Scala program of varargs
     object GFG
     { 
@@ -86,7 +86,7 @@ def Nameoffunction(args: Int *) : Int = { s foreach println. }
 
     **输出:**
 
-    ```
+    ```scala
     Geeks
     for
     geeks

@@ -11,7 +11,7 @@ Scala 支持两种类型的构造函数:
 
 **语法:**
 
-```
+```scala
 class class_name(Parameter_list){
 // Statements...
 }
@@ -24,7 +24,7 @@ class class_name(Parameter_list){
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate the
 // concept of primary constructor
 
@@ -55,7 +55,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Author name: Ankita
 Chapter name: Constructors
 Total published articles:145
@@ -67,7 +67,7 @@ Total published articles:145
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate the
 // concept of default primary constructor
 
@@ -93,7 +93,7 @@ object Main
 
 ****输出:****
 
-```
+```scala
 Welcome to Geeksforgeeks
 ```
 
@@ -105,7 +105,7 @@ Welcome to Geeksforgeeks
 *   **在 Scala 中，我们可以通过在类名和构造函数参数列表之间使用私有关键字来使主构造函数私有。
     **语法:****
 
-```
+```scala
 // private constructor with two argument
 class GFG private(name: String, class:Int){
 // code..
@@ -122,7 +122,7 @@ class GFG private{
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate the
 // concept of primary constructor
 
@@ -151,7 +151,7 @@ object Main
 
 ****输出:****
 
-```
+```scala
 Author name: Ankita
 Chapter name: Constructors 
 ```
@@ -162,7 +162,7 @@ Chapter name: Constructors
 
 ****语法:****
 
-```
+```scala
 def this(......)
 ```
 
@@ -177,7 +177,7 @@ def this(......)
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate the
 // concept of Auxiliary Constructor
 
@@ -217,7 +217,7 @@ object Main
 
 ****输出:****
 
-```
+```scala
 Author name: Anya
 Chapter name: Constructor
 Total number of articles: 34

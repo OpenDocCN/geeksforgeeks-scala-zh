@@ -6,7 +6,7 @@ Scala 的 **contains()** 方法相当于 Scala 的 *isDefinedAt* 方法，但唯
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     def contains(key: K): Boolean
 
     ```
@@ -18,7 +18,7 @@ Scala 的 **contains()** 方法相当于 Scala 的 *isDefinedAt* 方法，但唯
 
 **示例:**
 
-```
+```scala
 // Scala program of contains()
 // method
 
@@ -46,7 +46,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -54,7 +54,7 @@ true
 这里，*包含*方法有一个与上述地图中存在的键相同的键，因此，它返回 true。
 T3】例:
 
-```
+```scala
 // Scala program of contains()
 // method
 
@@ -81,7 +81,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of distinct() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(2, 1, 3, 2, 1, 2, 3)
 Queue with distinct elements: Queue(2, 1, 3)
 
@@ -51,7 +51,7 @@ Queue with distinct elements: Queue(2, 1, 3)
 
 **例 2:**
 
-```
+```scala
 // Scala program of distinct() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(g, e, e, k, s, f, o, r, g, e, e, k, s)
 Queue with distinct elements: Queue(g, e, k, s, f, o, r)
 

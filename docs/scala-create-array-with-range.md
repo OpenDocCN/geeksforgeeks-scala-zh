@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```scala
 // Scala program to create array with range 
 import Array._
 
@@ -40,7 +40,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 1 2 3 4 5 6 7 8 9 10 11 12 13 14
  1 4 7 10 13
 
@@ -52,7 +52,7 @@ object GFG
 
 **例:**
 
-```
+```scala
 // Scala program to create array with range 
 import Array._
 
@@ -84,7 +84,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 A B C D E F
  a c e
 

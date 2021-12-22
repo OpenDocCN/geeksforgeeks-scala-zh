@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of drop() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Queue after drop(2) method: Queue(3, 4, 5)
 
@@ -50,7 +50,7 @@ Queue after drop(2) method: Queue(3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of drop() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Queue after drop(3) method: Queue(4, 5)
 

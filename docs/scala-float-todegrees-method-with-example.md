@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Float toDegrees()
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3208.5637
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Float toDegrees()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 179.90874767107852
 
 ```

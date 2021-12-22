@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Elements in the stack: 6 2 3 4 5
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -73,7 +73,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(6, 2, 3, 4, 5)
 6 times 6 = 36
 2 times 2 = 4

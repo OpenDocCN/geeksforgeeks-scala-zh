@@ -5,23 +5,23 @@
 **App** 是一个[特性](https://www.geeksforgeeks.org/scala-traits/)，用来快速将对象变成可行的程序，这是通过应用 *DelayedInit* 函数来实现的，继承特性 **App** 的对象使用这个函数来执行程序的整个主体，作为继承的主方法的一部分。
 **注:**
 
-```
+```scala
 trait App extends DelayedInit
 ```
 
 *   这里的线性超类型是:
 
-    ```
+    ```scala
     DelayedInit, AnyRef, Any
     ```
 
 *   The value members are:
 
-    ```
+    ```scala
     val executionStart: Long
     ```
 
-    ```
+    ```scala
     def main(args: Array[String]): Unit
     ```
 
@@ -29,7 +29,7 @@ trait App extends DelayedInit
 
     *   **Example :**
 
-        ```
+        ```scala
         // Scala program of a trait
         // App
 
@@ -45,7 +45,7 @@ trait App extends DelayedInit
 
         **Output:**
 
-        ```
+        ```scala
         GeeksforGeeks
 
         ```
@@ -54,7 +54,7 @@ trait App extends DelayedInit
 
     *   **Example:**
 
-        ```
+        ```scala
         // Scala program of trait
         // App
         object GfG extends App 
@@ -81,7 +81,7 @@ trait App extends DelayedInit
 
         **Output:**
 
-        ```
+        ```scala
         There are no students.
 
         ```
@@ -89,7 +89,7 @@ trait App extends DelayedInit
         注意:这里，**参数**用于命令行参数，它将像数组一样返回即时命令行参数。
         这里获得的输出是上面在 else 部分陈述的字符串，因为没有提供命令行参数。如果我们提供如下的命令行参数，那么输出将是:
 
-        ```
+        ```scala
         // command line argument
         $ scala GfG Nidhi 
 

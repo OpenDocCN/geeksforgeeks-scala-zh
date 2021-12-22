@@ -16,7 +16,7 @@
 *   **函数和过程**:在 Scala 中，函数和过程是两个不同的实体，不能互换使用。函数可以返回任何类型，并且在其原型中包含 **=** 符号。另一方面，过程没有=符号，在所有情况下都有 Unit()返回类型。函数定义中一般不鼓励打印语句。
     **例:**
 
-    ```
+    ```scala
     def func1():Int = {
     //this is a function
     //returns Int
@@ -31,7 +31,7 @@
 *   **Higher-Order Functions**: In Scala, we can pass a function as an argument to another function. Such functions are called higher-order functions.
     **Example:**
 
-    ```
+    ```scala
     val l = List(1, 2, 3)
     l.foreach(println) // println passed as an argument to foreach function
     ```
@@ -39,7 +39,7 @@
     同样，一个函数的*返回值*可以是另一个函数。
     T3】例:
 
-    ```
+    ```scala
     def square(x:Float) = { pow(x, 2) }
     ```
 

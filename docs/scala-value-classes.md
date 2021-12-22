@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to illustrate value class
 
 // Creating a value class and extend with AnyVal
@@ -37,7 +37,7 @@ object gfg
 
 **输出:**
 
-```
+```scala
 Matched with GeeksForGeeks
 ```
 
@@ -45,7 +45,7 @@ Matched with GeeksForGeeks
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate value class
 
 // Creating a value class and extend with AnyVal
@@ -70,7 +70,7 @@ object gfg
 
 **输出:**
 
-```
+```scala
 25
 ```
 

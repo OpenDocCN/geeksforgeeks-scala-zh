@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Stack containing last two elements: Stack(3, 4)
 
@@ -51,7 +51,7 @@ Stack containing last two elements: Stack(3, 4)
 
 **例 2:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Stack containing last three elements: Stack(2, 3, 4)
 

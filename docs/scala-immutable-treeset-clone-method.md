@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Clone of the TreeSet: TreeSet(1, 2, 3, 4, 5)
 
@@ -51,7 +51,7 @@ Clone of the TreeSet: TreeSet(1, 2, 3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of clone() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 Clone of the TreeSet: TreeSet(a, e, i, o, u)
 

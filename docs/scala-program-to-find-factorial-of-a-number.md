@@ -6,7 +6,7 @@
 
 在数学中，正整数 N 的阶乘是所有小于或等于 N 的正整数的乘积，计算给定正整数的阶乘 **N** 的递推公式为
 
-```
+```scala
 N! = N * ( N -1 )! 
 N! = 1 if N = 1 or N = 0
 
@@ -16,7 +16,7 @@ N! = 1 if N = 1 or N = 0
 
 **示例:**
 
-```
+```scala
 Input : N = 3 
 Output : 6
 
@@ -30,7 +30,7 @@ Output : 120
 以下是上述方法的实施
 **例:**
 
-```
+```scala
 // Scala Program to calculate
 // Factorial of a number
 
@@ -61,7 +61,7 @@ object GFG
 
 **Output :**
 
-```
+```scala
 120
 
 ```
@@ -71,7 +71,7 @@ object GFG
 以下是上述方法的实施。
 **例:**
 
-```
+```scala
 // Scala Program to calculate Factorial
 // of a number using recursion
 
@@ -99,7 +99,7 @@ object GFG
 
 **Output :**
 
-```
+```scala
 120
 
 ```

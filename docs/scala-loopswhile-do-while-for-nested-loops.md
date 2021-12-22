@@ -14,7 +14,7 @@ while 循环
 while 循环通常在括号中带一个条件。如果条件为**真**，则执行 while 循环体内的代码。当我们不知道希望循环执行的次数，但是我们知道循环的终止条件时，就使用 while 循环。它也被称为*入口控制循环*，因为在执行循环之前会检查条件。while 循环可以看作是一个重复的 if 语句。
 **语法:**
 
-```
+```scala
 while (condition)
 {
     // Code to be executed
@@ -33,7 +33,7 @@ while (condition)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate while loop
 object whileLoopDemo
 {
@@ -58,7 +58,7 @@ object whileLoopDemo
 
 **输出:**
 
-```
+```scala
 Value of x: 1
 Value of x: 2
 Value of x: 3
@@ -70,7 +70,7 @@ Value of x: 4
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate Infinite while loop
 object infinitewhileLoopDemo
 {
@@ -91,7 +91,7 @@ object infinitewhileLoopDemo
 
 **输出:**
 
-```
+```scala
 GeeksforGeeks
 GeeksforGeeks
 GeeksforGeeks
@@ -107,7 +107,7 @@ GeeksforGeeks
 做..while 循环与 while 循环几乎相同。唯一不同的是..而循环至少运行一次。第一次执行后检查条件。做..当我们希望循环至少运行一次时，使用 while 循环。也称为**退出受控循环**，因为在执行循环后会检查条件。
 **语法:**
 
-```
+```scala
 do {
 
 // statements to be Executed
@@ -123,7 +123,7 @@ do {
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate do..while loop
 object dowhileLoopDemo
 {
@@ -145,7 +145,7 @@ object dowhileLoopDemo
 
 **输出:**
 
-```
+```scala
 10 9 8 7 6 5 4 3 2 1 
 ```
 
@@ -156,7 +156,7 @@ object dowhileLoopDemo
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate for loop
 object forloopDemo {
 
@@ -176,7 +176,7 @@ object forloopDemo {
 
 **输出:**
 
-```
+```scala
 Value of y is: 1
 Value of y is: 2
 Value of y is: 3
@@ -193,7 +193,7 @@ Value of y is: 7
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate nested loop
 object nestedLoopDemo {
 
@@ -236,7 +236,7 @@ object nestedLoopDemo {
 
 **输出:**
 
-```
+```scala
 (Value of a = 5, b = 0)
 (Value of a = 5, b = 1)
 (Value of a = 5, b = 2)

@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```scala
 // Scala program of toIterable()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Stream(3, ?)
 
 ```

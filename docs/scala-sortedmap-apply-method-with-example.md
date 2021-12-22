@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of apply()
 // method
 import scala.collection.immutable.SortedMap
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```

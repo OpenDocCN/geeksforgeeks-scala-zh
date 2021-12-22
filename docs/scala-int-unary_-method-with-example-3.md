@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int unary_+
 // method
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 65
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int unary_+
 // method
 
@@ -64,7 +64,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 115
 
 ```

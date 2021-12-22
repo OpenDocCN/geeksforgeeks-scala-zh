@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -41,7 +41,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [9, 10, 11]
 
 ```
@@ -49,7 +49,7 @@ object GfG
 因此，将返回的字符串。这里，首先创建一个集合，利用 *add* 方法向其中添加整数元素。之后利用*转字符串*方法将所述集合转换为字符串。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set 
 // to a String in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 [1, 2, 3]
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int hashCode
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 22
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Int hashCode
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5645
 
 ```

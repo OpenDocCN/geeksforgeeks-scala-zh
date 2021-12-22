@@ -16,7 +16,7 @@ T3【赛场规则】超越 T5】
 
 **例:**
 
-```
+```scala
 // Scala program of Field 
 // Overriding
 
@@ -86,7 +86,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 It is a circle.
 It is a square.
 

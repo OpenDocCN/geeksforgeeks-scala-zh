@@ -6,7 +6,7 @@
 现在，让我们来看一些例子。
 **例:1#**
 
-```
+```scala
 // Scala program to print Java List 
 // in Scala
 
@@ -40,7 +40,7 @@ val list = result
 
 **Output:**
 
-```
+```scala
 [11, 12]
 
 ```
@@ -48,7 +48,7 @@ val list = result
 因此，从一个 Java 方法返回一个列表。在这里，我们不需要导入 Scala 的任何对象。在上面的程序中，一个 Java 方法是用 Scala 程序编写的。其中，该方法将列表的元素一个接一个地添加到指定的列表中，然后打印结果。
 **例:2#**
 
-```
+```scala
 // Scala program to print Java List 
 // in Scala
 
@@ -83,7 +83,7 @@ val list = result
 
 **Output:**
 
-```
+```scala
 [11, 12, 17]
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of forall() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 7, 8, 9)
 All the elements are divisible by 7: false
 
@@ -51,7 +51,7 @@ All the elements are divisible by 7: false
 
 **例 2:**
 
-```
+```scala
 // Scala program of forall() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(2, 4, 6, 8)
 All the elements are even: true
 

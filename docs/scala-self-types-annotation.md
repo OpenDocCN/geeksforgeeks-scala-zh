@@ -7,7 +7,7 @@
 要在性状中使用自我类型，在它旁边写下*标识符名称*，在它后面写下要混合的性状的*类型*，并跟随= >符号；如下所示。
 **语法:**
 
-```
+```scala
 trait A{
     //statements
 }
@@ -20,7 +20,7 @@ trait B{
 我们来讨论一些例子。
 **例:**
 
-```
+```scala
 // Scala Program that uses self type
 trait with_powers
 { 
@@ -71,7 +71,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 super hero brain is extra-ordinary!.
 normal human brain is ordinary.
 
@@ -81,7 +81,7 @@ normal human brain is ordinary.
 val mohan= new 平凡 _ person()with _ power；显示一个不符合普通人自我类型的错误。
 **例:**
 
-```
+```scala
 // Scala Program that uses self type
 trait A
 { 
@@ -121,7 +121,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 2
 10
 
@@ -131,7 +131,7 @@ object GFG
 
 **示例:**
 
-```
+```scala
 // Scala Program that uses self type
 trait Being
 {
@@ -173,7 +173,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Person Lakshya: hello, hi there!!
 I am 24 years old Male
 

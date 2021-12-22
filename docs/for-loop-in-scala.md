@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 for(w <- range){
 // Code..
 }
@@ -22,7 +22,7 @@ for(w <- range){
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // create for loop using to
 object Main
@@ -43,7 +43,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 The value of w is:
 0
 1
@@ -66,7 +66,7 @@ The value of w is:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // create for loop using until
 object Main
@@ -87,7 +87,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 The value of w is:
 0
 1
@@ -109,7 +109,7 @@ The value of w is:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // create multiple ranges in for loop
 object Main
@@ -129,7 +129,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Value of w is :0
 Value of y is :8
 Value of w is :0
@@ -154,7 +154,7 @@ Value of y is :9
 
 **语法:**
 
-```
+```scala
 for(i <- List){
 // Code..
 }
@@ -164,7 +164,7 @@ for(i <- List){
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // use for loop with collection
 object Main
@@ -184,7 +184,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Author rank is : 1
 Author rank is : 2
 Author rank is : 3
@@ -203,7 +203,7 @@ Author rank is : 10
 
 **语法:**
 
-```
+```scala
 for(i<- List 
 if condition1; if condition2; if condition3; ...)
 {
@@ -215,7 +215,7 @@ if condition1; if condition2; if condition3; ...)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // use for loop with filters
 object Main
@@ -237,7 +237,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Author rank is : 3
 Author rank is : 4
 Author rank is : 5
@@ -252,7 +252,7 @@ Author rank is : 6
 
 **语法:**
 
-```
+```scala
 var output = for{ i<- List
 if condition 1; if condition 2; 
 } 
@@ -263,7 +263,7 @@ yield i
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how to
 // use for loop with yields
 object Main
@@ -289,7 +289,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Author rank is : 5
 Author rank is : 6
 Author rank is : 7

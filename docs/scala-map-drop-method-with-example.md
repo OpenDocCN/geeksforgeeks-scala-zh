@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of drop()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Map(for -> 3, cs -> 5)
 
 ```

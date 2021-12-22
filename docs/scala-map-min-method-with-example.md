@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -36,7 +36,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (cs, 2)
 
 ```
@@ -44,7 +44,7 @@ object GfG
 正如我们在上面的例子中看到的 **cs** 是地图中最小的元素。
 **例 2:**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -70,7 +70,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (for, 6)
 
 ```

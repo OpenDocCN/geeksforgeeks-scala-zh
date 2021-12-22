@@ -5,7 +5,7 @@
 在 Scala 中，[抽象类](https://www.geeksforgeeks.org/abstract-classes-in-scala/)是使用抽象关键字构造的。它包含抽象和非抽象方法，并且不能支持多重继承。
 T3】例:
 
-```
+```scala
 // Scala program to illustrate how to 
 // create an abstract class
 
@@ -47,7 +47,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Scala tutorial
 Welcome!! GeeksforGeeks
 
@@ -56,7 +56,7 @@ Welcome!! GeeksforGeeks
 像类一样，**特征**可以有方法(抽象的和非抽象的)和字段作为其成员。特性就像 Java 中的接口。但是它们比 Java 中的接口更强大，因为在特性上我们被允许实现成员。
 T3】例:
 
-```
+```scala
 // Scala program to illustrate how to 
 // create traits
 
@@ -99,7 +99,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Scala tutorial
 Welcome!! GeeksforGeeks
 

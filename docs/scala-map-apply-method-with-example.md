@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of apply()
 // method
 
@@ -39,14 +39,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of apply()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 1
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of diff()
 // method
 import scala.collection.mutable.SortedSet 
@@ -41,7 +41,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 4
 5
 
@@ -49,7 +49,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of diff()
 // method
 import scala.collection.mutable.SortedSet 
@@ -80,7 +80,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 1
 3
 4

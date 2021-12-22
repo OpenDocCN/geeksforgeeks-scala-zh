@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of diff() 
 // method 
 
@@ -47,7 +47,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet_1: TreeSet(1, 2, 3, 4, 5)
 TreeSet_2: TreeSet(3, 4, 5)
 (TreeSet_1 - TreeSet_2): TreeSet(1, 2)
@@ -56,7 +56,7 @@ TreeSet_2: TreeSet(3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of diff() 
 // method 
 
@@ -93,7 +93,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet_1: TreeSet(1, 2, 3, 4, 5)
 TreeSet_2: TreeSet(3, 4, 5, 6, 7, 8)
 (TreeSet_2 - TreeSet_1): TreeSet(6, 7, 8)

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of diff()
 // method
 
@@ -40,7 +40,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 4
 
@@ -48,7 +48,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of diff()
 // method
 
@@ -78,7 +78,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 1
 3

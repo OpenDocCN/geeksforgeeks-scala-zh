@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Stream in Scala
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Stream(5, ?)
 
 ```
@@ -48,7 +48,7 @@ Stream(5, ?)
 因此，返回一个整数流。这里，首先创建一个列表，使用 *add* 方法将 int 元素添加到列表中。之后，使用*至流*方法将所述列表转换为流。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Stream in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Stream(5, ?)
 
 ```

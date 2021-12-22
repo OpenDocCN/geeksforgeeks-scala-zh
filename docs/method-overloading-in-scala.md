@@ -24,7 +24,7 @@
 
 ****示例:****
 
-```
+```scala
 // Scala program to demonstrate the function 
 // overloading by changing the number 
 // of parameters 
@@ -61,7 +61,7 @@ object Main 
 
 ****输出:****
 
-```
+```scala
 Sum in function 1 is:14
 Sum in function 2 is:73 
 ```
@@ -70,7 +70,7 @@ Sum in function 2 is:73
 
 ****示例:****
 
-```
+```scala
 // Scala program to demonstrate the function 
 // overloading by changing the data types 
 // of the parameters 
@@ -107,7 +107,7 @@ object Main 
 
 ****输出:****
 
-```
+```scala
 Sum in function 1 is:24
 Sum in function 2 is:74.61 
 ```
@@ -116,7 +116,7 @@ Sum in function 2 is:74.61
 
 ****示例:****
 
-```
+```scala
 // Scala program to demonstrate the function 
 // overloading by changing the 
 // order of the parameters 
@@ -153,7 +153,7 @@ object Main 
 
 ****输出:****
 
-```
+```scala
 Name of the watch company is:Rolex
 Total number of watch :10
 Name of the watch company is:Omega
@@ -165,7 +165,7 @@ Total number of watch :10
 **编译器会给出错误，因为仅返回值不足以让编译器找出它必须调用哪个函数。只有当两个方法具有不同的参数类型时(因此，它们具有不同的签名)，方法重载才是可能的。
 **例:****
 
-```
+```scala
 // Example to show error when method signature is same  
 // and return type is different. 
 object Main {

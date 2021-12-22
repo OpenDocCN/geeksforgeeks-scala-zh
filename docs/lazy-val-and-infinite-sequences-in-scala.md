@@ -6,7 +6,7 @@ val 和**Lazy**val 存在于 Scala 中。lazy 关键字将 val 更改为 lazy �
 
 **例:**
 
-```
+```scala
 // Scala program of Lazy val
 
 // Creating object 
@@ -32,7 +32,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialization for the first time
 12
 12
@@ -41,14 +41,14 @@ Initialization for the first time
 
 在上面的代码中,“geek”是一个懒惰的 val，所以第一次被访问时，它返回
 
-```
+```scala
 Initialization for the first time
 12
 ```
 
 但是第二次打印时，它只返回了
 
-```
+```scala
 12
 ```
 
@@ -62,23 +62,23 @@ Scala 的列表是序列。此外，这些列表是**严格序列**，这意味�
 
 这样的情况有 2 种:
 
-*   ```
+*   ```scala
     12 ::Nil
     ```
 
     这里，con 单元格有值，尾列表为空。这里的列表只是一个元素。
 
-    ```
+    ```scala
     List[Int] = List(12)
     ```
 
-*   ```
+*   ```scala
     12 : 22 : Nil
     ```
 
     在这里，cons 单元格有一个值和另一个列表作为尾巴。
 
-    ```
+    ```scala
     List[Int] = List(22)
     ```
 
@@ -88,7 +88,7 @@ Scala 的列表是序列。此外，这些列表是**严格序列**，这意味�
 
 *   **代码 1 :**
 
-    ```
+    ```scala
     val geek = 6 ::23 ::45 ::Nil
 
         print(geek)
@@ -96,7 +96,7 @@ Scala 的列表是序列。此外，这些列表是**严格序列**，这意味�
 
     **输出:**
 
-    ```
+    ```scala
     List(6, 23, 45)
     ```
 
@@ -104,13 +104,13 @@ Scala 的列表是序列。此外，这些列表是**严格序列**，这意味�
 
     T21】输出:
 
-    ```
+    ```scala
     List(6, 23, 45)
     ```
 
 *   T24】代码 3:
 
-    ```
+    ```scala
     val geek = (((Nil.::(45)).::(23)).::(6))
 
         print(geek)
@@ -118,13 +118,13 @@ Scala 的列表是序列。此外，这些列表是**严格序列**，这意味�
 
     T29】输出:
 
-    ```
+    ```scala
     List(6, 23, 45)
     ```
 
 **例:**
 
-```
+```scala
 // Scala program to merge lists 
 
 // Creating object 
@@ -152,7 +152,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 6
 7
 8

@@ -4,7 +4,7 @@
 
 **self()** 方法用于返回已指定的相同值。
 
-```
+```scala
 Method Definition: (Value).selfReturn 
 Type: It returns true the same value which has been specified.
 ```
@@ -13,7 +13,7 @@ Type: It returns true the same value which has been specified.
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int self()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 5
 ```
 
@@ -45,7 +45,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int self()
 // method
 
@@ -69,6 +69,6 @@ object GfG
 
 **Output:**
 
-```
+```scala
 10
 ```

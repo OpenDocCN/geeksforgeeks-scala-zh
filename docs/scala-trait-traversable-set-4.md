@@ -13,7 +13,7 @@
     The operations here are *reduceRight, reduceLeft, /: or foldLeft, :\ or foldRight*. This methods apply binary operation to the successive elements of the Traversable collection.
     **Example :**
 
-    ```
+    ```scala
     // Scala program for operations
     // of Folds
 
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     -20
 
     ```
@@ -53,7 +53,7 @@
     该方法在给定可遍历集合的连续元素之间应用二进制运算，从左向右移动，从初始值开始。
     **例:**
 
-    ```
+    ```scala
     // Scala program for operations
     // of Folds
 
@@ -83,7 +83,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     4
 
     ```

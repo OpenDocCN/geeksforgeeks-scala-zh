@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min()
 // method
 import scala.collection.immutable.SortedMap
@@ -37,7 +37,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (cs, 2)
 
 ```
@@ -45,7 +45,7 @@ object GfG
 正如我们在上面的例子中看到的 **cs** 是 SortedMap 中最小的元素。
 **例 2:**
 
-```
+```scala
 // Scala program of min()
 // method
 import scala.collection.immutable.SortedMap
@@ -72,7 +72,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (for, 6)
 
 ```

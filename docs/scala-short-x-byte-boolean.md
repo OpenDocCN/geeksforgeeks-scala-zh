@@ -10,7 +10,7 @@ T2】原文:[https://www.geeksforgeeks.org/scala-short-x-byte-boolean/](https://
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Short <(x: Byte) 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 False
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Short <(x: Byte) 
 // method 
 
@@ -65,7 +65,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 false
 
 ```

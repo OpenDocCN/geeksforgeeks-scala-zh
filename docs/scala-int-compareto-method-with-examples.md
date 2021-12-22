@@ -11,7 +11,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program to demonstrate the
 // compareTo method of Int class
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 1
 ```
 
@@ -42,7 +42,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program to demonstrate the
 // compareTo method of Int class
 
@@ -65,6 +65,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 -1
 ```

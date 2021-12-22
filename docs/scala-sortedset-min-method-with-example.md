@@ -10,7 +10,7 @@ min()方法用于查找所述列表中所有元素的最小元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 1
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 
 ```

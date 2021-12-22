@@ -13,7 +13,7 @@
 *   Extending abstract class with trait
     **Example :**
 
-    ```
+    ```scala
     // Scala program of trait Mixins
 
     // Trait structure
@@ -71,7 +71,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     GeeksforGeeks
     CS_portal
 
@@ -82,7 +82,7 @@
 *   Extending abstract class without trait
     **Example :**
 
-    ```
+    ```scala
     // Scala program of trait Mixins
 
     // Trait structure
@@ -143,7 +143,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     geeksforgeeks
     I like GeeksforGeeks
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 class classname
 {
      // declaring some states that are mutable
@@ -25,7 +25,7 @@ class classname
 下面是一些理解有状态对象的例子。
 **示例#1:**
 
-```
+```scala
 // A Scala program to illustrate 
 // stateful objects
 
@@ -85,7 +85,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 water in bottle = 3
 water left = 2
 water left = 1
@@ -100,7 +100,7 @@ waterbottle empty fill water
 
 **示例#2:**
 
-```
+```scala
 // A Scala program to illustrate 
 // stateful objects
 
@@ -187,7 +187,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 player@506e1b77 health is 7
 player@506e1b77 health is 5
 player@506e1b77 health is 0

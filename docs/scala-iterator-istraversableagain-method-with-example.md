@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
     def isTraversableAgain: Boolean
 
     ```
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of isTraversableAgain()
 // method
 
@@ -44,7 +44,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```
@@ -52,7 +52,7 @@ false
 这里，迭代器不能重复遍历，所以它返回 false。
 **例:**
 
-```
+```scala
 // Scala program of isTraversableAgain()
 // method
 
@@ -80,7 +80,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

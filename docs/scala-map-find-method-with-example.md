@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of find()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Some((1, for))
 
 ```
@@ -45,7 +45,7 @@ Some((1, for))
 因此，这里第二对是满足给定谓词的第一对，因此，返回第二对。
 **例 2:**
 
-```
+```scala
 // Scala program of find()
 // method
 
@@ -72,7 +72,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Some((3, geeks))
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of takeRight()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(4, 5, 7)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of takeRight()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 2, 3, 4, 5, 7)
 
 ```

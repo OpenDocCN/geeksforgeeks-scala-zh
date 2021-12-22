@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of /(x: Float)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2.8813559322033897
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of /(x: Float)
 // method
 
@@ -66,7 +66,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3.3333333333333335
 
 ```

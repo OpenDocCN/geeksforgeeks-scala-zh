@@ -6,7 +6,7 @@
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     def indexOf(elem: B): Int
 
     ```
@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of indexOf()
 // method
 
@@ -45,7 +45,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```
@@ -53,7 +53,7 @@ object GfG
 这里，方法的*索引中的值 9 出现在迭代器的第三个位置，因此它返回三。
 T3】例:*
 
-```
+```scala
 // Scala program of indexOf()
 // method
 
@@ -80,7 +80,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 -1
 
 ```

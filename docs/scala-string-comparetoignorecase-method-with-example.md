@@ -9,7 +9,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of compareToIgnoreCase()
 // method
 
@@ -35,14 +35,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of compareToIgnoreCase()
 // method
 
@@ -68,7 +68,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```
@@ -76,7 +76,7 @@ object GfG
 这里，即使有大小写差异，两个字符串也被认为是相同的。
 **例 3:**
 
-```
+```scala
 // Scala program of compareToIgnoreCase()
 // method
 
@@ -102,7 +102,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 
 ```

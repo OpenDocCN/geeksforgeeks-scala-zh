@@ -14,7 +14,7 @@
 
     **语法:**
 
-    ```
+    ```scala
     [T >: Demo[T]]
     ```
 
@@ -23,7 +23,7 @@
     **我们再举一个例子**
     如果我以如下所示的某种格式声明所有的类:
 
-    ```
+    ```scala
     trait Food
     class eatables extends Food
     class drinks extends Food
@@ -38,7 +38,7 @@
 
     现在所有的类和子类都已经用上面的语句声明了。所以如果我们考虑语句位置[A]，这里位置是泛型，A 是抽象类型。这可以进一步简化，位置[A]表示传递到位置所需的值必须是类型 A。这意味着如果我给出一个命令位置[水果]，那么它将使用水果的实例来创建。为了检验这一点，我们将看到一个例子:
 
-    ```
+    ```scala
     new position[fruits](new fruits)
     new position[fruits](new drinks)
     new position[eatables](new vegetables)
@@ -46,7 +46,7 @@
 
     在上面给出的例子中，我们将注意到第一条语句将被编译，但是第二条语句将显示错误，因为水果和饮料不是同一类型的。另一方面，第三个语句将被编译，因为蔬菜是食物的子类型。现在在上面给出的语句中使用一些下限命令:
 
-    ```
+    ```scala
     class position[A >: fruits](val place=A)
     ```
 
@@ -54,7 +54,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala Program To Demonstrate Scala Lower Bound
     class GeeksforGeeks
     class Author extends GeeksforGeeks
@@ -91,7 +91,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     GeeksforGeeks@506e1b77
     Geeks@4fca772d
     Author@9807454
@@ -100,7 +100,7 @@
 
     这里，下界是在类 ComputerSciencePortal 中定义的，GeeksforGeeks 是作者的超级类。它在下限被接受。
 
-    ```
+    ```scala
     // Scala Program To Demonstrate Scala Lower Bound
     class Principal
     class Teacher extends Principal
@@ -137,7 +137,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Principal@506e1b77
     Teacher@4fca772d
     Student@9807454

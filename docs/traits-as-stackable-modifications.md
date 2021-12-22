@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```scala
 trait Trait_Name {
 // Fields..
 // Methods..
@@ -19,13 +19,13 @@ trait Trait_Name {
 
 **在此之前，首先我们应该借助一个例子来理解什么是**可堆叠修改**。考虑一位客户付费给手机充值，使用语音通话、互联网等移动服务。根据特定用户的使用情况，这些服务可以分为不同的包。如果我们想要实现这项服务，我们需要有客户为某个特定套餐付费的套餐名称，比如说*数据包*。所以我们可以这样说。**
 
-```
+```scala
 new Recharge with DataPack 
 ```
 
 **假设我们在充值类中有特定的价值，该类在某个包中列出了服务列表。如果消费者想再充值一个包，而我们不想有一个机制来为我们显式修改服务列表，但这应该是默认发生的。这就像是一种行为，随着我们不断添加不同的包而被修改。这种情况让我们了解了可堆叠修改的概念。随着客户添加新包装，列表将不断更新。**
 
-```
+```scala
 new Recharge with DataPack with FullTalkTime 
 ```
 
@@ -39,7 +39,7 @@ new Recharge with DataPack with FullTalkTime
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate traits 
 // in stackable fashion
 
@@ -86,7 +86,7 @@ object Shapes 
 
 ****输出:****
 
-```
+```scala
 Dotted : Sharp-Square-Shape-1
 Dotted : Circle-Sharp-Shape-2 
 ```
@@ -95,7 +95,7 @@ Dotted : Circle-Sharp-Shape-2
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate traits 
 // in stackable fashion
 
@@ -142,7 +142,7 @@ object Balls
 
 ****输出:****
 
-```
+```scala
 Spinning : Shiny-Yellow-Ball-1
 Spinning: Blue-Shiny-Ball-2 
 ```

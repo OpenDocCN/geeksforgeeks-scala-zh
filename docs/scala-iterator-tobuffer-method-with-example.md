@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```scala
 // Scala program of toBuffer()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 ArrayBuffer(3, 2, 5, 9)
 
 ```

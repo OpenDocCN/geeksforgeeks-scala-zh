@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Set in Scala
 
@@ -39,7 +39,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(GfG)
 
 ```
@@ -47,7 +47,7 @@ Set(GfG)
 因此，返回一组字符串。这里，首先创建一个列表，使用 *add* 方法将字符串元素添加到列表中。之后，使用*设置*方法将所述列表转换为字符串集。
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to Set in Scala
 
@@ -82,7 +82,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(GfG, is a, CS-portal)
 
 ```

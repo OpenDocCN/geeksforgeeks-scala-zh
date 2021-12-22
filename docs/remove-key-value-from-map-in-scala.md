@@ -5,7 +5,7 @@
 Scala 映射键的删除可以通过**–**运算符获得。该操作符用于删除地图的键集。
 **语法:**
 
-```
+```scala
 def -(elem1: A, elem2: A, elems: A*): Map[A, B]
 
 ```
@@ -13,7 +13,7 @@ def -(elem1: A, elem2: A, elems: A*): Map[A, B]
 它返回一个包含给定地图的所有元素的新地图，除了使用上述运算符删除的一组关键字。
 **例 1:**
 
-```
+```scala
 // Scala program of deleting 
 // keys
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Map(geeks -> 5)
 
 ```
@@ -48,7 +48,7 @@ Map(geeks -> 5)
 在上例中，删除了键的**。
 **例 2:****
 
-```
+```scala
 // Scala program of deleting 
 // keys
 
@@ -75,7 +75,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Map(cs -> 2)
 
 ```

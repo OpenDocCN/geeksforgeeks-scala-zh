@@ -10,7 +10,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
     It is a Trait, which is a subset of each of the reference types but is not at all a sub-type of value types and a single instance of *Null* is *null*. The reference types can be assigned *null* but the value types cannot be assigned *null*.
     **Example :**
 
-    ```
+    ```scala
     // Scala program using Null and null
 
     // Creating object
@@ -41,7 +41,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     GeeksForGeeks
     ```
 
@@ -53,7 +53,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
     The *Unit* is Scala is analogous to the *void* in Java, which is utilized as a return type of a functions that is used with a function when the stated function does not returns anything.
     **Example :**
 
-    ```
+    ```scala
     // Scala program using Unit type
 
     // Creating object
@@ -79,7 +79,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     1
     2
     3
@@ -91,7 +91,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
     *Nil* is Considered as a List which has zero elements in it. The type of *Nil* is List[Nothing] and as stated above, that *Nothing* has no instances, we can have a List which is confirmed to be desolated.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to show that
     // Nil is an empty list
 
@@ -111,7 +111,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     List()
     ```
 
@@ -122,7 +122,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to convert
     // None to empty list
 
@@ -142,7 +142,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     List()
     ```
 
@@ -150,7 +150,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to test if
     // None is empty or not
 
@@ -171,7 +171,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     true
     ```
 
@@ -179,7 +179,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to convert None
     // to String
 
@@ -199,7 +199,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     None
     ```
 
@@ -207,7 +207,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of utilizing
     // None with Scala's Option
 
@@ -230,7 +230,7 @@ Scala 中的空值由 *Null* 、 *null* 、 *Nil* 、 *Nothing* 、 *None* 和 *
 
     **输出:**
 
-    ```
+    ```scala
     None
     ```
 

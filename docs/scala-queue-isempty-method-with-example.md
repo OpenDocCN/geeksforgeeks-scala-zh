@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of isEmpty() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 The queue is empty: false
 
@@ -51,7 +51,7 @@ The queue is empty: false
 
 **例 2:**
 
-```
+```scala
 // Scala program of isEmpty() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue()
 The queue is empty: true
 

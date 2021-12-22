@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -34,7 +34,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 13
 19
 21
@@ -44,7 +44,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -68,7 +68,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 2 times 2 = 4
 3 times 3 = 9
 5 times 5 = 25

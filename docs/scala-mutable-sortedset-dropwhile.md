@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -41,7 +41,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 TreeSet(2, 3, 4, 5)
 
@@ -49,7 +49,7 @@ TreeSet(2, 3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of dropWhile() 
 // method 
 import scala.collection.mutable.SortedSet 
@@ -80,7 +80,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(15, 17, 21)
 TreeSet(17, 21)
 

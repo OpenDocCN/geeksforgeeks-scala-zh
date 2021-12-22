@@ -7,7 +7,7 @@ Scala Extractor 被定义为一个对象，它的一部分是一个名为 unappl
 下面是模式匹配提取器的例子。
 **例 1:**
 
-```
+```scala
 // Scala program of extractors 
 // with pattern matching 
 
@@ -55,7 +55,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5.0
 The value is: 1.0
 
@@ -65,7 +65,7 @@ The value is: 1.0
 
 **例 2:**
 
-```
+```scala
 // Scala program of extractors 
 // with pattern matching 
 
@@ -97,7 +97,7 @@ def unapply(z: Int): Option[Int] = if (z % 2 == 0) 
 
 **Output:**
 
-```
+```scala
 30
 30 is bigger two times than 15
 

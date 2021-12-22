@@ -11,7 +11,7 @@
     The Conversion operations are *toList, toSeq, toArray, toStream, toSet, toMap, toIterable, and toIndexedSeq*. These operations changes the Collection of Traversable into a relatively distinct thing.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -36,7 +36,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     [I@506e1b77
 
     ```
@@ -44,7 +44,7 @@
     这里，转换操作，即*到数组*将上述集合(或任何可遍历集合)转换成数组。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -70,7 +70,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     List(20, 6, 2, 7, 3, 15)
 
     ```
@@ -78,7 +78,7 @@
     在这里，*到列表*将把任何可遍历的集合转换成列表。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -103,7 +103,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Set(10, 9, 13, 18, 19, 15)
 
     ```
@@ -111,7 +111,7 @@
     这里，转换操作，即*到集合*将可遍历的任何集合转换成集合。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -136,7 +136,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     ArrayBuffer(6, 2, 11, 8, 4, 15)
 
     ```
@@ -144,7 +144,7 @@
     在这里，转换操作，即*到等式*将任何可遍历集合转换成序列。这里生成的序列用于向量。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -169,7 +169,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Set(10, 13, 18, 8, 15)
 
     ```
@@ -177,7 +177,7 @@
     这里，转换操作，即*到可改变的*(它迭代集合的所有元素)将把可遍历的任何集合转换成可迭代的。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -203,7 +203,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Vector(5, 6, 9, 2, 7, 4)
 
     ```
@@ -211,7 +211,7 @@
     这里，转换操作，即*到索引 eq* 将任何可遍历转换成索引序列。这里生成的索引序列用于字符串和向量。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -236,7 +236,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Stream(25, ?)
 
     ```
@@ -244,7 +244,7 @@
     这里，转换操作，即*到流*将可遍历的任何集合转换成流。该流被懒洋洋地枚举。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Conversion operation
 
     // Creating object 
@@ -269,7 +269,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Map(GfG -> CS portal, Nidhi -> a Geek)
 
     ```
@@ -280,7 +280,7 @@
     The Size info operations are *nonEmpty, isEmpty, hasDefiniteSize, and size*. These operations can specify if the given operation is finite or infinite.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Size info operation
 
     // Creating object 
@@ -306,7 +306,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     false
 
     ```
@@ -314,7 +314,7 @@
     这里，*是空的*检查可遍历集合是否为空。如果元素集合为空，则打印 true 如果不为空，则打印 false。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Size info operation
 
     // Creating object 
@@ -340,7 +340,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     true
 
     ```
@@ -348,7 +348,7 @@
     这里，*非空*检查可遍历集合是否包含元素。如果集合中有元素，则显示 true，否则显示 false。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Size info operation
 
     // Creating object 
@@ -374,7 +374,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     3
 
     ```
@@ -382,7 +382,7 @@
     这里，利用*大小*来评估可遍历集合的大小。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Size info operation
 
     // Creating object 
@@ -409,7 +409,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     true
 
     ```
@@ -420,7 +420,7 @@
     The Element retrieval operations includes *last, head, lastOption, headOption, and find*. These operations are utilized to retrieve first or last element of the Traversable collection or to retrieve the first element corresponding to the given condition.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of Element 
     // retrieval operation
 
@@ -448,7 +448,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Some(15)
 
     ```
@@ -456,7 +456,7 @@
     这里，可遍历的最后一个元素由*最后一个选项*返回。必须对指定的集合进行排序，如果集合中没有元素，则返回无。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Element 
     // retrieval operation
 
@@ -484,7 +484,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     15
 
     ```
@@ -492,7 +492,7 @@
     这里， *last* 将返回所述集合的最后一个元素。集合必须是有序的，如果它不是有序的，那么会返回一些随机元素。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Element 
     // retrieval operation
 
@@ -520,7 +520,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     12
 
     ```
@@ -528,7 +528,7 @@
     这里，*头*将返回可遍历集合的第一个元素，如果它是有序的，并且如果该集合不是有序的，则返回任何随机元素。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Element 
     // retrieval operation
 
@@ -557,7 +557,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Some(21)
 
     ```
@@ -565,7 +565,7 @@
     在这里， *find* 将检索集合的第一个元素，该元素与所述条件相匹配。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of Element 
     // retrieval operation
 
@@ -598,7 +598,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Some(7)
     None
 

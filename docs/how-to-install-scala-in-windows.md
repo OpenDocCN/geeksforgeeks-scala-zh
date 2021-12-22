@@ -11,7 +11,7 @@ Scala 是一种非常兼容的语言，因此可以非常容易地安装到窗�
 我们首先需要在电脑上安装一个 Java 软件开发工具包(SDK)。我们需要验证这个软件开发工具包包，如果没有安装，然后安装它们。只需转到**命令行**(对于**窗口**，在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)。
 现在运行以下命令:*
 
-```
+```scala
 *java -version* 
 ```
 
@@ -41,7 +41,7 @@ Scala 是一种非常兼容的语言，因此可以非常容易地安装到窗�
 
 *完成安装过程后，可以使用任何集成开发环境或文本编辑器编写 Scala 代码，并使用命令在集成开发环境或命令提示符下运行它们:*
 
-```
+```scala
 *scalac file_name.Scala
 scala class_name*
 ```
@@ -49,7 +49,7 @@ scala class_name*
 *这里有一个示例程序，从使用 **Scala 编程**开始:
 让我们考虑一个简单的 Hello World 程序。*
 
-```
+```scala
 *// Scala program to print Hello World!  
 object Geeks  
 { 

@@ -5,7 +5,7 @@
 **抽象**是隐藏内部细节，只显示功能的过程。在 Scala 中，抽象是通过使用抽象类来实现的。Scala 抽象类的工作类似于 [Java 抽象类](https://www.geeksforgeeks.org/abstract-classes-in-java/)。在 Scala 中，抽象类是使用*抽象关键字*构建的。它包含抽象和非抽象方法，并且不能支持多重继承。一个类只能扩展一个抽象类。
 **语法:**
 
-```
+```scala
 abstract class class_name
 {
 // code..
@@ -15,13 +15,13 @@ abstract class class_name
 抽象类的抽象方法是那些不包含任何实现的方法。或者换句话说，不包含主体的方法被称为抽象方法。
 **语法:**
 
-```
+```scala
 def function_name()
 ```
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate how to 
 // create an abstract class
 
@@ -57,7 +57,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Author name: Ankita Saini
 Topic name: Abstract class in Scala
 
@@ -68,7 +68,7 @@ Topic name: Abstract class in Scala
 *   Like Java, in Scala, we are not allowed to create the instance of the abstract class. If we try to create objects of the abstract class, then the compiler will give an error as shown in the below program.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // the concept of abstract class
 
@@ -100,7 +100,7 @@ Topic name: Abstract class in Scala
 *   In Scala, an abstract class can also contain fields. These fields are accessed by the abstract class methods and by the methods of the class which inherit abstract class. As shown in the below program.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // the concept of abstract class
 
@@ -149,7 +149,7 @@ Topic name: Abstract class in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Portal name: GeeksforGeeks
     Tutorial name: Scala
     ```
@@ -157,7 +157,7 @@ Topic name: Abstract class in Scala
 *   Like Java, In Scala, an abstract class can also contain a constructor and a constructor of an abstract class is called when an instance of a inherited class is created. As shown in the below program.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // the concept of abstract class
 
@@ -196,7 +196,7 @@ Topic name: Abstract class in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Author name: Ankita
     Topic name: Abstract class
 
@@ -205,7 +205,7 @@ Topic name: Abstract class in Scala
 *   An abstract class can also contain only non- abstract method. This allows us to create classes that cannot be instantiated, but can only be inherited. As shown in the below program.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // the concept of abstract class
 
@@ -240,7 +240,7 @@ Topic name: Abstract class in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Welcome to GeeksforGeeks
 
     ```
@@ -248,7 +248,7 @@ Topic name: Abstract class in Scala
 *   In Scala, an abstract class can contain final methods (methods that cannot be overridden). For example, the following program compiles and runs without an error. In Scala, final method is created using final keyword.
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate 
     // the concept of abstract class
 
@@ -280,7 +280,7 @@ Topic name: Abstract class in Scala
 
     **输出:**
 
-    ```
+    ```scala
     Final method
 
     ```

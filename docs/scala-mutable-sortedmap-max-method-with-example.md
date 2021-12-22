@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of max()
 // method
 import scala.collection.SortedMap
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (geeks, 5)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of max()
 // method
 import scala.collection.SortedMap
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (geeks, 6)
 
 ```

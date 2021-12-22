@@ -9,7 +9,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of int intern()
 // method
 
@@ -33,7 +33,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 GeeksforGeeks,
 A CS portal.
 
@@ -41,7 +41,7 @@ A CS portal.
 
 **例:2#**
 
-```
+```scala
 // Scala program of int intern()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 My name is Nidhi,
 i am an author.
 

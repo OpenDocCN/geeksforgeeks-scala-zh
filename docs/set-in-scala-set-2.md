@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala program to illustrate how to  
 // add items using +=, ++== and add() 
 // method in mutable set with mutable 
@@ -47,7 +47,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Set before addition of new elements:
 Set(for, G, Geek)
 
@@ -58,7 +58,7 @@ Set(geek23, for, Geeks, G, Geek, Geeks12, geeksForgeeks100, GeeksforGeeks)
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate how 
 // to add items using += operator in
 // mutable set with immutable collection
@@ -89,7 +89,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set before addition of new elements:
 Set(G, Geek, for)
 
@@ -104,7 +104,7 @@ Set(for, Geek, G, geeks1000, GeeksforGeeks)
 
 **例 1:**
 
-```
+```scala
 // Scala program to illustrate
 // how to delete items using -= 
 // and --= methods in mutalbe set 
@@ -136,7 +136,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set before deletion:
 Set(300, 100, 800, 500, 600, 400)
 
@@ -147,7 +147,7 @@ Set(800, 500, 400)
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate 
 // how to delete items using 
 // retain(), and clear() methods
@@ -187,7 +187,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set before deletion:
 Set(300, 100, 800, 500, 600, 400)
 Set(66, 55, 11, 44, 77)
@@ -206,7 +206,7 @@ Set()
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate how 
 // to add elements in immutable set
 import scala.collection.immutable._
@@ -251,7 +251,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Set before addition:
 Set(500, 600, 800, 300, 400, 100)
 Set(77, 44, 66, 11, 55)
@@ -270,7 +270,7 @@ Set(500, 77, 44, 66, 600, 11, 55, 800, 300, 400, 100)
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate how 
 // to remove elements in immutable set
 import scala.collection.immutable._
@@ -309,7 +309,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Set before deletion:
 Set(500, 900, 700, 600, 800, 300, 400, 100)
 
@@ -330,7 +330,7 @@ Set(900, 600, 800, 300, 400, 100)
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate union, 
 // intersection, and difference on Set 
 import scala.collection.immutable._
@@ -366,7 +366,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 Intersection:
 Set(77, 22, 44, 66, 55)
 

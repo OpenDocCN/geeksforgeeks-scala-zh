@@ -5,7 +5,7 @@
 **元组**是元素的集合。元组是异构数据结构，即它们可以存储不同数据类型的元素。元组是*不可变的*，不像 scala 中的数组是可变的。
 存储整数、字符串和布尔值的元组的示例。
 
-```
+```scala
 val name = (15, "Chandan", true)
 
 ```
@@ -14,7 +14,7 @@ val name = (15, "Chandan", true)
 
 **例如:**
 
-```
+```scala
 // this is tuple of type Tuple3[ Int, String, Boolean ] 
 val name = (15, "Chandan", true)
 
@@ -27,7 +27,7 @@ val name = (15, "Chandan", true)
 1.  **从元组访问元素:**可以使用*下划线*语法、方法 **tup 来访问元组元素。_i** 用于访问元组的 ith 元素。
     **例:**
 
-```
+```scala
 // Scala program to access 
 // element using underscore method
 
@@ -49,7 +49,7 @@ object gfg 
 
 **Output:**
 
-```
+```scala
 15
 chandan
 true
@@ -59,7 +59,7 @@ true
 *   **Pattern matching on tuples :** Pattern matching is a mechanism for checking a value against a pattern. A successful match can also deconstruct a value into its constituent parts.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of pattern matching on tuples
 
     // Creating object
@@ -78,7 +78,7 @@ true
 
     **Output:**
 
-    ```
+    ```scala
     15
     chandan
     true
@@ -90,7 +90,7 @@ true
     *   **迭代元组:**要迭代元组，使用 **tuple.productIterator()** 方法。
     **示例:**
 
-    ```
+    ```scala
     // Scala program to iterate over tuples
     // using productIterator method
 
@@ -112,7 +112,7 @@ true
 
     **输出:**
 
-    ```
+    ```scala
     15
     chandan
     true
@@ -122,7 +122,7 @@ true
     *   **将元组转换为字符串:**将元组转换为字符串会将其所有元素串联成一个字符串。我们对此使用 **tuple.toString()** 方法。
     **示例:**
 
-    ```
+    ```scala
     // Scala program to convert tuple element to String
 
     // Creating object
@@ -141,7 +141,7 @@ true
 
     **输出:**
 
-    ```
+    ```scala
     (15, chandan, true)
 
     ```
@@ -149,7 +149,7 @@ true
     *   **交换元组的元素:**交换元组的元素我们可以使用**元组.交换**方法。
     **示例:**
 
-    ```
+    ```scala
     // Scala program to swap tuple element
 
     // Creating object
@@ -168,7 +168,7 @@ true
 
     **输出:**
 
-    ```
+    ```scala
     (Geeksquize,geeksforgeeks)
 
     ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -33,7 +33,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 21
 9
 12
@@ -44,7 +44,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of foreach() 
 // method 
 
@@ -67,7 +67,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5 times 5 = 25
 1 times 1 = 1
 2 times 2 = 4

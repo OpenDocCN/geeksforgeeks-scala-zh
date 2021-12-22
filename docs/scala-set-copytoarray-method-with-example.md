@@ -15,7 +15,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of copyToArray()
 // method
 
@@ -45,7 +45,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 1
 2
 3
@@ -57,7 +57,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of copyToArray()
 // method
 
@@ -87,7 +87,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 0
 1
 2

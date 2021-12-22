@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of addString() method
 // with a start, a separator and an
 // end
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 =>1|3|4|8.
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of addString() method
 // with a start, a separator and an
 // end
@@ -75,7 +75,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 =>1|3|3|8.
 
 ```

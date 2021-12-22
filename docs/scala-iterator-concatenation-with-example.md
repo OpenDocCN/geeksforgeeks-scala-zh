@@ -11,7 +11,7 @@ Scala 迭代器的*连接*是利用运算符 **++** 完成的。它属于类*抽
 
 **示例#1:**
 
-```
+```scala
 // Scala program of concatenation
 // method
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 4
 6
@@ -51,7 +51,7 @@ object GfG
 因此，迭代器的元素都被添加了，这里我们使用了 *hasNext* 和 *next* 方法，这些方法可以在 Scala 中的迭代器上调用。
 **例 2:**
 
-```
+```scala
 // Scala program of concatenation
 // method
 
@@ -80,7 +80,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 1
 

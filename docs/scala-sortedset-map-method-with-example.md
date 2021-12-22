@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 4, 9, 16, 25)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(0, 1, 2)
 
 ```

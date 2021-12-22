@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of to()
 // method
 
@@ -33,14 +33,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 NumericRange(A, B, C, D, E, F, G)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of to()
 // method
 // Creating object
@@ -62,7 +62,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 NumericRange(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 ```

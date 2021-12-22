@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```scala
     class base_class_name extends derived_class_name
     {
         // Methods and fields
@@ -19,7 +19,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of extending a class
 
     // Base class 
@@ -59,7 +59,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Author name: chaitanyashah
     Total numbers of articles: 30
 
@@ -69,7 +69,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program of extending a class
 
     // Base class
@@ -122,7 +122,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Name: geek1
     Age: 32
     Name: geek2
@@ -133,7 +133,7 @@
     在上例中 **Parent** 是*基类* **Child1** 和 **Child2** 是*派生类*，它是使用 extends 关键字从 Parent 派生的。在主方法中，当我们创建 Child1 和 Child2 类的对象时，基类的所有方法和字段的副本都会在这个对象中获取内存。
     **示例:**
 
-    ```
+    ```scala
     // Scala program of extending a class
 
     // Base class
@@ -190,7 +190,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     new startHeight : 25
     new speed value: 25
     new gear value: 5

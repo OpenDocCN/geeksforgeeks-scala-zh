@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain working of
 // Long *(x: Double) method
 
@@ -34,13 +34,13 @@ object GfG
 
 **输出:**
 
-```
+```scala
 65.0
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to explain working of
 // Long *(x: Double) method
 
@@ -64,6 +64,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 750.0
 ```

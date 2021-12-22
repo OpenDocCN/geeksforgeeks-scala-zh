@@ -5,7 +5,7 @@
 在编程语言中， ***标识符*** 用于识别目的。在 Scala 中，标识符可以是类名、方法名、变量名或对象名。
 **例如:**
 
-```
+```scala
 class GFG{
     var a: Int = 20
 }
@@ -40,7 +40,7 @@ object Main {
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // Identifiers
 
@@ -64,7 +64,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Name:Siya
 Age:20
 Branch:Computer Science
@@ -72,13 +72,13 @@ Branch:Computer Science
 
 在上面的示例中，有效的标识符是:
 
-```
+```scala
 Main, main, args, `name`, _age, Branch, +
 ```
 
 关键词是:
 
-```
+```scala
 Object, def, var, println
 ```
 
@@ -89,13 +89,13 @@ Scala 支持四种类型的标识符:
 *   **字母数字标识符:**这些标识符是以字母(大写或小写字母)或下划线开头，后跟字母、数字或下划线的标识符。
     有效字母数字标识符的示例:
 
-```
+```scala
  _GFG, geeks123, _1_Gee_23, Geeks
 ```
 
 无效字母数字标识符的示例:
 
-```
+```scala
 123G, $Geeks, -geeks
 ```
 
@@ -103,7 +103,7 @@ Scala 支持四种类型的标识符:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // Alphanumeric Identifiers
 
@@ -127,7 +127,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 GeeksforGeeks
 Scala
 ```
@@ -135,7 +135,7 @@ Scala
 *   **运算符标识符:**这些标识符包含一个或多个运算符字符，如+、:、？、~、或#等。
     有效运营商标识符的示例:
 
-```
+```scala
  +, ++ 
 ```
 
@@ -143,7 +143,7 @@ Scala
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // Operator Identifiers
 
@@ -170,7 +170,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Display the result of + identifier:
 30
 ```
@@ -178,7 +178,7 @@ Display the result of + identifier:
 *   **混合标识符:**这些标识符包含字母数字标识符，后跟过程和操作员标识符。
     有效混合标识符的示例:
 
-```
+```scala
  unary_+, sum_= 
 ```
 
@@ -186,7 +186,7 @@ Display the result of + identifier:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // Mixed Identifiers
 
@@ -207,7 +207,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Display the result of mixed identifier:
 20
 ```
@@ -215,7 +215,7 @@ Display the result of mixed identifier:
 *   **文字标识符:**这些是那些标识符，其中任意字符串用后勾号(`…号`)括起来。
     有效混合标识符的示例:
 
-```
+```scala
 `Geeks`, `name` 
 ```
 
@@ -223,7 +223,7 @@ Display the result of mixed identifier:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // Literal Identifiers
 
@@ -245,7 +245,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Name:Siya
 Age:20
 ```

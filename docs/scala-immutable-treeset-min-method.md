@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Smallest element in the TreeSet: 1
 
@@ -51,7 +51,7 @@ Smallest element in the TreeSet: 1
 
 **例 2:**
 
-```
+```scala
 // Scala program of min() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 Smallest element in the TreeSet: a
 

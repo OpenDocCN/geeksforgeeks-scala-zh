@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of >>(x: Long)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of >>(x: Long)
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 0
 
 ```

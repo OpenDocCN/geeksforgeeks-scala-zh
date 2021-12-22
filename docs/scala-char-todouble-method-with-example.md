@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of toDouble()
 // method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 81.0
 
 ```
@@ -42,7 +42,7 @@ object GfG
 这里，' \u0051 '是 Q.
 **的单码表示例:2#**
 
-```
+```scala
 // Scala program of toDouble()
 // method
 
@@ -66,7 +66,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 10.0
 
 ```

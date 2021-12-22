@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Short /(x: Byte) 
 // method 
 
@@ -34,14 +34,14 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 49
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Short /(x: Byte) 
 // method 
 
@@ -65,6 +65,6 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 -2
 ```

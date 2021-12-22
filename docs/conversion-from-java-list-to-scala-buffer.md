@@ -6,7 +6,7 @@
 现在，让我们来看一些例子。
 **例:1#**
 
-```
+```scala
 // Scala program of converting a Java list
 // to a Scala Buffer
 
@@ -36,7 +36,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(11, 12, 13)
 
 ```
@@ -44,7 +44,7 @@ Buffer(11, 12, 13)
 因此，会返回一个 Scala 缓冲区。
 **例:2#**
 
-```
+```scala
 // Scala program of converting a Java list
 // to a Scala Buffer
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(6, 2, 8, 1)
 
 ```

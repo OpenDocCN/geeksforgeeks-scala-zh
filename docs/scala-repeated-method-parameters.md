@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of repeated 
 // parameters
 
@@ -43,7 +43,7 @@ object repeated
 
 **Output:**
 
-```
+```scala
 58
 
 ```
@@ -54,7 +54,7 @@ object repeated
 *   可以在重复参数方法中传递数组。
     **例:**
 
-```
+```scala
 // Scala program of repeated 
 // parameters
 
@@ -86,7 +86,7 @@ object arr
 
 **Output:**
 
-```
+```scala
 420
 
 ```
@@ -96,7 +96,7 @@ object arr
 *   An example to show that Repeated Parameters are always the last parameter of the method defined.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of repeated 
     // parameters
 
@@ -128,7 +128,7 @@ object arr
 
     **Output:**
 
-    ```
+    ```scala
     GeeksforGeeks is a Computer_Sciecne_Portal
 
     ```

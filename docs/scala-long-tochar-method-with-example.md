@@ -10,7 +10,7 @@ toChar()方法用于将指定的数字转换为字符值。这里指定的数字
 
 **例 1:**
 
-```
+```scala
 // Scala program of Long toChar()
 // method
 
@@ -33,13 +33,13 @@ object Test
 
 **输出:**
 
-```
+```scala
 D
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Long toChar()
 // method
 
@@ -62,6 +62,6 @@ object Test
 
 **输出:**
 
-```
+```scala
 R
 ```

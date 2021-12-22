@@ -5,7 +5,7 @@
 在 Scala 中，当参数通过带有命名参数的函数时，我们可以用参数名来标记参数。这些命名参数与函数的命名参数交叉匹配。在正常情况下，未命名参数使用参数位置来调用函数或构造函数，但是这些命名参数允许我们通过简单地交换顺序来改变传递给函数的参数的顺序。
 **语法:**
 
-```
+```scala
 Function Definition : def createArray(length:int, capacity:int);
 Function calling : createArray(capacity=20, length:10);
 
@@ -29,7 +29,7 @@ Function calling : createArray(capacity=20, length:10);
 
 **示例:**
 
-```
+```scala
 // Scala program using Named arguments
 
 // Creating object
@@ -53,7 +53,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Value of X : 6
 Value of Y : 8
 
@@ -63,7 +63,7 @@ Value of Y : 8
 
 **示例:**
 
-```
+```scala
 // Scala program using Named arguments
 
 // Creating object
@@ -98,7 +98,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Ist part of name: geeks
 IInd part of name: for
 IIIrd part of name: geeks

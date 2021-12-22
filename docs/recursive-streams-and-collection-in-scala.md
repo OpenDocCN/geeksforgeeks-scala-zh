@@ -6,7 +6,7 @@
 
 **示例 1:** 创建懒惰列表
 
-```
+```scala
 // Scala program for resursive stream
 // creating object 
 object Geeks 
@@ -30,7 +30,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Stream(1, ?)
 1
 5
@@ -41,7 +41,7 @@ Stream(1, ?)
 
 **示例 2:** 通过对方法进行递归调用来创建惰性列表
 
-```
+```scala
 // Scala program for resursive stream
 
 // creating object 
@@ -64,13 +64,13 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Stream(5, ?)
 ```
 
 **示例 3:** 通过以简单明了的方式递归调用方法来创建一个惰性列表
 
-```
+```scala
 // Scala program for resursive stream
 
 // creating object 
@@ -94,7 +94,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Stream(5, ?)
 ```
 
@@ -104,7 +104,7 @@ scala 中的流集合非常重要，因为它允许不需要显式删减。声�
 
 **例 4:**
 
-```
+```scala
 // Scala program for stream collection
 
 // creating object 
@@ -127,7 +127,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Stream(0, ?)
 0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9)
 
@@ -135,7 +135,7 @@ Stream(0, ?)
 
 **示例 5:** 使用过滤器
 
-```
+```scala
 // Scala program for filter list
 
 // creating object 
@@ -157,7 +157,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 List(3, 4)
 ```
 
@@ -165,7 +165,7 @@ List(3, 4)
 
 **示例 6:** 以非常简洁的方式使用过滤器
 
-```
+```scala
 // Scala program for collection
 
 // creating object 
@@ -188,7 +188,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 List(3, 4)
 ```
 

@@ -11,7 +11,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-int-x-float-method-with-exa
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int <(x: Float)
 // method
 
@@ -35,7 +35,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```
 
@@ -43,7 +43,7 @@ true
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int <(x: Float)
 // method
 
@@ -67,6 +67,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 false
 ```

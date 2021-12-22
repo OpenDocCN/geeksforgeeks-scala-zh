@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of size()
 // method
 import scala.collection.immutable.SortedMap
@@ -38,14 +38,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 3
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of size()
 // method
 import scala.collection.immutable.SortedMap 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 
 ```

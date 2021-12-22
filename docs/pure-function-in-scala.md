@@ -25,7 +25,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Pure function In Scala
 object GFG
 {
@@ -44,7 +44,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Square of the number is 16
 Number is 4
 ```
@@ -54,7 +54,7 @@ Number is 4
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Pure Function
 object GFG
 {
@@ -85,7 +85,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Output in case 1 :36
 Output in case 2 :36
 ```

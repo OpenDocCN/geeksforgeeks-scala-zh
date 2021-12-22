@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```scala
 // import package
 import scala.util.control._
 
@@ -31,7 +31,7 @@ loop.break
 
 或者
 
-```
+```scala
 import scala.util.control.Breaks._
 breakable 
 {
@@ -45,7 +45,7 @@ breakable
 
 **例如:**
 
-```
+```scala
 // Scala program to illustrate the 
 // implementation of break
 
@@ -78,7 +78,7 @@ def main(args: Array[String]) 
 
 **输出:**
 
-```
+```scala
 1
 2
 3
@@ -90,7 +90,7 @@ def main(args: Array[String]) 
 
 **例如:**
 
-```
+```scala
 // Scala program to illustrate the 
 // implementation of break in nested loop
 
@@ -150,7 +150,7 @@ def main(args: Array[String]) 
 
 **输出:**
 
-```
+```scala
   5
  20
  25

@@ -10,7 +10,7 @@ T2】原文:[https://www . geeksforgeeks . org/Scala-float-x-short-method-with-e
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Float <(x: Short)
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Float <(x: short)
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

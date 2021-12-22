@@ -10,7 +10,7 @@ product()方法用于返回队列中所有元素的乘积。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4)
 Product of all the elements of the queue: 24
 
@@ -51,7 +51,7 @@ Product of all the elements of the queue: 24
 
 **例 2:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 3, 7)
 5 * 2 * 3 * 7 = 210
 

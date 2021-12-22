@@ -10,7 +10,7 @@ contains()方法用于检查 not 集合中是否存在元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 true
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 false
 
 ```

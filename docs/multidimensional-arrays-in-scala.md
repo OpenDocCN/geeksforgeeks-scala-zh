@@ -14,7 +14,7 @@
 Scala 有一个方法 *Array.ofDim* 来创建多维数组。这种方法可以用来创建多达五个维度的数组。我们需要知道创建时的行数和列数。声明数组后，我们向其中添加元素。
 **示例:**
 
-```
+```scala
 // Scala Program of Multidimensional array 
 // using Array.ofDim
 object MultiArr
@@ -43,7 +43,7 @@ object MultiArr
 
 **输出**
 
-```
+```scala
 (0,0)=2
 (0,1)=7
 (1,0)=3
@@ -55,7 +55,7 @@ object MultiArr
 
 **示例:**
 
-```
+```scala
 // Scala Program of Multidimensional array 
 // using Array of Array
 object MultiArr
@@ -82,7 +82,7 @@ object MultiArr
 
 **输出:**
 
-```
+```scala
  0 2 4 6 8
  1 3 5 7 9
 ```
@@ -90,7 +90,7 @@ object MultiArr
 现在，让我们考虑一个用(行，列)
 **显示元素的示例:**
 
-```
+```scala
 // Scala Program of Multidimensional array 
 // using Array of Array
 object Mad
@@ -115,7 +115,7 @@ object Mad
 
 **输出:**
 
-```
+```scala
 (0,0)=0
 (0,1)=2
 (0,2)=4

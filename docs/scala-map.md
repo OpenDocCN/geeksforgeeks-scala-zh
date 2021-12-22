@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```scala
 // Immutable
 variable = Map(key_1 -> value_1, key_2 -> value_2,
  key_3 -> value_3, ....)
@@ -33,7 +33,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     可以使用映射变量名和键来访问值。
     **例:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Accessing Values Using Keys
 
@@ -57,14 +57,14 @@ key_2 -> value_2, key_3 -> value_3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     30
     ```
 
     如果我们试图访问与关键字“John”相关联的值，我们将会得到一个错误，因为在地图中不存在这样的关键字。因此，在使用键访问任何值时，建议使用 **contains()** 函数。
     该功能检查地图中的钥匙。如果密钥存在，则返回真，否则返回假。
 
-    ```
+    ```scala
     // Scala map program of 
     // Accessing Values Using 
     // Keys by contains() function
@@ -95,7 +95,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Ajay:30 
     John:0
     ```
@@ -106,7 +106,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     **示例:**
     **更新不可变地图:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Updating the values
     // in immutable map
@@ -139,7 +139,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
 
     **更新可变地图:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Updating the values
     // in mutable map
@@ -175,7 +175,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     我们可以使用 **+=** 运算符在可变映射中插入新的键值对，然后添加或更新新的键值对。
     T3】例:
 
-    ```
+    ```scala
     // Scala map program of 
     // Adding new key-value pair
 
@@ -212,7 +212,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     删除键值对类似于添加新条目。不同的是，我们不是使用 **+=** 而是使用 **-=** 运算符，后面跟着要删除的键。
     **例:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Deleting new key-value pair
 
@@ -250,7 +250,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     要了解 Scala 中循环的语法和工作方式，请参考: [Loops|Scala](https://www.geeksforgeeks.org/scala-loopswhile-do-while-for-nested-loops/)
     **示例:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Iteration in a Map
 
@@ -279,7 +279,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Key:Ajay, Value:30
     Key:Charlie, Value:50
     Key:Bhavesh, Value:20
@@ -290,7 +290,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
     在 Scala Map 中，我们还可以创建一个空的 Map，然后在其中添加元素。
     **例:**
 
-    ```
+    ```scala
     // Scala map program of 
     // Empty Map
 
@@ -318,7 +318,7 @@ key_2 -> value_2, key_3 -> value_3, ....)
 
     **输出:**
 
-    ```
+    ```scala
     Empty Map: Map()
     New Entry: Map(Charlie -> 50)
     ```

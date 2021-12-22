@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toSet()
 // method
 
@@ -37,14 +37,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set((3, geeks), (4, for))
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of toSet()
 // method
 
@@ -71,7 +71,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set((3, geeks), (4, for), (2, cs))
 
 ```

@@ -9,7 +9,7 @@
 *   **With one constructor:** An example of calling a super class constructor
     **Example:**
 
-    ```
+    ```scala
     // Scala program to illustrate
     // calling a super class constructor
 
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Geeksforgeeks
     Subclass constructor called
 
@@ -56,7 +56,7 @@
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to illustrate
     // calling a specific super class constructor
 
@@ -100,7 +100,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Article count 3000
     Subclass constructor called
 
@@ -109,7 +109,7 @@
 *   我们可以在这里调用单参数构造函数，默认情况下，另一个参数值将是 0。
     **例:**
 
-    ```
+    ```scala
     // Scala program to illustrate
     // calling a specific super class constructor
 
@@ -153,7 +153,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     Article Count 0
     Subclass constructor called
 

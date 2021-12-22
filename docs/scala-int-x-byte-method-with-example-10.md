@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Int -(x: Byte)
 // method
 
@@ -34,7 +34,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 50
 
 ```

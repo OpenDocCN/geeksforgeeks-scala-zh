@@ -14,7 +14,7 @@
 下面我们来讨论一些例子。
 **例:**
 
-```
+```scala
 // Scala program of forming 
 // Generic classes
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 5
 4.2
 
@@ -75,7 +75,7 @@ object GfG
 
 **示例:**
 
-```
+```scala
 // Scala program of using generic
 // types for numeric values
 import Numeric._
@@ -104,7 +104,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 The sum is : 100
 
 ```

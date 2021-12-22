@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toString() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5, 6)
 String representation of the TreeSet object: TreeSet(1, 2, 3, 4, 5, 6)
 
@@ -51,7 +51,7 @@ String representation of the TreeSet object: TreeSet(1, 2, 3, 4, 5, 6)
 
 **例 2:**
 
-```
+```scala
 // Scala program of toString() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 String representation of the TreeSet object: TreeSet(a, e, i, o, u)
 

@@ -32,7 +32,7 @@ Scala 在程序员中受欢迎有很多原因。原因很少:
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to print Hello, Geeks!
 // by using object-oriented approach
 
@@ -51,7 +51,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 Hello, Geeks!
 ```
 
@@ -60,14 +60,14 @@ Hello, Geeks!
 *   **单行注释:**
     **语法:**
 
-```
+```scala
 // Single line comment
 ```
 
 *   **多行注释:**
     **语法:**
 
-```
+```scala
 /* Multi-line comments
    syntax */
 ```

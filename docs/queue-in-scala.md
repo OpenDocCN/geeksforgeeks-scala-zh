@@ -24,7 +24,7 @@
 
 **例 1:**
 
-```
+```scala
 // Scala program for illustrating Queue
 
 // Import Queue 
@@ -72,7 +72,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Queue Elements: 1 2 3 4 5 
 First element in the queue: 1
 Queue Elements after enqueue: 1 2 3 4 5 10 
@@ -84,7 +84,7 @@ Queue is empty: false
 
 **例 2:**
 
-```
+```scala
 // Scala program for illustrating Queue
 
 // Import Queue 
@@ -142,7 +142,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Queue Elements: apple banana mango guava 
 First element in the queue: apple
 Queue Elements after enqueue: apple banana mango guava pineapple 

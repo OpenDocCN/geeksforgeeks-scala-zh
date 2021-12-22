@@ -7,7 +7,7 @@ scala 中的**数组**是*同构的*和*可变的*，即它包含相同数据类
 
 **示例:**
 
-```
+```scala
 var name = new ArrayBuffer[datatype]()  // empty buffer is created
 
 var name = new ArrayBuffer("chandan", "gfg", "geeksforgeeks")
@@ -20,7 +20,7 @@ var name = new ArrayBuffer("chandan", "gfg", "geeksforgeeks")
 
 1.  **创建 ArrayBuffer 实例:**
 
-    ```
+    ```scala
     // Scala program to create an ArrayBuffer
     // ArrayBuffer class is imported
     import scala.collection.mutable.ArrayBuffer
@@ -44,7 +44,7 @@ var name = new ArrayBuffer("chandan", "gfg", "geeksforgeeks")
 
     **输出:**
 
-    ```
+    ```scala
     ArrayBuffer(GeeksForGeeks, gfg, Chandan)
 
     ```
@@ -52,7 +52,7 @@ var name = new ArrayBuffer("chandan", "gfg", "geeksforgeeks")
 2.  **从 ArrayBuffer 访问元素:**
     元素的访问与数组相同， **ArrayBuffer(i)** 用于访问数组的索引元素。
 
-```
+```scala
 // Scala program to access element of ArrayBuffer
 // ArrayBuffer class is imported
 import scala.collection.mutable.ArrayBuffer
@@ -78,7 +78,7 @@ def main(args: Array[String]) 
 
 **Output:**
 
-```
+```scala
 gfg
 
 ```
@@ -86,25 +86,25 @@ gfg
 *   **Adding elements in ArrayBuffer:**
     *   向缓冲区添加单个元素
 
-        ```
+        ```scala
         ArrayBuffer+=( element)
         ```
 
     *   添加两个或更多元素(方法有 varargs 参数)
 
-        ```
+        ```scala
         ArrayBuffer+= (element1, element2, ..., elementN )
         ```
 
     *   追加一个或多个元素(使用 varargs 参数)
 
-        ```
+        ```scala
         ArrayBuffer.append( elem1, elem2, ... elemN)
         ```
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to add element in ArrayBuffer
     // ArrayBuffer class is imported
     import scala.collection.mutable.ArrayBuffer
@@ -136,7 +136,7 @@ gfg
 
     **Output:**
 
-    ```
+    ```scala
     ArrayBuffer(GeeksForGeeks, gfg, chandan, S-series, Ritesh)
 
     ```
@@ -144,19 +144,19 @@ gfg
     *   **Deleting ArrayBuffer Elements:**
     *   移除一个元素
 
-        ```
+        ```scala
         ArrayBuffer-= (element)
         ```
 
     *   移除多个元素
 
-        ```
+        ```scala
         ArrayBuffer-= (elem1, elem2, ....., elemN)
         ```
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program to delete element from ArrayBuffer
     // ArrayBuffer class is imported
     import scala.collection.mutable.ArrayBuffer
@@ -187,7 +187,7 @@ gfg
 
     **Output:**
 
-    ```
+    ```scala
     ArrayBuffer(S-series, Ritesh)
 
     ```
@@ -198,7 +198,7 @@ gfg
 
     **示例:**
 
-    ```
+    ```scala
     // Scala program for remove method, on ArrayBuffer
     // ArrayBuffer class is imported
     import scala.collection.mutable.ArrayBuffer
@@ -230,7 +230,7 @@ gfg
 
     **Output:**
 
-    ```
+    ```scala
     ArrayBuffer(gfg, chandan, S-series, Ritesh)
     ArrayBuffer(gfg)
 

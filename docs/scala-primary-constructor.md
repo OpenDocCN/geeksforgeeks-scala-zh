@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```scala
 class class_name(Parameter_list) {
 // Statements...
 }
@@ -29,7 +29,7 @@ class class_name(Parameter_list) {
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate the
 // concept of primary constructor
 
@@ -62,7 +62,7 @@ object Main
 
 ****输出:****
 
-```
+```scala
 Language name: Scala
 Topic name: Constructors
 Total published articles:14
@@ -74,7 +74,7 @@ Total published articles:14
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program to illustrate the
 // concept of default primary constructor
 
@@ -102,7 +102,7 @@ object Main
 
 ****输出:****
 
-```
+```scala
 Welcome to Geeksforgeeks
 ```
 
@@ -112,7 +112,7 @@ Welcome to Geeksforgeeks
 
 ## ****斯卡拉****
 
-```
+```scala
 **// Scala program to illustrate the
 // concept of primary constructor
 
@@ -143,7 +143,7 @@ object Main
 
 ******输出:****** 
 
-```
+```scala
 **Language name: Scala
 Topic name: Constructors**
 ```
@@ -152,7 +152,7 @@ Topic name: Constructors**
 
 ## ****斯卡拉****
 
-```
+```scala
 **// Scala program to illustrate the
 // concept of primary constructor
 // by using private keyword
@@ -183,7 +183,7 @@ object SingletonTest extends App
 
 ******输出:******
 
-```
+```scala
 **Welcome to GeeksForGeeks.**
 ```
 

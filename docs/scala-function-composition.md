@@ -8,7 +8,7 @@
 *   **compose : Composing method works with **val** functions.
     **Syntax :**
 
-    ```
+    ```scala
     (function1 compose function2)(parameter)
 
     ```
@@ -17,7 +17,7 @@
 
     **例 1:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     // compose method with val function
 
@@ -49,7 +49,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     5
     3
 
@@ -58,7 +58,7 @@
     在上面的例子中，首先调用 mul 函数，得到 4(2 * 2)，然后调用 add 函数，得到 5(4 + 1)。类似地(添加复合 mul 复合 sub)(2)将打印 3(步骤 1:2–1 = 1，步骤 2 : 1 * 2 = 2，步骤 3 : 2 + 1 = 3)。** *   ****andThen : andThen method also works with **val** functions.
     **Syntax :**
 
-    ```
+    ```scala
     (function1 andThen function2)(parameter)
 
     ```
@@ -66,14 +66,14 @@
     在上面的语法中，函数 1 首先使用传递的参数&然后传递，然后返回一个要传递给函数 2 的值。
     或与下图相同:
 
-    ```
+    ```scala
     function2(function1(parameter))
 
     ```
 
     **例 2:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     //andThen method with val function
 
@@ -105,7 +105,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     6
     5
 
@@ -114,7 +114,7 @@
     在上面的例子中，首先添加一个被调用的函数，我们得到 3(2 + 1)，然后再添加一个被调用的函数，我们得到 6(3 * 2)。类似地，add(然后 mul 然后 sub)(2))将打印 5(步骤 1 : 2 + 1 = 3，步骤 2 : 3 * 2 = 6，步骤 3:6–1 = 5)。**** *   ******Passing methods to methods : Methods are passed to other methods.
     **Syntax :**
 
-    ```
+    ```scala
     function1(function2(parameter))
 
     ```
@@ -122,7 +122,7 @@
     它的工作原理与复合函数相同，但是它使用 def 和 val 方法。
     **例 3:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     // passing methods to methods
 
@@ -154,7 +154,7 @@
 
     **输出:**
 
-    ```
+    ```scala
     5
     3
 

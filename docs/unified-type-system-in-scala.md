@@ -25,7 +25,7 @@
 
 让我们用一个例子来看看拥有统一类型系统的功能。
 
-```
+```scala
 // Scala Program to print common elements
 // from 2 lists
 object Geek
@@ -56,7 +56,7 @@ object Geek
 
 **输出:**
 
-```
+```scala
 Geeks
 for
 Geeks

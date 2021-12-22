@@ -8,7 +8,7 @@ Java 是最顶尖的编程语言之一，而 **JVM** (Java 虚拟机)工具使�
 
 下面显示了一个将 Java 代码转换成 Scala 可读代码的例子。使用数组列表的一个例子如下:
 
-```
+```scala
 // Java program to create and print ArrayList.
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +36,7 @@ public class CreateArrayList
 
 **输出:**
 
-```
+```scala
 Raam
 Shyaam
 Raju
@@ -48,7 +48,7 @@ Priti
 
 一旦 Scala REPL 启动，Java 标准库就可以使用了。有时需要在 Scala 代码中添加 Java 集合。同样的代码可以用 Scala 编写，如下所示:
 
-```
+```scala
 // Scala conversion of the above program.
 import java.util.ArrayList;
 import scala.collection.JavaConversions._
@@ -79,7 +79,7 @@ object geeks
 
 **输出:**
 
-```
+```scala
 Raam
 Shyaam
 Raju
@@ -91,7 +91,7 @@ Priti
 
 然而，有一些 Scala 特性和集合缺乏 Java 等效性。Java 和 Scala 集合之间的主要区别通常被认为是 Scala 可遍历性不是 Java 可迭代性，反之亦然。但是，使用一些命令可以进行转换。有时，一个人需要将自己的集合传递给另一个人的代码。为了实现这一点，在 Scala 代码中添加了以下命令:
 
-```
+```scala
 scala> import collection.JavaConverters._
 import collection.JavaConverters._ 
 ```
@@ -100,7 +100,7 @@ import collection.JavaConverters._
 
 *   **将 Scala 集合转换为 Java** :
 
-    ```
+    ```scala
     import scala.collection.JavaConverters._
 
     val listInScala = List(10, 20, 30)
@@ -109,7 +109,7 @@ import collection.JavaConverters._
 
 *   **To convert the Java collections to Scala**:
 
-    ```
+    ```scala
     import scala.collection.JavaConverters._
 
     val JavaCol= JavaLibrary.getList
@@ -120,7 +120,7 @@ import collection.JavaConverters._
 
     显示相同情况的示例如下:
 
-    ```
+    ```scala
     // Java Program to return a HashMap.
     import java.util.HashMap;
     import scala.collection.JavaConverters;

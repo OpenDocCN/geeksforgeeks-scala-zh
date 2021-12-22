@@ -15,7 +15,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 object Main{
 
     def main(args: Array[String]) 
@@ -36,7 +36,7 @@ object Main{
 
 **Output:**
 
-```
+```scala
 30
 ```
 
@@ -44,7 +44,7 @@ object Main{
 
 ## 斯卡拉
 
-```
+```scala
 object Main{
 
     def main(args: Array[String])
@@ -68,7 +68,7 @@ object Main{
 
 **Output**
 
-```
+```scala
 With Implicit parameters:
 hello world!
 Without Implicit parameters:

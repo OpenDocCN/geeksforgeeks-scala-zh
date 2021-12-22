@@ -10,7 +10,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int toShort()
 // method
 
@@ -33,7 +33,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 1
 ```
 
@@ -41,7 +41,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int toShort()
 // method
 
@@ -64,6 +64,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 16612
 ```

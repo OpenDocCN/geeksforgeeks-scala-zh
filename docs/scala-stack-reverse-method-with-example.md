@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of reverse() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4, 5, 6)
 Reversed stack: Stack(6, 5, 4, 3, 2, 1)
 
@@ -51,7 +51,7 @@ Reversed stack: Stack(6, 5, 4, 3, 2, 1)
 
 **例 2:**
 
-```
+```scala
 // Scala program of reverse() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 2, 13, 7, 1, 3)
 Reversed stack: Stack(3, 1, 7, 13, 2, 5)
 

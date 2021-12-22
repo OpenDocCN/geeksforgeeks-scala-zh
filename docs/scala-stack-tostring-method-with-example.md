@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toString() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4, 5)
 String representation of the stack object: Stack(1, 2, 3, 4, 5)
 
@@ -51,7 +51,7 @@ String representation of the stack object: Stack(1, 2, 3, 4, 5)
 
 **例 2:**
 
-```
+```scala
 // Scala program of toString() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(5, 2, 13, 7, 1, 3)
 String representation of the stack object: Stack(5, 2, 13, 7, 1, 3)
 

@@ -4,7 +4,7 @@
 
 **Product2** 是 Scala 中的一个[特性，是两个元素的笛卡尔乘积。在内置类中，它可以被认为是两个元素的元组。这里的线性超类型是*产品*、*等于*、*任意*，这里的子类是*tuple 2*。产品 2 扩展了如下产品:](https://www.geeksforgeeks.org/scala-traits/)
 
-```
+```scala
 Product2[+T1, +T2] extends Product
 ```
 
@@ -12,7 +12,7 @@ Product2[+T1, +T2] extends Product
 现在，我们来看一些例子。
 **例:**
 
-```
+```scala
 // Scala program of a trait
 // Product2
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Nidhi
 24
 
@@ -50,7 +50,7 @@ Nidhi
 
 **示例:**
 
-```
+```scala
 // Scala program of a map
 // using trait Product2
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(Nidhi, Nisha, Preeti)
 
 ```

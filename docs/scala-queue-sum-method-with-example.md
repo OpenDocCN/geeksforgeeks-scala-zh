@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of sum() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Sum of all elements of the queue: 15
 
@@ -51,7 +51,7 @@ Sum of all elements of the queue: 15
 
 **例 2:**
 
-```
+```scala
 // Scala program of sum() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(5, 2, 13, 7, 1)
 Sum of all elements of the queue: 28
 

@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of addString()
 // method
 
@@ -39,14 +39,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 _1*3*5*2_
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of addString()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (1/3/5/2)
 
 ```

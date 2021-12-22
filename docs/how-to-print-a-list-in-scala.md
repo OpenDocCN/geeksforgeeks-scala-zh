@@ -9,7 +9,7 @@
 *   Create an empty List
     **Example :**
 
-    ```
+    ```scala
     // Scala program to create an empty list 
     import scala.collection.immutable._
 
@@ -29,14 +29,14 @@
 
     **输出:**
 
-    ```
+    ```scala
     The empty list is: List()
     ```
 
 *   创建一个简单的列表
     **示例:**
 
-```
+```scala
 // Scala program to create a simple Immutable lists 
 import scala.collection.immutable._
 
@@ -58,14 +58,14 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 List is: List(Geeks, For, geeks)
 ```
 
 *   Using for loop to print elements of List
     **Example :**
 
-    ```
+    ```scala
     // Scala program to print immutable lists 
     import scala.collection.immutable._
 
@@ -92,7 +92,7 @@ List is: List(Geeks, For, geeks)
 
     **输出:**
 
-    ```
+    ```scala
     Geeks
     For
     geeks

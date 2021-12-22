@@ -17,7 +17,7 @@ Scala 中的**方法覆盖**与 Java 中的[方法覆盖](https://www.geeksforge
 
 **示例:**
 
-```
+```scala
 // Scala program of method overriding
 
 // Creating a super class
@@ -96,7 +96,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Number of students in class 1 : 30
 Number of students in class 2 : 32
 Number of students in class 3 : 29

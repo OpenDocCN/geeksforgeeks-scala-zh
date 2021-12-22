@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program for Regular 
 // Expressions
 
@@ -31,7 +31,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Some(GeeksforGeeks)
 
 ```
@@ -40,7 +40,7 @@ Some(GeeksforGeeks)
 
 **示例:**
 
-```
+```scala
 // Scala program for Regular 
 // Expressions
 import scala.util.matching.Regex
@@ -66,7 +66,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 My name is Rahul Singh.
 
 ```
@@ -75,7 +75,7 @@ My name is Rahul Singh.
 
 **示例:**
 
-```
+```scala
 // Scala program for Regular 
 // Expressions
 import scala.util.matching.Regex
@@ -101,7 +101,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 GfG, gfG
 
 ```

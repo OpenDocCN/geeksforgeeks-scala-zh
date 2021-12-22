@@ -17,7 +17,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Object Casting
 // Int to Float
 case class Casting(a:Int)
@@ -42,7 +42,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 The value of a after casting into float is 10.0
 ```
 
@@ -52,7 +52,7 @@ The value of a after casting into float is 10.0
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Object Casting
 // Char to Int
 case class Casting(c:Char)
@@ -77,7 +77,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 The value of c after casting into Integer is 99
 ```
 
@@ -87,7 +87,7 @@ The value of c after casting into Integer is 99
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Object Casting
 // Float to Int
 case class Casting(a:Float, b:Float)
@@ -113,7 +113,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 The value of devision after casting float into Integer will be 2
 ```
 

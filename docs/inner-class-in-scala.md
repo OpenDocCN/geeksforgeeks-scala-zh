@@ -5,7 +5,7 @@
 ***内部类****意味着将一个类定义为另一个类。该特性使用户能够对仅在一个地方使用的类进行逻辑分组，从而增加了**封装**的使用，并创建了更具可读性和可维护性的代码。在 Scala 中，**内部类**的概念与 Java 不同。就像在 Java 中，内部类是外部类的成员，但是在 Scala 中，内部类绑定到**外部对象**。
 **语法:***
 
-```
+```scala
 *class Outer_class{
 class Inner_class{
 // Code..
@@ -15,7 +15,7 @@ class Inner_class{
 
 ***示例:***
 
-```
+```scala
 *// Scala program to illustrate how to 
 // create inner class
 
@@ -53,7 +53,7 @@ object Main 
 
 ***输出:***
 
-```
+```scala
 *Welcome to inner class: G1
 Welcome to inner class: G1
 Welcome to inner class: G1
@@ -66,19 +66,19 @@ Welcome to inner class: G1*
 
 *在 Scala 中，我们还可以在对象中包含一个类，或者在类中包含一个对象。我们用一个例子来讨论一下。在下面的示例中，首先，我们在一个类中创建一个对象，并借助 new 关键字访问该对象的方法，该关键字后跟类名、对象名和方法名，如下语句所示:*
 
-```
+```scala
 *new outer_class().inner_object.method;*
 ```
 
 *现在，第二，我们在一个对象内部创建一个类，并使用 new 关键字后跟对象名、类名和方法名来访问该类中存在的方法，如下面的语句所示:*
 
-```
+```scala
 *new outer_object.inner_class().method;* 
 ```
 
 ***示例:***
 
-```
+```scala
 *// Scala program to illustrate how to 
 // create an object inside a class, Or
 // a class inside an object
@@ -134,7 +134,7 @@ object Main
 
 ***输出:***
 
-```
+```scala
 *object inside a class example
 object inside a class example
 object inside a class example

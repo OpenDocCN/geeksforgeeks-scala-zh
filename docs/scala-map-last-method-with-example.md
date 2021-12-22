@@ -11,7 +11,7 @@
 下面是 Map last()方法的示例。
 **例 1:**
 
-```
+```scala
 // Scala program of last()
 // method
 
@@ -38,7 +38,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (cs, 2)
 
 ```
@@ -46,7 +46,7 @@ object GfG
 这里，在地图的三个元素中，返回地图的第三个元素。
 **例 2:**
 
-```
+```scala
 // Scala program of last()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 (geeks, 5)
 
 ```

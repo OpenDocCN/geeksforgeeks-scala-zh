@@ -6,7 +6,7 @@
 A **案例类**就像一个常规类，有一个对不变数据建模的特点。它在模式匹配中也是有建设性的。已经用修饰符 **case** 定义了，由于这个 case 关键字，我们可以得到一些好处来阻止自己做一段代码，这些代码必须包含在许多地方，很少或没有改变。正如我们在下面看到的，最小案例类需要关键字**案例类**、一个标识符和一个可能为空的参数列表。
 **语法:**
 
-```
+```scala
 Case class className(parameters)
 ```
 
@@ -21,7 +21,7 @@ A **格对象**也像一个对象，比普通对象有更多的属性。它是�
 
 **示例:**
 
-```
+```scala
 // Scala program of case class and case Object
 case class employee (name:String, age:Int)
 object Main 
@@ -40,7 +40,7 @@ object Main 
 
 **Output:**
 
-```
+```scala
 Name of the employee is Nidhi
 Age of the employee is 23
 
@@ -51,7 +51,7 @@ Age of the employee is 23
 *   Case Class 最大的好处之一是 Scala 编译器会用类定义中定义的相同数量的参数来附加一个方法，因为即使没有关键字 **new** ，您也可以创建 Case Class 的对象。
     **例:**
 
-    ```
+    ```scala
     // Scala program of case class and case Object
     // affix a method with the name of the class
     case class Book (name:String, author:String)
@@ -74,7 +74,7 @@ Age of the employee is 23
 
     **输出:**
 
-    ```
+    ```scala
     Name of the Book1 is Data Structure and Algorithm
     Author of the Book1 is cormen
     Name of the Book2 is Computer Networking
@@ -89,7 +89,7 @@ Age of the employee is 23
 *   The Scala compiler also appends a copy() method to case class that is utilized to create a duplicate of the same object with changing some parameters or without altering them.
     **Example :** To create a duplicate of same instance without altering the parameters.
 
-    ```
+    ```scala
     // Scala program of case class To create 
     // a duplicate of same instance
     case class Student (name:String, age:Int)
@@ -114,7 +114,7 @@ Age of the employee is 23
 
     **Output:**
 
-    ```
+    ```scala
     Name is Nidhi
     Age is 23
     Copy Name Nidhi
@@ -125,7 +125,7 @@ Age of the employee is 23
     在这里，我们通过在 s1 对象上使用复制方法创建了新的对象 s2，而不改变 s1 对象的属性。
     **示例:**创建具有变化属性的相同对象的副本。
 
-    ```
+    ```scala
     // Scala program of case class same object 
     // with changing attributes
     case class Student (name:String, age:Int)
@@ -151,7 +151,7 @@ Age of the employee is 23
 
     **Output:**
 
-    ```
+    ```scala
     Name is Nidhi
     Age is 23
     Copy Name is Nidhi

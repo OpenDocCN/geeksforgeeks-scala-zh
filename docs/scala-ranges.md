@@ -12,14 +12,14 @@ Scala 中的**范围**可以定义为一系列有组织的均匀分隔的整数�
 
 **语法:**
 
-```
+```scala
 val range = Range(x, y, z)
 ```
 
 其中， **x** 为下限， **y** 为上限， **z** 为增量。
 **例:**
 
-```
+```scala
 // Scala program for Ranges
 
 // Creating object
@@ -49,7 +49,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Range(3, 4, 5, 6, 7, 8, 9)
 3
 9
@@ -63,7 +63,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 *   If we want a range inclusive of the end value, we can also use the **until** method both until and Range methods are used for the same purpose.
     **Example:**
 
-    ```
+    ```scala
     // Scala program for Ranges
 
     // Creating object
@@ -89,7 +89,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 
     **Output:**
 
-    ```
+    ```scala
     true
 
     ```
@@ -99,7 +99,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 *   The upper bound of the *Range* can be made inclusive.
     **Example:**
 
-    ```
+    ```scala
     // Scala program for Ranges
 
     // Creating object
@@ -125,7 +125,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 
     **Output:**
 
-    ```
+    ```scala
     Range(1, 2, 3, 4, 5, 6, 7, 8)
 
     ```
@@ -135,7 +135,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 *   If we want a range of integer values, we can use the **to** method both to and inclusive Ranges are equivalent.
     **Example:**
 
-    ```
+    ```scala
     // Scala program for Ranges
 
     // Creating object
@@ -164,7 +164,7 @@ Range(3, 4, 5, 6, 7, 8, 9)
 
     **Output:**
 
-    ```
+    ```scala
     true
 
     ```

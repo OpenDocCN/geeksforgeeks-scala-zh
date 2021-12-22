@@ -15,7 +15,7 @@ Scala 中没有基本类型(不像 java)。Scala 中的所有数据类型都是�
 。
 **例:**
 
-```
+```scala
 // Scala program of Scala Type hierarchy 
 
 // Creating object
@@ -40,7 +40,7 @@ object Geeks 
 
 **Output:**
 
-```
+```scala
 false
 66677
 732

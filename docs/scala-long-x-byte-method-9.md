@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain working of
 // &(x: Byte) method
 
@@ -34,13 +34,13 @@ println(result)
 
 **输出:**
 
-```
+```scala
 1
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to explain working of
 // &(x: Byte) method
 
@@ -64,6 +64,6 @@ println(result)
 
 **输出:**
 
-```
+```scala
 5
 ```

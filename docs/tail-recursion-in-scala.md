@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```scala
 @tailrec
 def FuntionName(Parameter1, Parameter2, ...): type = …
 ```
@@ -17,7 +17,7 @@ def FuntionName(Parameter1, Parameter2, ...): type = …
 
 **示例:**
 
-```
+```scala
 // Scala program of GCD using recursion 
 import scala.annotation.tailrec
 
@@ -46,7 +46,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 6
 ```
 
@@ -54,7 +54,7 @@ object GFG 
 
 **示例:**
 
-```
+```scala
 // Scala program of factorial using tail recursion 
 import scala.annotation.tailrec 
 
@@ -85,7 +85,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 120
 ```
 
@@ -95,7 +95,7 @@ object GFG 
 
 **示例:**
 
-```
+```scala
 // Scala program of factorial with tail recursion 
 import scala.annotation.tailrec 
 

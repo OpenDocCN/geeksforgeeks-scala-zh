@@ -26,7 +26,7 @@ Scala 的命名约定与 Java 相同，即:-
 
 **Arity-0 :** 当有 0 个参数要传递给方法时。因此，在方法上添加括号并不是强制性的。它会增强代码的可读性，省略括号会在一定程度上减少字符的数量。
 
-```
+```scala
 obj.display() //correct
 obj.display   //correct
 
@@ -35,7 +35,7 @@ obj.display   //correct
 **Arity-1 :** 当只有一个参数要传递给 Arity-1 的方法时。这条规则应该用于纯函数式编程或以函数作为参数的方法，那么在传递的参数周围可以避免括号。这种语法也被称为**中缀符号**。
 **例:**
 
-```
+```scala
 // Scala program for arity 1 
 // Creating object
 class x
@@ -64,7 +64,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 student
 student
 student
@@ -73,7 +73,7 @@ student
 **[高阶函数:](https://www.geeksforgeeks.org/higher-order-functions-in-scala/)** 一个函数如果包含其他函数作为参数或返回一个函数作为输出，即与另一个函数一起运行的函数称为高阶函数，则该函数称为高阶函数。值得了解的是，高阶函数同样适用于以函数为参数或以函数为结果的函数和方法。这是可行的，因为 Scala 的编译器允许将方法强制转换成函数。
 **例:**
 
-```
+```scala
 // Scala program of higher order 
 // function 
 
@@ -102,7 +102,7 @@ object GfG 
 
 **输出:**
 
-```
+```scala
 Multiplied List is: Set(captain sunil, captain akhil, captain rakhi)
 
 ```

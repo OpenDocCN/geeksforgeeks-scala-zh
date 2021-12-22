@@ -19,14 +19,14 @@
 当我们在 Scala 中只需要一行注释时，也就是说，我们只想写一行注释，那么我们可以使用注释前面的字符“//”。这些字符将使该行成为注释。
 **语法:**
 
-```
+```scala
 //Comments here( Text in this line only is considered as comment )
 
 ```
 
 **示例:**
 
-```
+```scala
 // This is a single line comment.
 
 object MainObject 
@@ -40,7 +40,7 @@ object MainObject 
 
 **输出:**
 
-```
+```scala
 Single line comment above
 ```
 
@@ -49,7 +49,7 @@ Single line comment above
 如果我们的注释跨越多行，我们可以使用多行注释。我们在注释周围使用字符'/* '和' */'。也就是说，我们在这些字符之间写一个文本，它就变成了一个注释。
 **语法**
 
-```
+```scala
 /*Comment starts
 continues
 continues
@@ -62,7 +62,7 @@ Commnent ends*/
 
 **例**
 
-```
+```scala
 // Scala program to show multi line comments 
 
 object MainObject 
@@ -80,7 +80,7 @@ object MainObject 
 
 **输出**
 
-```
+```scala
 Multi line comments below
 ```
 
@@ -89,7 +89,7 @@ Multi line comments below
 文档注释用于快速查找文档。编译器使用这些注释来记录源代码。我们有以下语法来创建文档注释:
 **语法**
 
-```
+```scala
 /**Comment start
 *
 *tags are used in order to specify a parameter
@@ -103,7 +103,7 @@ Multi line comments below
 
 **例**
 
-```
+```scala
 // Scala program to show Documentation comments
 
 object MainOb 
@@ -123,7 +123,7 @@ object MainOb 
 
 **输出**
 
-```
+```scala
 Documentation comments below
 ```
 

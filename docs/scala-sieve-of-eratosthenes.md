@@ -8,7 +8,7 @@
 
 **步骤 1** :创建一个内部流
 
-```
+```scala
 def numberStream(n: Int): 
     Stream[Int] = Stream.from(n)
 
@@ -19,7 +19,7 @@ println(numberStream(10))
 
 **第二步:**厄拉多塞函数的筛选
 
-```
+```scala
 // Defining Sieve of Eratosthenes
 def sieve_of_Eratosthenes(stream: Stream[Int]): 
     Stream[Int] = stream.head #:: sieve_of_Eratosthenes(
@@ -34,7 +34,7 @@ println(sieve_of_Eratosthenes(numberStream(10)))
 
 **第三步:**提取“N”个素数
 
-```
+```scala
 val no_of_primes = sieve_of_Eratosthenes(numberStream(2))
 
 // Selecting number of primes
@@ -55,7 +55,7 @@ println(no_of_primes)
 
 **下面是完整的程序**
 
-```
+```scala
 def numberStream(n: Int): 
     Stream[Int] = Stream.from(n)
 
@@ -81,7 +81,7 @@ println(no_of_primes)
 
 **输出:**
 
-```
+```scala
 Stream(10, ?)
 Stream(10, ?)
 Stream(2, ?)
@@ -106,7 +106,7 @@ Stream(2, ?)
 **工作:** *abc()* 方法在 **filter()** 方法中插入调试语句。如果一个元素不能被头部整除，那么流就把它当作一个好的元素。代码打印它并返回 true。否则，打印过滤出的序列，最后返回流。
 对厄拉多塞方法的**筛进行了一些修改，以便使用流创建–**ABC()**方法。元素从递归流中取出并打印出来。**
 
-```
+```scala
 object Sieve extends App {
     def abc(s: Stream[Int], head: Int) = { 
         val r = s filter {
@@ -141,7 +141,7 @@ object Sieve extends App {
 
 **输出:**
 
-```
+```scala
 2
 
 3 is not evenly divisible by 2

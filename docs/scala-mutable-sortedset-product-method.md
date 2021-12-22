@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 import scala.collection.mutable.SortedSet
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 6
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of product() 
 // method 
 import scala.collection.mutable.SortedSet
@@ -69,7 +69,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 120
 
 ```

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```scala
 class Class_name{
 // methods and fields
 }
@@ -31,7 +31,7 @@ class Class_name{
 
 ## 斯卡拉
 
-```
+```scala
 // A Scala program to illustrate
 // how to create a class
 
@@ -66,7 +66,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Name of the company : Apple
 Total number of Smartphone generation: 16
 ```
@@ -95,7 +95,7 @@ Total number of Smartphone generation: 16
 
 **语法:**
 
-```
+```scala
 var obj = new Dog();
 ```
 
@@ -109,7 +109,7 @@ Scala 还提供了一个名为伴随对象的特性，在这个特性中，您�
 
 ## 斯卡拉
 
-```
+```scala
 // A Scala program to illustrate the
 // Initialization of an object
 
@@ -135,14 +135,14 @@ object Main
 
 **输出:**
 
-```
+```scala
 My name is:tuffy my breed is:papillon
 I am: 5 and my color is :white
 ```
 
 **说明:**这个类包含单个构造函数。我们可以识别构造函数，因为在 Scala 中，类的主体是构造函数的主体，参数列表跟在类名后面。Dog 类中的构造函数接受四个参数。下面的语句为这些参数提供了“tuffy”、“papillon”、5、“white”作为值:
 
-```
+```scala
 var obj = new Dog("tuffy", "papillon", 5, "white");
 ```
 
@@ -158,7 +158,7 @@ var obj = new Dog("tuffy", "papillon", 5, "white");
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how
 // to create an Anonymous object
 
@@ -184,6 +184,6 @@ object Main
 
 **输出:**
 
-```
+```scala
 Welcome! GeeksforGeeks
 ```

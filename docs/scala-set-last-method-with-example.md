@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of last() 
 // method 
 
@@ -35,14 +35,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 4
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of last() 
 // method 
 
@@ -67,7 +67,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 classes
 
 ```

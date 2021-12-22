@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 New queue after squaring all elements: Queue(1, 9, 4, 49, 36, 25)
 
@@ -51,7 +51,7 @@ New queue after squaring all elements: Queue(1, 9, 4, 49, 36, 25)
 
 **例 2:**
 
-```
+```scala
 // Scala program of map() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 3, 2, 7, 6, 5)
 New queue after dividing all elements by 2: Queue(0, 1, 1, 3, 3, 2)
 

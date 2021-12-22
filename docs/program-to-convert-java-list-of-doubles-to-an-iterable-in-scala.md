@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Iterable in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(8.1, 9.1, 10.1)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java list 
 // to an Iterable in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Buffer(3.3, 2.4, 1.1)
 
 ```

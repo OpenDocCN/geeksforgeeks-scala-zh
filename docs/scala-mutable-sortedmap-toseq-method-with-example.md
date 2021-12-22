@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toSeq()
 // method
 import scala.collection.SortedMap
@@ -38,14 +38,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 ArrayBuffer((3, geeks), (4, for))
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of toSeq()
 // method
 import scala.collection.SortedMap
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 ArrayBuffer((2, cs), (3, geeks), (4, for))
 
 ```

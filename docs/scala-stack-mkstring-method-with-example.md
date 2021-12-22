@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of mkString() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Stack: 1234
 
@@ -51,7 +51,7 @@ Stack: 1234
 
 **例 2:**
 
-```
+```scala
 // Scala program of mkString() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(Geeks, for, Geeks)
 Stack: GeeksforGeeks
 

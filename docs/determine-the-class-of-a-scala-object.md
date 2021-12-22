@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to determine the class of a Scala object
 
 // Creating object 
@@ -32,7 +32,7 @@ object Geeks
 
 **输出:**
 
-```
+```scala
 class: class scala.collection.mutable.WrappedArray$ofInt
 ```
 
@@ -42,7 +42,7 @@ class: class scala.collection.mutable.WrappedArray$ofInt
 
 **例 2:**
 
-```
+```scala
 // Scala program to determine the class of a Scala object
 
 // Creating object 
@@ -65,7 +65,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 class: class scala.collection.immutable.Nil$
 ```
 
@@ -75,7 +75,7 @@ class: class scala.collection.immutable.Nil$
 
 **示例#3:**
 
-```
+```scala
 // Scala program to show how 
 // the additional get* methods work
 
@@ -113,7 +113,7 @@ object ObjectCastingTest extends App 
 
 **输出:**
 
-```
+```scala
 person: class Boy
 person: Boy
 person: Boy

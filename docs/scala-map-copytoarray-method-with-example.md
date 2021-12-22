@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of copyToArray()
 // method
 
@@ -41,7 +41,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 (geeks, 5)
 (for, 3)
 (cs, 2)

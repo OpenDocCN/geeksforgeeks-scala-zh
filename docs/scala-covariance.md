@@ -11,7 +11,7 @@
 **协方差**表示如果有两个参数化的类型，S 是 T 的一个子类型，那么 List[S]就是 List[T]的一个子类型。这是一种继承关系。所以，这基本上定义了我们能否用一个类型的基类型来替换它的关系。简单地说，如果我们举一个例子，汽车是车辆的一个子类型，那么列表[汽车]就是列表[车辆]的一个子类型。所以我们可以用 List[Vehicle]代替 List[Car]。当我们声明一个类型是协变的，那么它在不同位置的安全使用就会受到限制。在不可变类型的情况下，协方差被广泛使用。
 **语法:**
 
-```
+```scala
 List[+T]
 ```
 
@@ -20,7 +20,7 @@ List[+T]
 让我们借助示例来讨论这个概念:
 **示例 1:**
 
-```
+```scala
 // Scala program to illustrate the concept of covariance
 
 // Creating an abstract class 
@@ -65,7 +65,7 @@ object Covariance extends App
 
 **输出:**
 
-```
+```scala
 White Lily
 Jersey Lily
 White carnations
@@ -81,7 +81,7 @@ T3【注:
 
 **例 2:**
 
-```
+```scala
 // Scala program to illustrate the concept of covariance
 
 // Creating an abstract class 
@@ -127,7 +127,7 @@ object CovarianceExample extends App
 
 **输出:**
 
-```
+```scala
 Zebra
 Horse
 Snake

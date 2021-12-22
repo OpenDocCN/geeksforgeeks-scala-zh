@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of copyToArray() 
 // method 
 
@@ -54,7 +54,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Elements in the array: 
 1 2 3 4 5
@@ -63,7 +63,7 @@ Elements in the array:
 
 **例 2:**
 
-```
+```scala
 // Scala program of copyToArray() 
 // method 
 
@@ -102,7 +102,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Elements in the array: 
 0 1 2 0 0

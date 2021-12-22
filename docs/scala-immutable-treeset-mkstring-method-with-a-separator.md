@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of mkString() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 TreeSet: 1, 2, 3, 4, 5
 
@@ -51,7 +51,7 @@ TreeSet: 1, 2, 3, 4, 5
 
 **例 2:**
 
-```
+```scala
 // Scala program of mkString() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(a, e, i, o, u)
 TreeSet: a, e, i, o, u
 

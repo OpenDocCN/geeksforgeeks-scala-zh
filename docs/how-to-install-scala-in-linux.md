@@ -10,7 +10,7 @@ Scala 是一种非常兼容的语言，因此可以非常容易地安装到 Linu
 **验证 Java 包:**
 我们首先需要在电脑上安装一个 Java 软件开发工具包(SDK)。我们需要验证这些软件开发工具包，如果没有安装，那么安装它们。只需到**终端**运行以下命令:
 
-```
+```scala
 java --version 
 ```
 
@@ -18,7 +18,7 @@ java --version
 ![Java-version-check-in-Linux](img/11b8103f3963da767d8096317252e272.png)
 如果我们没有安装 SDK，请使用以下命令根据计算机要求下载最新版本:
 
-```
+```scala
 sudo apt-get install default-jdk
 ```
 
@@ -29,7 +29,7 @@ sudo apt-get install default-jdk
 ![download-scala-from-here](img/84e5fce39230f6eff5f5b46d6f16faf4.png)
 上获得。下载 Scala 并按照进一步的说明安装 Scala。但是，您可以使用以下命令轻松地在 Ubuntu 上安装最新版本的 Scala:
 
-```
+```scala
 sudo apt-get install scala
 ```
 
@@ -44,7 +44,7 @@ sudo apt-get install scala
 
 完成安装过程后，可以使用任何集成开发环境或文本编辑器编写 Scala 代码，并使用以下命令在集成开发环境或终端上运行这些代码:
 
-```
+```scala
 scalac file_name.Scala
 scala class_name
 ```
@@ -52,7 +52,7 @@ scala class_name
 这里有一个示例程序，从使用 **Scala 编程**开始:
 让我们考虑一个简单的 Hello World 程序。
 
-```
+```scala
 // Scala program to print Hello World!  
 object Geeks  
 { 

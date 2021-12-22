@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 var hashMapName = HashMap("key1"->"value1", "key2"->"value2", "key3"->"value3", ...) 
 ```
 
@@ -18,7 +18,7 @@ var hashMapName = HashMap("key1"->"value1", "key2"->"value2", "key3"->"value3", 
 
 下面是创建 HashMap 的示例。在下面的代码中，我们可以看到创建了一个空的 HashMap，然后用值创建了一个 HashMap。
 
-```
+```scala
 // Scala program to create or print HashMap
 import scala.collection.mutable.HashMap
 
@@ -44,7 +44,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Map()
 Map(S -> Scala, J -> Java, C -> Csharp)
 ```
@@ -53,7 +53,7 @@ Map(S -> Scala, J -> Java, C -> Csharp)
 
 在下面的例子中，创建了一个散列表。还执行了添加元素和访问元素。
 
-```
+```scala
 // Scala program to Adding and Accessing Elements HashMap
 import scala.collection.mutable.HashMap
 
@@ -88,7 +88,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 S -> Scala
 J -> Java
 C -> Csharp
@@ -102,7 +102,7 @@ C -> Csharp
 **从散列表中移除元素:**
 创建散列表，然后使用**–**符号移除元素。下面是从 HashMap 中移除元素的示例。
 
-```
+```scala
 // Scala program to removing Element HashMap
 import scala.collection.mutable.HashMap
 
@@ -136,7 +136,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 S -> Scala
 J -> Java
 C -> Csharp

@@ -8,7 +8,7 @@ Scala 中的 List 包含许多合适的方法来执行简单的操作，如 head
 以下是仅跳过列表第一个元素的示例。
  **例:**
 
-```
+```scala
 // Scala program to skip only first element of List
 import scala.collection.immutable._
 
@@ -30,14 +30,14 @@ object GFGobject
 
 **Output:**
 
-```
+```scala
 List(For, geeks, is, a, fabulous, portal)
 
 ```
 
 **示例:**
 
-```
+```scala
 // Scala program to skip only first element of List
 import scala.collection.immutable._
 
@@ -58,7 +58,7 @@ object GFG 
 
 **Output:**
 
-```
+```scala
 List(10, 11, 12, 13, 14, 15, 16, 17, 18)
 Using tail() method: List(11, 12, 13, 14, 15, 16, 17, 18)
 

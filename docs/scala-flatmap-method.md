@@ -10,7 +10,7 @@
 
 让我们看一个例子来说明*平面图*是如何工作的。
 
-```
+```scala
 val name = Seq("Nidhi", "Singh")
 
 ```
@@ -33,7 +33,7 @@ val name = Seq("Nidhi", "Singh")
 **案例 2:**
 让我们直接在给定的序列上应用 flatMap()。
 
-```
+```scala
 name.flatMap(_.toLowerCase)
 
 // Output
@@ -47,7 +47,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 *   Utilizing *flatMap* on a sequence of Strings.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of flatMap
 
     // Creating object
@@ -73,7 +73,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 
     **Output:**
 
-    ```
+    ```scala
     List(G, E, E, K, S, F, O, R, G, E, E, K, S)
 
     ```
@@ -83,7 +83,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 *   Applying *flatMap* with another functions.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of flatMap
 
     // Creating object
@@ -112,14 +112,14 @@ List(n, i, d, h, i, s, i, n, g, h)
 
     **Output:**
 
-    ```
+    ```scala
     List(1, 2, 3, 2, 3, 4, 3, 4, 5)
 
     ```
 
     这里，*平面图*应用于程序中定义的另一个函数，因此生成了一个数字序列列表。让我们看看输出是如何计算的。
 
-    ```
+    ```scala
     List(List(2-1, 2, 2+1), List(3-1, 3, 3+1), List(4-1, 4, 4+1))
 
     // After evaluation we get,
@@ -129,7 +129,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 
     因此，第一步的工作就像在所述的另一个函数上应用*映射*方法。
 
-    ```
+    ```scala
     List(1, 2, 3, 2, 3, 4, 3, 4, 5)
 
     ```
@@ -137,7 +137,7 @@ List(n, i, d, h, i, s, i, n, g, h)
     第二步的工作方式类似于将*展平*应用于第一步通过 map 方法获得的输出。
     T3】例:
 
-    ```
+    ```scala
     // Scala program of flatMap
 
     // Creating object
@@ -166,7 +166,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 
     **Output:**
 
-    ```
+    ```scala
     List(4, 3, 5, 4, 6, 5, 7, 6)
 
     ```
@@ -176,7 +176,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 *   Utilizing *flatMap* on if-else statements.
     **Example :**
 
-    ```
+    ```scala
     // Scala program of flatMap
 
     // Creating object
@@ -205,7 +205,7 @@ List(n, i, d, h, i, s, i, n, g, h)
 
     **Output:**
 
-    ```
+    ```scala
     List(-8, 15, -22, -23, 24)
 
     ```

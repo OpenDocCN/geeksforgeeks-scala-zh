@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of copyToArray()
 // method
 import scala.collection.SortedMap
@@ -42,7 +42,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 (cs, 2)
 (for, 3)
 (geeks, 5)

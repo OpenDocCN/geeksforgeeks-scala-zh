@@ -4,7 +4,7 @@
 
 **toInt()** 方法用于将指定的整数转换为浮点整型值。
 
-```
+```scala
 Method Definition: (Number).toIntReturn 
 Type: It returns the converted int datatype value. 
 ```
@@ -13,7 +13,7 @@ Type: It returns the converted int datatype value. 
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int toInt()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 1
 ```
 
@@ -45,7 +45,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int toInt()
 // method
 
@@ -69,6 +69,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 12
 ```

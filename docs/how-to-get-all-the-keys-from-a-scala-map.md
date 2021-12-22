@@ -5,7 +5,7 @@
 为了从 Scala 映射中获得所有的键，我们需要使用*键集*方法(将所有的键作为一个集合获得)，或者我们可以使用*键*方法，如果您想要获得作为迭代器的键，您需要使用*键迭代器*方法。现在，让我们来看看一些例子。
 **示例#1:**
 
-```
+```scala
 // Scala program of keySet()
 // method
 
@@ -32,7 +32,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(3, 4, 2)
 
 ```
@@ -40,7 +40,7 @@ Set(3, 4, 2)
 这里，使用*键集*方法。
 **例 2:**
 
-```
+```scala
 // Scala program of keys()
 // method
 
@@ -67,7 +67,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Set(3, 4, 2)
 
 ```
@@ -75,7 +75,7 @@ Set(3, 4, 2)
 这里，使用*键*方法。
 **例 3:**
 
-```
+```scala
 // Scala program of keysIterator()
 // method
 
@@ -102,7 +102,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 non-empty iterator
 
 ```

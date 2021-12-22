@@ -13,7 +13,7 @@
 
     **例:1#**
 
-    ```
+    ```scala
     // Scala program of isUnicodeIdentifierStart()
     // method
 
@@ -37,14 +37,14 @@
 
     **Output:**
 
-    ```
+    ```scala
     true
 
     ```
 
     **例:2#**
 
-    ```
+    ```scala
     // Scala program of isUnicodeIdentifierStart()
     // method
 
@@ -68,7 +68,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     false
 
     ```

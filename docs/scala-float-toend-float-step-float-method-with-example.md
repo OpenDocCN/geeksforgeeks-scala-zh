@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Float to() 
 // method 
 // Creating object 
@@ -32,14 +32,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 NumericRange(0.0, 4.0, 8.0)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Float to() 
 // method 
 // Creating object 
@@ -61,7 +61,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 NumericRange(5.0, 9.0, 13.0, 17.0, 21.0, 25.0, 29.0)
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of pushAll() 
 // method 
 
@@ -44,7 +44,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(C++, Java, Python, Scala)
 Stack(Scala, Python, Java, C++)
 
@@ -52,7 +52,7 @@ Stack(Scala, Python, Java, C++)
 
 **例 2:**
 
-```
+```scala
 // Scala program of pushAll() 
 // method 
 
@@ -86,7 +86,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(C++, Java, Python, Scala)
 Stack(Scala, Python, Java, C++)
 

@@ -40,7 +40,7 @@
 
 ## **斯卡拉**
 
-```
+```scala
 class Account{
 
   // Creating four ListBuffer which stores
@@ -153,7 +153,7 @@ class Account{
 
 ## **斯卡拉**
 
-```
+```scala
 class SavingsAccount extends Account
 {
   var interest : Double = 2
@@ -227,7 +227,7 @@ class SavingsAccount extends Account
 
 ## **斯卡拉**
 
-```
+```scala
 class CurrentAccount extends Account
 {
   var overdraft_limit: Int = 2000
@@ -301,7 +301,7 @@ class CurrentAccount extends Account
 
 ## **斯卡拉**
 
-```
+```scala
 class Bank extends Account
 {
 
@@ -366,7 +366,7 @@ class Bank extends Account
 
 ## **斯卡拉**
 
-```
+```scala
 // Scala program for Banking System
 import scala.collection.mutable.ListBuffer
 import scala.io.StdIn.{readInt, readLine}
@@ -597,7 +597,7 @@ object Banking_System
 
 ****输出:****
 
-```
+```scala
 **1)Details:**Enter 1 for account details, 2 for SavingsAccount, 3 for CurrentAccount 
 and 4 for closing or opening account
 **1**

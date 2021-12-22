@@ -6,14 +6,14 @@
 **抽象值成员**
 这里的抽象值成员是:
 
-```
+```scala
 abstract def canEqual(that: Any): Boolean
 ```
 
 如果所述实例相等，则返回真。
 **例:**
 
-```
+```scala
 // Scala program of trait 
 // Equals
 
@@ -43,7 +43,7 @@ object Main 
 
 **Output:**
 
-```
+```scala
 true
 true
 
@@ -53,7 +53,7 @@ true
 
 **示例:**
 
-```
+```scala
 // Scala program of trait 
 // Equals
 
@@ -84,7 +84,7 @@ object Main 
 
 **Output:**
 
-```
+```scala
 true
 false
 false

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of keys()
 // method
 
@@ -36,7 +36,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Set(geeks, for, cs)
 
 ```

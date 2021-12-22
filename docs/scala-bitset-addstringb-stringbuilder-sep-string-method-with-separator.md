@@ -10,7 +10,7 @@ Scala 位集是由非负整数组成的集合，这些整数被表示为大小�
 
 **示例#1:**
 
-```
+```scala
 // Scala program of Bitset addString
 // method 
 import scala.collection.immutable.BitSet 
@@ -38,14 +38,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 11, 22, 33, 44
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Bitset addString
 // method 
 import scala.collection.immutable.BitSet 
@@ -73,7 +73,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 1-Geek-  2-Geek-  3
 
 ```

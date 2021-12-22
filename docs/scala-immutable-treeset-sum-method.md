@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of sum() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 4, 5)
 Sum of all the elements of the TreeSet: 15
 
@@ -51,7 +51,7 @@ Sum of all the elements of the TreeSet: 15
 
 **例 2:**
 
-```
+```scala
 // Scala program of sum() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 3, 5, 7, 9)
 Sum of all the elements of the TreeSet: 25
 

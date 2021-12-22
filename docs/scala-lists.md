@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```scala
 val variable_name: List[type] = List(item1, item2, item3)
 or
 val variable_name = List(item1, item2, item3)
@@ -26,7 +26,7 @@ val variable_name = List(item1, item2, item3)
 
 **示例:**
 
-```
+```scala
 // Scala program to print immutable lists
 import scala.collection.immutable._
 
@@ -58,7 +58,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 List 1:
 List(Geeks, GFG, GeeksforGeeks, Geek123)
 

@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of max()
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 999
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of max()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1000
 
 ```

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of dropRight()
 // method
 import scala.collection.immutable.SortedMap
@@ -38,7 +38,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Map(cs -> 5, for -> 3)
 
 ```

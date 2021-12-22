@@ -8,7 +8,7 @@
 
 **不偷懒:**
 
-```
+```scala
 val geeks = List(1, 2, 3, 4, 5)
 
 val output = geeks.map(l=> l*2)
@@ -22,7 +22,7 @@ println(output)
 
 **同懒:**
 
-```
+```scala
 val geeks = List(1, 2, 3, 4, 5)
 
 lazy val output2 = geeks.map(l=> l*2)

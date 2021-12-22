@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
     def hasDefiniteSize: Boolean
 
     ```
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of hasDefiniteSize()
 // method
 
@@ -43,7 +43,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -51,7 +51,7 @@ true
 这里，迭代器是空的，所以*方法返回真。
 T3】例:*
 
-```
+```scala
 // Scala program of hasDefiniteSize()
 // method
 
@@ -78,7 +78,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

@@ -40,7 +40,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program to show Operators Precedence
 
 // Creating object
@@ -72,7 +72,7 @@ object gfg
 
 **输出:**
 
-```
+```scala
 Value of a + b * c / d is : 50
 ```
 

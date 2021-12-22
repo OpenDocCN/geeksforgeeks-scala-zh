@@ -13,7 +13,7 @@ Scala REPL 是一个交互式的**命令行解释器外壳**，其中 REPL 代�
 
 我们可以通过在控制台/终端中键入 **scala** 命令来启动 Scala REPL。
 
-```
+```scala
 $scala
 ```
 

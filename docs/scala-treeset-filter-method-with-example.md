@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filter() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 Odd Elements: TreeSet(1, 3, 5, 7)
 
@@ -51,7 +51,7 @@ Odd Elements: TreeSet(1, 3, 5, 7)
 
 **例 2:**
 
-```
+```scala
 // Scala program of filter() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 Even Elements: TreeSet(2, 6)
 

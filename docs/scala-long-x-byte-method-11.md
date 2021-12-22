@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Long %(x: Byte) method
 
@@ -34,13 +34,13 @@ object GfG
 
 **输出:**
 
-```
+```scala
 3
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Long %(x: Byte) method
 
@@ -64,6 +64,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 2
 ```

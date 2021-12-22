@@ -5,7 +5,7 @@
 **迭代器**是一种逐个访问集合元素的方法。它在语法上类似于一个集合，但在功能上有所不同。为任何集合定义的迭代器不会将整个集合加载到内存中，而是一个接一个地加载元素。因此，当数据对于内存来说太大时，迭代器是有用的。要访问元素，我们可以使用 **hasNext()** 检查是否有可用的元素，使用 **next()** 打印下一个元素。
 **语法:**
 
-```
+```scala
 val v = Iterator(5, 1, 2, 3, 6, 4)
 
 //checking for availability of next element
@@ -20,7 +20,7 @@ println(v.next)
 我们可以为任何集合(数组、列表等)定义一个迭代器，并且可以遍历特定集合的元素。
 **例:**
 
-```
+```scala
 //Scala iterator program
 //for defining iterator
 
@@ -45,7 +45,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 5 1 2 3 6 4 
 ```
 
@@ -53,7 +53,7 @@ object GFG
 
 1.  **Using while loop:** Simplest way to access elements is to use *while* loop along with *hasNext* and *next* methods.
 
-    ```
+    ```scala
     // Scala iterator program
     // for accessing using while
 
@@ -81,7 +81,7 @@ object GFG
 
     **输出:**
 
-    ```
+    ```scala
     5
     1
     2
@@ -93,7 +93,7 @@ object GFG
 
 2.  **Using foreach action:** We can make use of *foreach* to print elements by passing *println* function as parameter. Note that *foreach* is a higher order function that takes another function as parameter. In other words, *println* function is applied on every element.
 
-    ```
+    ```scala
     // Scala iterator program
     // for accessing using foreach
 
@@ -121,7 +121,7 @@ object GFG
 
     **输出:**
 
-    ```
+    ```scala
     5
     1
     2
@@ -133,7 +133,7 @@ object GFG
 
 3.  **用于循环:**另一种简单的方法是将*用于*循环。它的工作方式与使用循环的*访问任何集合的元素非常相似。*
 
-```
+```scala
 // Scala iterator program
 // for accessing using for
 
@@ -160,7 +160,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 5
 1
 2
@@ -174,7 +174,7 @@ object GFG
 
 *   Using **built-in** functions *min* and *max* Iterators can be traversed only once. Therefore, we should redefine the iterator after finding the maximum value.
 
-    ```
+    ```scala
     // Scala iterator program for minimum
     // and maximum valued element
     // using built-in methods
@@ -202,7 +202,7 @@ object GFG
 
     **输出:**
 
-    ```
+    ```scala
     Maximum: 6
     Minimum: 1
     ```
@@ -211,7 +211,7 @@ object GFG
 
 下面的代码打印最小值元素:
 
-```
+```scala
 // Scala iterator program
 // for minimum valued element
 // user defined method
@@ -249,13 +249,13 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Minimum: 1
 ```
 
 下面的代码打印最大值元素:
 
-```
+```scala
 // Scala iterator program
 // for maximum valued element
 // user defined method
@@ -292,7 +292,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Maximum: 6
 ```
 

@@ -10,7 +10,7 @@ clear()方法用于删除队列中的所有元素。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of clear() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Before clear() method: Queue(10, 11, 12, 13, 14)
 After clear() method: Queue()
 
@@ -50,7 +50,7 @@ After clear() method: Queue()
 
 **例 2:**
 
-```
+```scala
 // Scala program of clear() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Before clear() method: Queue(geeks, for, geeks)
 After clear() method: Queue()
 

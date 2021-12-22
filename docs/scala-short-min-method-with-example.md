@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -34,14 +34,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 998
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program of min()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 445
 
 ```

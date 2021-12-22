@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Program to apply foreach() method on 
 // Java set of integers in Scala
 
@@ -40,7 +40,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 7
 8
 9
@@ -50,7 +50,7 @@ object GfG
 因此，当 *foreach* 方法应用于所述整数集合时，该集合的每一项都被打印。
 T3】例:2#
 
-```
+```scala
 // Program to apply foreach() method on 
 // Java set of integers in Scala
 
@@ -84,7 +84,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1
 5
 9

@@ -4,7 +4,7 @@
 
 考虑以下 Scala 程序:
 
-```
+```scala
 // Scala Program without override toString method
 
 // Creating Class
@@ -42,14 +42,14 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Language@506e1b77
 
 ```
 
 输出是类名，然后是' at '符号，最后是对象的 hashCode。Scala 中的所有类都直接或间接继承自对象类。对象类有一些基本的方法，比如 clone()，toString()，equals()，..等等。Object 中默认的 toString()方法打印“类名@哈希代码”。我们可以在类中重写 toString()方法来打印正确的输出。下面是重写 toString 方法的示例。
 
-```
+```scala
 // Scala Program to override toString method
 
 // Creating Class
@@ -94,7 +94,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 [Total Article : 50, Language Name = Scala]
 
 ```

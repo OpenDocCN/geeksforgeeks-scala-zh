@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of int lastIndexOf()
 // method
 
@@ -33,7 +33,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 
 ```
@@ -41,7 +41,7 @@ object GfG
 这里，搜索从索引 4 开始，从右到左，并且首先出现的那个被返回。
 **例 2:**
 
-```
+```scala
 // Scala program of int lastIndexOf()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 -1
 
 ```

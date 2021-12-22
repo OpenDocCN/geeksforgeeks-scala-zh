@@ -8,7 +8,7 @@ Listset 仅用于少量元素。我们可以通过调用构造函数或应用函
 
 **语法:**
 
-```
+```scala
 var ListSetName = ListSet(element1, element2, element3, ....)  
 ```
 
@@ -16,7 +16,7 @@ var ListSetName = ListSet(element1, element2, element3, ....)
 
 **初始化列表集:**下面是创建或初始化列表集的示例。
 
-```
+```scala
 // Scala program to Initialize a ListSet 
 import scala.collection.immutable._
 
@@ -38,14 +38,14 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initializing an immutable ListSet 
 Elements of listSet1 = ListSet(Scala, Article, GeeksForGeeks)
 ```
 
 **检查列表集中的具体元素:**
 
-```
+```scala
 // Scala program to Check specific elements in ListSet 
 import scala.collection.immutable._
 
@@ -74,7 +74,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initializing an immutable ListSet 
 Elements of listSet1 = ListSet(Scala, Article, GeeksForGeeks)
 Check elements of immutable ListSet
@@ -85,7 +85,7 @@ Scala = true
 
 **在列表集中添加元素:**我们可以使用+运算符在列表集中添加元素。下面是在 ListSet 中添加元素的例子。
 
-```
+```scala
 // Scala program to Add an element in a ListSet
 import scala.collection.immutable._
 
@@ -112,7 +112,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initializing an immutable ListSet 
 Elements of listSet1 = ListSet(Scala, Article, GeeksForGeeks)
 Add element of immutable ListSet 
@@ -121,7 +121,7 @@ Adding element java to ListSet ListSet(Java, Scala, Article, GeeksForGeeks)
 
 **添加两个列表集:**我们可以使用++运算符添加两个列表集。下面是添加两个列表集的例子。
 
-```
+```scala
 // Scala program to Add two ListSet
 import scala.collection.immutable._
 
@@ -149,7 +149,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initializing an immutable ListSet 
 Elements of listSet1 = ListSet(Scala, Article, GeeksForGeeks)
 After adding two lists ListSet(Java, Csharp, Scala, Article, GeeksForGeeks)
@@ -157,7 +157,7 @@ After adding two lists ListSet(Java, Csharp, Scala, Article, GeeksForGeeks)
 
 **从列表集中移除元素:**我们可以使用–运算符移除列表集中的元素。下面是移除列表集中元素的示例。
 
-```
+```scala
 // Scala program to Remove element from the ListSet
 import scala.collection.immutable._
 
@@ -184,7 +184,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initializing an immutable ListSet 
 Elements of listSet1 = ListSet(Scala, Article, GeeksForGeeks)
 Remove element from the ListSet 
@@ -193,7 +193,7 @@ After removing element from listset = ListSet(Scala, GeeksForGeeks)
 
 **初始化一个空的列表集:**
 
-```
+```scala
 // Scala program to print empty ListSet
 import scala.collection.immutable._
 
@@ -214,7 +214,7 @@ object GFG 
 
 **输出:**
 
-```
+```scala
 Initialize an empty ListSet
 String type empty ListSet = ListSet()
 ```

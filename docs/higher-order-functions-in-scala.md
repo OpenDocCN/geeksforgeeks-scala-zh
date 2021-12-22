@@ -14,7 +14,7 @@
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of higher order
     // function
 
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     {32.0}
 
     ```
@@ -53,7 +53,7 @@
 
 *   **Example :**
 
-    ```
+    ```scala
     // Scala program of higher order
     // function
 
@@ -82,7 +82,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Multiplied List is: List(21, 24, 27)
 
     ```

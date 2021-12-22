@@ -15,7 +15,7 @@
 
 下面是创建一个新文件并写入其中的实现。
 
-```
+```scala
 // File handling program
 import java.io.File
 import java.io.PrintWriter
@@ -55,7 +55,7 @@ Scala 不提供写文件的类，但是它提供读文件的类。这是源类�
 
 下面是从文件中读取每个字符的实现。
 
-```
+```scala
 // Scala File handling program
 import scala.io.Source
 
@@ -87,7 +87,7 @@ object GeeksScala
 我们可以使用 getLines()方法一次性读取单个行，而不是整个文件。
 下面是从文件中读取每一行的实现。
 
-```
+```scala
 // Scala file handling program to Read each
 // line from a single file
 import scala.io.Source 

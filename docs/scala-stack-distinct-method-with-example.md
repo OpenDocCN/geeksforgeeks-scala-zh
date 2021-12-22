@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of distinct() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 3, 2, 1, 2, 1, 3, 2, 3, 3)
 Stack with distinct elements: Stack(1, 3, 2)
 
@@ -51,7 +51,7 @@ Stack with distinct elements: Stack(1, 3, 2)
 
 **例 2:**
 
-```
+```scala
 // Scala program of distinct() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(g, e, e, k, s, f, o, r, g, e, e, k, s)
 Stack with distinct elements: Stack(g, e, k, s, f, o, r)
 

@@ -6,7 +6,7 @@
 **辅助构造函数**定义为类中的方法，关键字 ***本*** 。我们可以描述多个辅助构造函数，但是它们必须有不同的参数列表。
 **语法:**
 
-```
+```scala
 def this(......)
 ```
 
@@ -15,7 +15,7 @@ def this(......)
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate the
 // concept of Auxiliary Constructor
 
@@ -57,7 +57,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Language name: Scala
 Topic name: Constructor
 Total number of articles: 4
@@ -69,7 +69,7 @@ Total number of articles: 4
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate the
 // concept of more than concept
 // Auxiliary Constructor
@@ -128,7 +128,7 @@ object Main
 
 **输出:**
 
-```
+```scala
 Language name: 
 Total number of employee: 0
 Language name: GeeksForGeeks

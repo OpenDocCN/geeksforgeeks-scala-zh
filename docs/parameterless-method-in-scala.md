@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate
 // Parameterless method invocation
 class GeeksforGeeks(name: String, ar: Int)
@@ -40,7 +40,7 @@ object Main 
 
 **输出:**
 
-```
+```scala
 John
 ```
 
@@ -49,7 +49,7 @@ John
 
 **示例:**
 
-```
+```scala
 // Scala program to illustrate
 // Parameterless method invocation
 class GeeksforGeeks(name: String, ar: Int)

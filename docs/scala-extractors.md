@@ -15,7 +15,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of extractors
 
 // Creating object
@@ -62,7 +62,7 @@ object Name
 
 **Output:** 
 
-```
+```scala
 The Apply method returns : NidhikumariSingh
 The Unapply method returns : Some((Nidhi, Singh))
 ```
@@ -73,7 +73,7 @@ The Unapply method returns : Some((Nidhi, Singh))
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of extractors
 
 // Creating object
@@ -108,7 +108,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 The Apply method returns : 200.0
 The Unapply method returns : Some(175)
 ```
@@ -123,7 +123,7 @@ Usage Of Scala Extractors
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of extractors
 // with pattern matching
 
@@ -171,7 +171,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 5.0
 The value is: 1.0
 ```
@@ -184,7 +184,7 @@ The value is: 1.0
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of extractors
 // to return a Boolean type
 
@@ -217,7 +217,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 false
 ```

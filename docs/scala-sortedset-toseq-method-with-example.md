@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of toSeq() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -38,7 +38,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 1
 2
 3
@@ -50,7 +50,7 @@ object GfG 
 
 **例 2:**
 
-```
+```scala
 // Scala program of toSeq() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -78,7 +78,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 1
 12
 23

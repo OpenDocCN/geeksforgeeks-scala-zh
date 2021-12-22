@@ -19,7 +19,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // the Arithmetic Operators
 
@@ -53,7 +53,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 Addition of a + b = 80
 Subtraction of a - b = 20
 Multiplication of a * b = 1500
@@ -76,7 +76,7 @@ Modulus of a % b = 20
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // the Relational Operators
 object Relop
@@ -112,7 +112,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 Equality of   a == b is : false
 Not Equals of a != b is : true
 Greater than of a > b is : true
@@ -132,7 +132,7 @@ Lesser than or Equal to of a <= b is : false
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // the Logical Operators
 object Logop
@@ -160,7 +160,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 Logical Not of !(a && b) = true
 Logical Or of a || b = true
 Logical And of a && b = false
@@ -188,7 +188,7 @@ Logical And of a && b = false
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // the Assignments Operators
 object Assignop
@@ -251,7 +251,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 simple addition: c= a + b = 90
 Add and assignment of c += a = 140
 Subtract and assignment of c -= a = 90
@@ -281,7 +281,7 @@ Bitwise Or and assignment of c |= a = 50
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate
 // the Bitwise Operators
 object Bitop
@@ -326,7 +326,7 @@ def main(args: Array[String])
 
 **输出:**
 
-```
+```scala
 Bitwise And of a & b = 16
 Bitwise Or of a | b = 22
 Bitwise Xor of a ^ b = 6

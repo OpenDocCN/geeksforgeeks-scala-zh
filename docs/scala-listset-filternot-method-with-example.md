@@ -10,7 +10,7 @@
 
 ***例 1:***
 
-```
+```scala
 // Scala program of filter() 
 // method 
 import scala.collection.immutable._
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 ListSet(1, 2)
 
 ```
 
 ***例 2:***
 
-```
+```scala
 // Scala program of filter() 
 // method 
 import scala.collection.immutable._
@@ -71,7 +71,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 ListSet(1, 2, 3, 4, 5, 7)
 
 ```

@@ -4,7 +4,7 @@
 
 如果指定的整数为零或在 isValidInt 最小值和最大值的范围内，则使用**is validaint()**方法返回真；否则返回 false。
 
-```
+```scala
 Method Definition: (Int_Number).isValidIntReturn 
 Type: It returns true if the specified number is either zero or lies within 
       the range of scala.int MinValue and MaxValue; otherwise returns false.
@@ -14,7 +14,7 @@ Type: It returns true if the specified number is either zero or lies within
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int isValidInt()
 // method
 
@@ -38,7 +38,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```
 
@@ -46,7 +46,7 @@ true
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int isValidInt()
 // method
 
@@ -70,6 +70,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 false
 ```

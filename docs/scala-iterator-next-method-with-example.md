@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of next()
 // method
 
@@ -42,7 +42,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 5
 8
 
@@ -50,7 +50,7 @@ object GfG
 
 **例 2:**
 
-```
+```scala
 // Scala program of next()
 // method
 
@@ -82,7 +82,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 1.1
 2.2
 

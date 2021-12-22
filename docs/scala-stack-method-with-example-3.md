@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of mutable stack :+() method 
 
 // Import Stack 
@@ -38,14 +38,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 List(11, 12, 13, 14, 15, 100)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of mutable stack /:() 
 // method 
 
@@ -75,7 +75,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(Geeks, For, Stack(1, 2, 3))
 
 ```

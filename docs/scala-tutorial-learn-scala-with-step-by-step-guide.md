@@ -37,7 +37,7 @@ Scala 是一种非常兼容的语言，因此可以非常容易地安装到 Wind
 3.  **测试并运行 Scala 命令**
     现在打开命令提示符，输入以下代码。
 
-```
+```scala
 C:\Users\Your_PC_username>scala
 ```
 
@@ -53,7 +53,7 @@ How to Run a Scala Program ?
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to print Hello World
 
 // Creating object 
@@ -71,7 +71,7 @@ def main(args: Array[String]) 
 
 **输出:**
 
-```
+```scala
 Hello, World!
 ```
 
@@ -93,7 +93,7 @@ Fundamentals of ScalaVariables
 
 **例:**
 
-```
+```scala
 // Mutable Variable
 var name: String = "geekforgeeks";
 
@@ -118,7 +118,7 @@ Operators
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to demonstrate 
 // the Operators
 
@@ -167,7 +167,7 @@ object Geeks 
 
 **Output:** 
 
-```
+```scala
 Addition is: 14
 Subtraction is: 6
 Equal To Operator is False
@@ -191,7 +191,7 @@ Decision Making
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate the if and if-else statement 
 object Test 
 { 
@@ -230,7 +230,7 @@ def main(args: Array[String])
 
 **Output:** 
 
-```
+```scala
 Even Number
 Sudo Placement
 ```
@@ -239,7 +239,7 @@ Sudo Placement
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate  
 // Nested if statement 
 object Test 
@@ -267,7 +267,7 @@ def main(args: Array[String])
 
 **Output:** 
 
-```
+```scala
 Number is divisible by 2 and 5
 ```
 
@@ -282,7 +282,7 @@ Loops
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate for loop 
 object forloopDemo { 
 
@@ -302,7 +302,7 @@ object forloopDemo { 
 
 **Output:** 
 
-```
+```scala
 Value of y is: 1
 Value of y is: 2
 Value of y is: 3

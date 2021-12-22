@@ -11,7 +11,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to explain working
 // of Double !=(x: Float) function
 
@@ -35,7 +35,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```
 
@@ -43,7 +43,7 @@ true
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to explain working
 // of Double !=(x: Float) function
 
@@ -67,6 +67,6 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 true
 ```

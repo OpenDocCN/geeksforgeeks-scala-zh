@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of int matches()
 // method
 
@@ -33,7 +33,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```
@@ -41,7 +41,7 @@ true
 因此，这里正则表达式与所述字符串匹配。所以，它返回真。
 **例 2:**
 
-```
+```scala
 // Scala program of int matches()
 // method
 
@@ -65,7 +65,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```

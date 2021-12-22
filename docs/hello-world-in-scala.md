@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program to print Hello World! 
 object Geeks 
 {
@@ -23,7 +23,7 @@ object Geeks 
 
 **输出:**
 
-```
+```scala
 Hello World!
 ```
 
@@ -38,7 +38,7 @@ Hello World!
 *   **要使用在线 Scala 编译器:**我们可以使用各种在线 IDE。它可以用来运行 Scala 程序而无需安装。
 *   **Using Command-Line:** Make sure we have the Java 8 JDK (also known as 1.8). run javac -version in the command line and make sure we see javac 1.8.___ If we don’t have version 1.8 or higher, [Install the JDK](https://www.geeksforgeeks.org/setting-environment-java/) Firstly, open a text editor Notepad or Notepad++. write the code in the text editor and save the file with (.scala) extension. open the command prompt follow step by step process on your system.
 
-    ```
+    ```scala
     // Scala program to print Hello World! 
     object Geeks 
     {

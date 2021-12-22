@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filterKeys()
 // method
 import scala.collection.SortedMap
@@ -38,7 +38,7 @@ object GfG
 
 **输出:**
 
-```
+```scala
 Map(4 -> for, 5 -> geeks)
 
 ```

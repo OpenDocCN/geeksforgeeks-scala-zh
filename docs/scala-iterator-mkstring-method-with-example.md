@@ -5,7 +5,7 @@
 **mkString()** 方法属于抽象迭代器类的具体值成员。它用于在字符串中显示集合的所有元素。
 **方法定义:**
 
-```
+```scala
 val result = iter.mkString
 
 ```
@@ -15,7 +15,7 @@ val result = iter.mkString
 返回指定集合的字符串表示形式。
 **示例#1:**
 
-```
+```scala
 // Scala program of mkString()
 // method
 
@@ -42,14 +42,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 36151921
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of mkString()
 // method
 
@@ -76,7 +76,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 001
 
 ```

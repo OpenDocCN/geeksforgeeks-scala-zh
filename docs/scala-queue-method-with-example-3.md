@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of +=:() 
 // method 
 
@@ -39,14 +39,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(geeks, for, geeks)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of +=:() 
 // method 
 
@@ -75,7 +75,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 
 ```

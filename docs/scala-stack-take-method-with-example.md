@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of take() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Stack containing first two elements: Stack(1, 2)
 
@@ -51,7 +51,7 @@ Stack containing first two elements: Stack(1, 2)
 
 **例 2:**
 
-```
+```scala
 // Scala program of take() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Stack containing first three elements: Stack(1, 2, 3)
 

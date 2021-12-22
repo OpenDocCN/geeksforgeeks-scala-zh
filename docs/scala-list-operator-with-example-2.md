@@ -10,7 +10,7 @@ Scala 中的**::()**运算符用于将参数中的列表连接到另一个列表
 
 **示例#1:**
 
-```
+```scala
 // Scala program of :::()
 // method
 
@@ -38,14 +38,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(4, 5, 6, 1, 2, 3)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of :::()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 List(1, 2, 3)
 
 ```

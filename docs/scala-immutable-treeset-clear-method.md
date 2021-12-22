@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of clear() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Before clear method: TreeSet(1, 2, 3, 4, 5)
 After clear method: ()
 
@@ -51,7 +51,7 @@ After clear method: ()
 
 **例 2:**
 
-```
+```scala
 // Scala program of clear() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Before clear method: TreeSet(a, e, i, o, u)
 After clear method: ()
 

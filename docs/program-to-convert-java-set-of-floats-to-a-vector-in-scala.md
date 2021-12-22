@@ -6,7 +6,7 @@
 现在，让我们看一些例子，然后详细讨论它是如何工作的。
 **例:1#**
 
-```
+```scala
 // Scala program to convert Java set
 // to a Vector in Scala
 
@@ -41,14 +41,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(2.1, 4.1, 9.1)
 
 ```
 
 **例:2#**
 
-```
+```scala
 // Scala program to convert Java set
 // to a Vector in Scala
 
@@ -83,7 +83,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Vector(8.4, 6.3, 10.1)
 
 ```

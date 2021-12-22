@@ -22,14 +22,14 @@
 *   **Covariant:** If a generic class has a type parameter T, then its Covariant notation will be [+T]. Suppose, we have two List types of Scala i.e, S and T. where, S is sub-type of T, then you can say that List[S] is also the sub-type of List[T]. If two types are related like this then they fall under the Covariant type. List[T] can be called as *Generic*.
     **Syntax:**
 
-    ```
+    ```scala
     List[+T]
     ```
 
     这里， **T** 是类型参数， **+** 是协方差的符号。
     **例:**
 
-    ```
+    ```scala
     // Scala program of covariant
     // type
 
@@ -77,7 +77,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     Kanchan
     Rahul
     Nidhi
@@ -93,14 +93,14 @@
 *   **Contravariant:** If a generic class has a type parameter T, then its Contravariant notation will be [-T]. Suppose, we have two List types of Scala i.e, S and T. where, S is sub-type of T, but List[T] is the sub-type of List[S]. If two types are related like this then they fall under the Contravariant type. It is opposite of covariant.
     **Syntax:**
 
-    ```
+    ```scala
     List[-T]
     ```
 
     这里， **T** 是类型参数，**–**是逆变符号。
     **例:**
 
-    ```
+    ```scala
     // Scala program of Variance of
     // Contravariant type
 
@@ -170,7 +170,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     The name of the car is: Scorpio
     The name of the vehicle is: Scorpio
 
@@ -181,7 +181,7 @@
 *   **Invariant:** In Scala, generic types are by default invariant. Suppose, we have two List types of Scala i.e, S and T. where, S is sub-type of T but List[T] and List[S] are not at all related, then they fall under the invariant type.
     **Syntax:**
 
-    ```
+    ```scala
     List[T]
     ```
 

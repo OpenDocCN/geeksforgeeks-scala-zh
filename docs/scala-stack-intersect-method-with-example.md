@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -49,7 +49,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack_1: Stack(1, 3, 2, 7, 6, 5)
 Stack_2: Stack(1, 13, 2, 17, 6, 15)
 The elements in both the stacks: 1 2 6
@@ -58,7 +58,7 @@ The elements in both the stacks: 1 2 6
 
 **例 2:**
 
-```
+```scala
 // Scala program of intersect() 
 // method 
 
@@ -95,7 +95,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack_1: Stack(1, 3, 2, 7, 6, 5)
 Stack_2: Stack(11, 3, 12, 7, 16, 5)
 The elements in both the stacks: Stack(3, 7, 5)

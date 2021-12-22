@@ -10,7 +10,7 @@ toByte()方法用于将指定的数字转换为 Byte 数据类型值。字节数
 
 **例 1:**
 
-```
+```scala
 // Scala program of Long toByte()
 // method
 
@@ -33,13 +33,13 @@ object Test
 
 **输出:**
 
-```
+```scala
 25
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of Long toByte()
 // method
 
@@ -62,6 +62,6 @@ object Test
 
 **输出:**
 
-```
+```scala
 -127
 ```

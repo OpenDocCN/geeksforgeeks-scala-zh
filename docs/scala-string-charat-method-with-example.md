@@ -9,7 +9,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of charAt()
 // method
 
@@ -35,14 +35,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 d
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of charAt()
 // method
 
@@ -68,7 +68,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 N
 
 ```

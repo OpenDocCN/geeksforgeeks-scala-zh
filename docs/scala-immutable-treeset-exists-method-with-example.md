@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of exists() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 Element divisible by 7 exists: true
 
@@ -51,7 +51,7 @@ Element divisible by 7 exists: true
 
 **例 2:**
 
-```
+```scala
 // Scala program of exists() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6, 7)
 Element 10 exists: false
 

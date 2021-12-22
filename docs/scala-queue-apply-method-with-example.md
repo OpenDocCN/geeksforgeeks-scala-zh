@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of apply() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(10, 11, 12, 13, 14)
 Element at index 0 : 10
 
@@ -50,7 +50,7 @@ Element at index 0 : 10
 
 **例 2:**
 
-```
+```scala
 // Scala program of apply() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(10, 11, 12, 13, 14)
 Element at index 2 : 12
 

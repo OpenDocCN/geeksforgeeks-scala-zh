@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of filter() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -38,14 +38,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(3, 5)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of filter() 
 // method 
 import scala.collection.immutable.SortedSet 
@@ -73,7 +73,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet()
 
 ```

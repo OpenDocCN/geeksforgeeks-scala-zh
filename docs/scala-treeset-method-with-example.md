@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of ++() 
 // method 
 
@@ -47,7 +47,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(e, g, k, s)
 TreeSet(a, e, i, o, u)
 Combined TreeSet: TreeSet(a, e, g, i, k, o, s, u)
@@ -56,7 +56,7 @@ Combined TreeSet: TreeSet(a, e, g, i, k, o, s, u)
 
 **例 2:**
 
-```
+```scala
 // Scala program of ++() 
 // method 
 
@@ -93,7 +93,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 2, 3, 5, 6)
 TreeSet(1, 2, 4, 5)
 Combined TreeSet: TreeSet(1, 2, 3, 4, 5, 6)

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -43,7 +43,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(1, 12, 23, 41, 43, 72)
 TreeSet contains '10': false
 
@@ -51,7 +51,7 @@ TreeSet contains '10': false
 
 **例 2:**
 
-```
+```scala
 // Scala program of contains() 
 // method 
 
@@ -84,7 +84,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 TreeSet(e, g, k, s)
 TreeSet contains 'k': true
 

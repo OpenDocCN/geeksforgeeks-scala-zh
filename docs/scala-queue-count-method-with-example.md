@@ -10,7 +10,7 @@ count()方法用于计算队列中满足给定谓词的元素数量。
 
 **示例#1:**
 
-```
+```scala
 // Scala program of count() 
 // method 
 
@@ -42,7 +42,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Number of element in queue: 5
 
@@ -50,7 +50,7 @@ Number of element in queue: 5
 
 **例 2:**
 
-```
+```scala
 // Scala program of count() 
 // method 
 
@@ -82,7 +82,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Queue(1, 2, 3, 4, 5)
 Number of element in queue divisible by 2: 2
 

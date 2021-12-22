@@ -12,7 +12,7 @@
     此方法用于*连接*两个或多个 Map。在连接映射中，它将分开相同的键。
     **示例:**
 
-    ```
+    ```scala
     // Scala program to concatenate two Map
 
     // Creating Object
@@ -37,7 +37,7 @@
 
     **输出:**
 
-```
+```scala
 Concatenation is: Map(Nidhi -> 23, Rahul -> 18, Geeta -> 22)
 
 ```

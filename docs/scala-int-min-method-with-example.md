@@ -4,7 +4,7 @@
 
 使用 **min()** 方法返回两个指定整数的最小值。
 
-```
+```scala
 Method Definition: (First_Number).min(Second_Number)Return 
 Type: It returns true the minimum value of the two specified int numbers.
 ```
@@ -13,7 +13,7 @@ Type: It returns true the minimum value of the two specified int numbers.
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int min()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:** 
 
-```
+```scala
 5
 ```
 
@@ -45,7 +45,7 @@ object GfG
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Int min()
 // method
 
@@ -69,6 +69,6 @@ object GfG
 
 **Output:**
 
-```
+```scala
 5
 ```

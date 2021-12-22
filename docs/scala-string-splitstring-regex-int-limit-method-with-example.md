@@ -10,7 +10,7 @@
 
 **例:1#**
 
-```
+```scala
 // Scala program of split()
 // method
 
@@ -37,7 +37,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 P
 Q
 RcsoGfGkso
@@ -47,7 +47,7 @@ RcsoGfGkso
 因此，这里我们在结果数组中有三个元素，最后一个元素包含字符串的剩余部分，这是拆分数组的第二个元素后剩下的部分。
 **例:2#**
 
-```
+```scala
 // Scala program of split()
 // method
 
@@ -74,7 +74,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 Nidhi
 SinghmsoAcso
 

@@ -6,7 +6,7 @@
 *运行时*。但是它从不接受程序中任何其他方法的参数。
 **语法:**
 
-```
+```scala
 def main(args: Array[String])
 ```
 
@@ -15,7 +15,7 @@ def main(args: Array[String])
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program on command line argument
 object CMDExample
 {
@@ -42,7 +42,7 @@ object CMDExample
 
 **输出:**
 
-```
+```scala
 Scala Command Line Argument Example
 Welcome
 To
@@ -55,7 +55,7 @@ GeeksforGeeks!
 
 ## 斯卡拉
 
-```
+```scala
 // Scala Program on command line argument
 object CMDExample
 {
@@ -79,7 +79,7 @@ object CMDExample
 
 **输出:**
 
-```
+```scala
 Scala Command Line Argument Example
 1
 To

@@ -10,7 +10,7 @@
 
 ***例 1:***
 
-```
+```scala
 // Scala program of size() 
 // method 
 import scala.collection.immutable._
@@ -37,14 +37,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 5
 
 ```
 
 ***例 2:***
 
-```
+```scala
 // Scala program of product() 
 // method 
 import scala.collection.immutable._
@@ -71,7 +71,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 160
 
 ```

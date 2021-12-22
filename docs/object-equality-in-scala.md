@@ -15,7 +15,7 @@
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program of Equals
 
 // Creating a case class of
@@ -45,7 +45,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 true
 false
 false
@@ -61,7 +61,7 @@ false
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to illustrate how
 // hashCode() and equals() methods work
 
@@ -121,7 +121,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 Both Objects are equal. 
 ```
 

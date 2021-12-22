@@ -13,7 +13,7 @@
     This is helpful in writing format strings and also places extra arguments.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of print
     // functions
 
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     GeeksfoGeeks
     CS_portal
     Age = 24
@@ -57,7 +57,7 @@
     It is a method in which user gives inputs in the pattern of String from the keyboard.
     **Example:**
 
-    ```
+    ```scala
     // Scala program of readLine()
     // method
 
@@ -88,7 +88,7 @@
 
     **Output:**
 
-    ```
+    ```scala
     //giving user defined inputs
     GfG 
     //output by readline

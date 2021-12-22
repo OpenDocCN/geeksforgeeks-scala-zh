@@ -10,7 +10,7 @@ Scala 中的 List 包含许多合适的方法来执行简单的操作，比如 h
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to print immutable lists
 import scala.collection.immutable._
 
@@ -32,7 +32,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 The head of the list is:
 Geeks
 ```
@@ -41,7 +41,7 @@ Geeks
 
 ## 斯卡拉
 
-```
+```scala
 // Scala program to creating a uniform list
 import scala.collection.immutable._
 
@@ -62,7 +62,7 @@ object GFG
 
 **输出:**
 
-```
+```scala
 List(10, 11, 12, 13, 14, 15, 16, 17, 18)
 First element is: 10
 ```

@@ -5,14 +5,14 @@
 **isEmpty** 操作用于检查所述列表是否为空。
 **语法:**
 
-```
+```scala
 m1.isEmpty
 ```
 
 这里，m1 是地图名称。isEmpty 是一种方法，如果指定的列表为空，则返回 true，否则返回 false。
 **例 1:**
 
-```
+```scala
 // Scala program of isEmpty()
 // method
 
@@ -39,14 +39,14 @@ object GfG
 
 **Output:**
 
-```
+```scala
 false
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of isEmpty()
 // method
 
@@ -73,7 +73,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

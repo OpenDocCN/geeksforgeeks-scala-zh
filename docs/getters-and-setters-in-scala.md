@@ -11,7 +11,7 @@ Setter 是一种技术，通过它我们可以设置一个类的变量值。设�
 *   First if the members of a class are accessible from anywhere. i.e no access modifier specified.
     **Example:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     // Setting the variable of a class
 
@@ -45,7 +45,7 @@ Setter 是一种技术，通过它我们可以设置一个类的变量值。设�
 
     **输出:**
 
-    ```
+    ```scala
     Student Name: Yash
     Student Age: 22
     Student Rollno: 59
@@ -56,7 +56,7 @@ Setter 是一种技术，通过它我们可以设置一个类的变量值。设�
 *   第二，如果一个类的成员被定义为私有。变量的初始化是通过使用类的对象将变量传递给该类的公共方法来完成的。
     **例:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     // Setting the private variable of a class
 
@@ -113,7 +113,7 @@ Getters 是一种技术，通过它我们可以得到一个类的变量值。
 *   Getting the value of a variable through method calling using the object. This technique is good when we don’t have accessibility to class variables but methods are available public.
     **Example:**
 
-    ```
+    ```scala
     // A Scala program to illustrate 
     // Getting the value of members of a class
 
@@ -164,7 +164,7 @@ Getters 是一种技术，通过它我们可以得到一个类的变量值。
 
     **输出:**
 
-    ```
+    ```scala
     Student Name: Yash
     Student Age: 22
     Student Rollno: 59

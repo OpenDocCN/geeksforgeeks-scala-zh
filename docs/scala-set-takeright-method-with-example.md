@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -36,14 +36,14 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(1, 2, 3, 4)
 
 ```
 
 **例 2:**
 
-```
+```scala
 // Scala program of takeRight() 
 // method 
 
@@ -68,7 +68,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Set(12, 23, 43)
 
 ```

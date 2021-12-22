@@ -10,7 +10,7 @@ T2】原文:[https://www . geesforgeks . org/Scala-double-x-short-method-5/](htt
 
 **示例#1:**
 
-```
+```scala
 // Scala program to explain the working 
 // of Double <(x: Short) method
 
@@ -34,7 +34,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 true
 
 ```

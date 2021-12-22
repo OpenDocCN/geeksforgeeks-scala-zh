@@ -6,7 +6,7 @@
 
 *   **方法定义:**
 
-    ```
+    ```scala
     def sum: A
     ```
 
@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of sum()
 // method
 
@@ -42,7 +42,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 17
 
 ```
@@ -50,7 +50,7 @@ object GfG
 这里，打印所有元素的总和。
 **例:**
 
-```
+```scala
 // Scala program of sum()
 // method
 
@@ -77,6 +77,6 @@ object GfG
 
 **输出:**
 
-```
+```scala
 7.199999999999999
 ```

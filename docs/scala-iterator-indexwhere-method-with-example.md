@@ -6,7 +6,7 @@
 
 *   **Method Definition:**
 
-    ```
+    ```scala
     def indexWhere(p: (A) => Boolean): Int
 
     ```
@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```scala
 // Scala program of indexWhere()
 // method
 
@@ -46,7 +46,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 2
 
 ```
@@ -54,7 +54,7 @@ object GfG
 这里，给定的谓词由第三个位置(即索引 2)的迭代器的值满足，因此返回 2。
 **例:**
 
-```
+```scala
 // Scala program of indexWhere()
 // method
 
@@ -82,7 +82,7 @@ object GfG
 
 **Output:**
 
-```
+```scala
 -1
 
 ```

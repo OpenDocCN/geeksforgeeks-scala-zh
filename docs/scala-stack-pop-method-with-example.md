@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```scala
 // Scala program of pop() 
 // method 
 
@@ -45,7 +45,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(C++, Java, Python, Scala)
 Top of the stack: C++
 Popped element: C++
@@ -54,7 +54,7 @@ Popped element: C++
 
 **例 2:**
 
-```
+```scala
 // Scala program of pop() 
 // method 
 
@@ -89,7 +89,7 @@ object GfG 
 
 **Output:**
 
-```
+```scala
 Stack(1, 2, 3, 4)
 Top of the stack: 1
 Popped element: 1

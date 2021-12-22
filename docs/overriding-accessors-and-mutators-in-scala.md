@@ -11,7 +11,7 @@ Scala 还没有修复覆盖默认访问器和变异器的标准化方法，但�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```scala
 public class Employee {
     private String name;
 

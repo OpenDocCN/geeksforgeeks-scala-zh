@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```scala
 var BS : BitSet = BitSet(element1, element2, element3, ....)  
 
 Where BS is the name of created BitSet
@@ -20,7 +20,7 @@ Where BS is the name of created BitSet
 
 **示例:**
 
-```
+```scala
 // Scala program to initialize a BitSet
 import scala.collection.immutable.BitSet
 
@@ -41,7 +41,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize a BitSet
 Elements are = BitSet(0, 1, 2, 3)
 
@@ -51,7 +51,7 @@ Elements are = BitSet(0, 1, 2, 3)
 
 **示例:**
 
-```
+```scala
 // Scala program of Check specific elements in BitSet
 import scala.collection.immutable.BitSet
 
@@ -76,7 +76,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize a BitSet
 Elements are = BitSet(0, 1, 2, 3)
 Element 2 = true
@@ -88,7 +88,7 @@ Element 4 = false
 
 **示例:**
 
-```
+```scala
 // Scala program of adding an element in BitSet
 import scala.collection.immutable.BitSet
 
@@ -113,7 +113,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize a BitSet
 Elements are = BitSet(0, 1, 2, 3)
 Adding elements to BitSet = BitSet(0, 1, 2, 3, 10, 11)
@@ -124,7 +124,7 @@ Adding elements to BitSet = BitSet(0, 1, 2, 3, 10, 11)
 
 **示例:**
 
-```
+```scala
 // Scala program of adding more elements in BitSet
 import scala.collection.immutable.BitSet
 
@@ -149,7 +149,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize a BitSet
 Elements are = BitSet(0, 1, 2, 3)
 Add more than one elements to BitSet  = BitSet(0, 1, 2, 3, 4, 5, 6)
@@ -160,7 +160,7 @@ Add more than one elements to BitSet  = BitSet(0, 1, 2, 3, 4, 5, 6)
 
 **示例:**
 
-```
+```scala
 // Scala program of removing element in BitSet
 import scala.collection.immutable.BitSet
 
@@ -185,7 +185,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize a BitSet
 Elements are = BitSet(0, 1, 2, 3)
 remove element from bitset = BitSet(0, 1, 3)
@@ -196,7 +196,7 @@ remove element from bitset = BitSet(0, 1, 3)
 
 **示例:**
 
-```
+```scala
 // Scala program of finding the intersection between two BitSets
 import scala.collection.immutable.BitSet
 
@@ -223,7 +223,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Initialize two BitSets
 Elements of bitset1 are = BitSet(0, 1, 2, 3)
 Elements of bitset2 are = BitSet(3, 4, 5, 6)
@@ -235,7 +235,7 @@ Intersection of bitSet1 and bitSet2 = BitSet(3)
 
 **示例:**
 
-```
+```scala
 // Scala program of Initializing an empty BitSet
 import scala.collection.immutable.BitSet
 
@@ -254,7 +254,7 @@ object GFG
 
 **Output:**
 
-```
+```scala
 Empty BitSet = BitSet()
 
 ```
